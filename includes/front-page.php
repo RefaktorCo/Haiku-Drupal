@@ -7,13 +7,14 @@
 		<div id="heading_wrapper" class="slider_wrap"> 
     	<div id="heading_wrapper_after">
 	    	<div class="row">
-		    	
+		    	<div class="twelve columns">
 			    	<img src="<?php echo $root; ?>/images/vase.jpg">
-			    
+		    	</div>
 				</div>  
 			</div> 
 		</div>
 		<?php endif; ?>
+		
 		<?php if (theme_get_setting('enable_highlight') == '1') : ?>       
     <div id="highlight">
       <div class="row">
@@ -23,129 +24,17 @@
       </div>
     </div>
     <?php endif; ?>
-
-  
-   <?php if (theme_get_setting('enable_services') == '1') : ?>
-		<div class="row">
+    
+    <div id="services" class="row">
       <div class="twelve columns">
-        <div class="hr_beside">
-          <div class="heading_title"><?php echo theme_get_setting('services_title');?></div>
+        <div class="row">
+          <div class="three columns">
+            <i class="icon-picture"></i><h3>MINIMAL DESIGN</h3>
+          </div>
         </div>
       </div>
-    </div> 
-     
-    <div class="row">   
-      <div class="twelve columns">
-      <?php if(!$page['services']) {?>
-     
-        <div class="row">
-		      <div class="six columns">
-		        <div class="row">      
-		       
-						   <div class="six columns services">  
-						     <div class="services_content">  
-						       <div class="team_image"> 
-						         <img src="<?php echo $root;?>/images/team3.jpg" alt="team"> 
-						       </div>
-						       <div class="team_image_hover">
-						       <h2>Steve MqQueen - CEO</h2>
-						       <p><a href="#" data-reveal-id="team1_modal"><i class="general foundicon-search"></i></a></p>
-						       </div>
-						     </div>        
-						   </div>
-						    
-						   <div class="six columns services">  
-						     <div class="services_content">   
-						      <div class="team_image"> 
-						         <img src="<?php echo $root;?>/images/team2.jpg" alt="team"> 
-						       </div>
-						       <div class="team_image_hover">
-						          <h2>Robyn Sullivan - VP </h2>
-						       <p><a href="#" data-reveal-id="team2_modal"><i class="general foundicon-search"></i></a></p>
-						       </div>				      
-						     </div>        
-						   </div>
-						    
-						   <div class="six columns services">  
-						     <div class="services_content">   
-						      <div class="team_image"> 
-						         <img src="<?php echo $root;?>/images/team1.jpg" alt="team"> 
-						       </div>
-						       <div class="team_image_hover">
-						          <h2>Aiko Takahashi - Design </h2>
-						       <p><a href="#" data-reveal-id="team3_modal"><i class="general foundicon-search"></i></a></p>
-						       </div>				      
-						     </div>        
-						   </div>
-		
-						   <div class="six columns services">      
-					       <div class="tile_contents tile-green">
-					         <a href="#" data-reveal-id="map_modal"><i class="general foundicon-location"></i>
-					         <p>Find Us</p></a>
-					       </div>
-						   </div>   
-						    
-		         </div>
-		      </div>    
-		    
-		 	    <div class="six columns">
-			      <div class="row">    
-		      
-		          <div class="six columns services">     
-					      <div class="tile_contents tile-red">
-					        <a href="#"><i class="general foundicon-globe"></i>
-				          <p>Global Presence</p></a>
-				        </div>
-						  </div>			
-						    
-						  <div class="six columns services">     
-						  	 <div class="tile_contents tile-dark-green">
-						       <a href="#"><i class="general foundicon-compass"></i>
-					         <p>Effective Solutions</p></a>
-						     </div>
-						  </div>					    
-						     				    
-						  <div class="six columns services">  
-						    <div class="services_content">   
-						      <div class="team_image"> 
-						        <img src="<?php echo $root;?>/images/team4.jpg" alt="team"> 
-						      </div>
-						      <div class="team_image_hover">
-						        <h2>Frank Douglas - Marketing </h2>
-						        <p><a href="#" data-reveal-id="team4_modal"><i class="general foundicon-search"></i></a></p>
-						      </div>				      
-						    </div>         
-						  </div>
-						    			    
-						  <div class="six columns services">       
-					      <div class="tile_contents tile-orange">
-					        <a href="#" data-reveal-id="contact_modal"><i class="general foundicon-phone"></i>
-					        <p>Contact Us</p></a>
-					      </div>
-					    </div>				    
-						     
-				    </div>
-				  </div> 
-        </div> 			    
-	      <?php } else { print render($page['services']); }?>   
-	    </div>	   
     </div>
       
-    <?php endif; ?>
-    
-    <?php if (theme_get_setting('enable_highlight') == '1') : ?>       
-    <div id="highlight">
-      <div class="row">
-        <div class="one columns highlight_icon">
-          <i class="general foundicon-idea"></i>
-        </div>
-        <div class="eleven columns">
-          <h1 class="highlight_text"><?php echo theme_get_setting('highlight_text');?></h1>
-        </div>
-      </div>
-    </div>
-    <?php endif; ?>
-  
     <?php if (theme_get_setting('enable_recent_posts') == '1') : ?>         
     <div class="row">
       <div class="twelve columns">

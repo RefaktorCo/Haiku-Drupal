@@ -321,10 +321,10 @@ function haiku_preprocess_html(&$vars){
     drupal_add_html_head( $background_image, 'background_image');
   }  
   
-  drupal_add_html_head( $heading_background_color, 'heading_background_color');
+  //drupal_add_html_head( $heading_background_color, 'heading_background_color');
   
   if (theme_get_setting('enable_heading_pattern') == "1") {
-    drupal_add_html_head( $heading_background_image, 'heading_background_image');
+    //drupal_add_html_head( $heading_background_image, 'heading_background_image');
   }  
 }
 

@@ -1382,6 +1382,8 @@ span.faq-head-image {
 	padding: 15px 0px; 
 	width: 940px;
 	margin: auto;
+	margin-top: -3px;
+	margin-bottom: 20px;
 }
 
 .highlight_icon {
@@ -1397,6 +1399,22 @@ span.faq-head-image {
 .highlight_text {
 	padding: 0px 10px;
 	font-size: 28px;
+}
+
+/* Services */
+#services {
+	padding: 20px 0px;
+}
+
+#services i {
+	font-size: 45px;
+	float: left;
+	margin: 0px 10px 0px 0px;
+}
+
+#services h3 {
+	font-size: 20px;
+	margin: 8px 0px 10px 0px;
 }
 
 /* Footer */
