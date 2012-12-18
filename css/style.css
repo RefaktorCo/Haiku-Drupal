@@ -54,9 +54,7 @@ header {
 	display: none;
 }
 
-#heading_wrapper {
-	margin-bottom: 20px;
-	box-shadow: 0px 0px 3px 0px black ;
+#heading_wrapper {	
 	width: 1020px;
 	margin: auto;
 	margin-top: -42px;
@@ -66,10 +64,6 @@ header {
   padding: 0px;
 }
 
-#top_header {
-	background: #222;
-	background-image: url('../images/backgrounds/dark_mosaic.png');
-}
 
 .header_icons {
 	margin: 5px 0px;
@@ -1385,8 +1379,9 @@ span.faq-head-image {
 }
 
 #highlight {
-	padding: 25px 0px; 
-	box-shadow: 0px 0px 9px -2px black ;
+	padding: 15px 0px; 
+	width: 940px;
+	margin: auto;
 }
 
 .highlight_icon {
@@ -1395,12 +1390,13 @@ span.faq-head-image {
 	color: white;
 }
 
-#highlight h1 {
+#highlight h2 {
 	color: #FFF;
 }
 
 .highlight_text {
 	padding: 0px 10px;
+	font-size: 28px;
 }
 
 /* Footer */

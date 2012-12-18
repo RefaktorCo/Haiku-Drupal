@@ -14,6 +14,16 @@
 			</div> 
 		</div>
 		<?php endif; ?>
+		<?php if (theme_get_setting('enable_highlight') == '1') : ?>       
+    <div id="highlight">
+      <div class="row">
+        <div class="twelve columns">
+          <h2 class="highlight_text"><?php echo theme_get_setting('highlight_text');?></h1>
+        </div>
+      </div>
+    </div>
+    <?php endif; ?>
+
   
    <?php if (theme_get_setting('enable_services') == '1') : ?>
 		<div class="row">

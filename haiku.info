@@ -86,7 +86,7 @@ settings[enable_services] = '1'
 settings[services_title] = 'Who We Are'
 
 settings[enable_highlight] = '1'
-settings[highlight_text] = 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.'
+settings[highlight_text] = 'Haiku is modern.  A clean layout for your site. Fast and responsive.'
 
 settings[enable_recent_posts] = '0'
 settings[recent_posts_title] = 'Recent Posts'
