@@ -47,7 +47,7 @@ header {
 }
 
 .branding {
-	padding-top: 10px;
+	padding-top: 20px;
 }
 
 .name {
@@ -63,7 +63,7 @@ header {
 }
 
 #heading_wrapper_after {
-  padding:5px 0px;
+  padding: 0px;
 }
 
 #top_header {
@@ -109,7 +109,7 @@ header {
 }
 
 .slider_wrap {
-	padding: 25px 0px;
+	padding:  0px;
 }
 
 #test_wrap {
@@ -206,7 +206,7 @@ hr {
 }
 
 #main_title_text {
-  font-size: 52px; 	
+  font-size: 42px; 	
   -moz-transition: all 0.3s ease-in-out;
   -webkit-transition: all 0.3s ease-in-out;
   -o-transition: all 0.3s ease-in-out;
@@ -276,11 +276,13 @@ hr {
   background: #EEEEEE;
   border-bottom: 3px solid #ca1a1a;
   z-index: 0;
+  box-shadow: inset 0 3px 8px rgba(0, 0, 0, 0.125);
 }
 
 .top-bar ul > li:not(.name):hover {
   background: #EEEEEE;
   border-bottom: 3px solid #ca1a1a;
+  box-shadow: inset 0 3px 8px rgba(0, 0, 0, 0.125);
 }
 
 .top-bar ul > li.active-trail:hover {
@@ -310,6 +312,10 @@ hr {
 	color: #666;
 	font-size: 12px;
 	text-transform: lowercase;
+}
+
+.dropdown .menu_tagline {
+	display: none;
 }
 
 /* Front page blocks */

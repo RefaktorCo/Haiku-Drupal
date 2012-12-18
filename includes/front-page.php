@@ -7,34 +7,9 @@
 		<div id="heading_wrapper" class="slider_wrap"> 
     	<div id="heading_wrapper_after">
 	    	<div class="row">
-		    	<div class="twelve columns">
-			    	<div id="banner">  		
-     
-				      <div class="oneByOne_item">
-								<img src="<?php echo theme_get_setting('slide1_img1');?>" class="slide1_img1" alt="slider">	            
-								<img src="<?php echo theme_get_setting('slide1_img2');?>" class="slide1_img2" alt="slider">		    
-								<img src="<?php echo theme_get_setting('slide1_img3');?>" class="slide1_img3" alt="slider">			
-								<span class="slide1_txt1"><?php echo theme_get_setting('slide1_txt1');?></span>
-								<span class="slide1_txt2"><?php echo theme_get_setting('slide1_txt2');?></span>												
-							</div>
-     
-					    <div class="oneByOne_item">
-								<span class="slide2_txt1"><?php echo theme_get_setting('slide2_txt1');?></span>			
-								<span class="slide2_txt2"><?php echo theme_get_setting('slide2_txt2');?></span>	
-								<img src="<?php echo theme_get_setting('slide2_img1');?>" class="slide2_img1" data-animate="lightSpeedIn" alt="slider">		
-								<img src="<?php echo theme_get_setting('slide2_img2');?>" class="slide2_img2" data-animate="lightSpeedIn" alt="slider">	
-								<img src="<?php echo theme_get_setting('slide2_img3');?>" class="slide2_img3" data-animate="lightSpeedIn" alt="slider">
-							</div>   
-		
-							<div class="oneByOne_item">                                 	
-								<img src="<?php echo theme_get_setting('slide3_img1');?>" class="slide3_img1" data-animate="bounceIn" alt="slider">
-								<span class="slide3_txt1" data-animate="bounceIn"><?php echo theme_get_setting('slide3_txt1');?></span>								
-								<span class="slide3_txt2" data-animate="rollIn"><?php echo theme_get_setting('slide3_txt2');?></span>											
-								<span class="slide3_txt3"><?php echo theme_get_setting('slide3_txt3');?></span>														
-							</div>	     
-     		
-						</div>    
-					</div>
+		    	
+			    	<img src="<?php echo $root; ?>/images/vase.jpg">
+			    
 				</div>  
 			</div> 
 		</div>
