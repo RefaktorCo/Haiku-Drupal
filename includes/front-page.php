@@ -30,6 +30,19 @@
         <div class="row">
           <div class="three columns">
             <i class="icon-picture"></i><h3>MINIMAL DESIGN</h3>
+            <p>Clean and light-weight</p>
+          </div>
+          <div class="three columns">
+            <i class="icon-qrcode"></i><h3>MOBILE READY</h3>
+            <p>Looks great on any device</p>
+          </div>
+          <div class="three columns">
+            <i class="icon-heart"></i><h3>EXPERT SUPPORT</h3>
+            <p>We're here to help you</p>
+          </div>
+          <div class="three columns">
+            <i class="icon-cogs"></i><h3>THEME OPTIONS</h3>
+            <p>Total control of your site</p>
           </div>
         </div>
       </div>
