@@ -1,6 +1,14 @@
   jQuery(document).ready(function ($) {
   
     $('.menu_1 a').append('<p class="menu_tagline">the beginning</p>');
+    
+    $('.menu_2 a').append('<p class="menu_tagline">what we offer</p>');
+    
+    $('.menu_3 a').append('<p class="menu_tagline">recent news</p>');
+    
+    $('.menu_4 a').append('<p class="menu_tagline">our latest work</p>');
+    
+    $('.menu_5 a').append('<p class="menu_tagline">get in touch</p>');
      
 	  $(".featured").orbit({timer: false});
 	 
