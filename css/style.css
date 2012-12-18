@@ -292,10 +292,18 @@ hr {
   height: 77px;
   line-height: 80px;
   padding: 0px 25px;
+  text-transform: uppercase;
 }
 
 .top-bar ul > li a.active {
   height: 80px;
+}
+
+.menu_tagline {
+	margin-top: -36px;
+	color: #666;
+	font-size: 12px;
+	text-transform: lowercase;
 }
 
 /* Front page blocks */

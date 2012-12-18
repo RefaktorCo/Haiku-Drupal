@@ -1,4 +1,6 @@
   jQuery(document).ready(function ($) {
+  
+    $('.menu_1 a').append('<p class="menu_tagline">the beginning</p>');
      
 	  $(".featured").orbit({timer: false});
 	 
