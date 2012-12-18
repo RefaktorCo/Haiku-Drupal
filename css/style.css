@@ -138,10 +138,11 @@ hr {
 }
 
 .heading_title {
-	background: white;
+	background-image: url('../images/backgrounds/subtle_dots.png');
   padding: 10px 10px 10px 0px;
   display: table;
-  font-size: 30px;
+  font-size: 20px;
+  font-family: museo-slab, "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 #page_content {

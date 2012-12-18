@@ -47,6 +47,25 @@
         </div>
       </div>
     </div>
+    
+    <div class="row">
+    
+      <div id="think" class="eight columns">
+        <div class="hr_beside">
+          <div class="heading_title">What we believe</div>
+        </div>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit.</p>
+        <p><i class="icon-ok"></i>Sed ut perspiciatis unde omnis iste <a href="#">natus error sit.</a></p>
+        <p><i class="icon-ok"></i>Sed ut perspiciatis unde omnis iste <a href="#">natus error sit.</a></p>
+        <p><i class="icon-ok"></i>Sed ut perspiciatis unde omnis iste <a href="#">natus error sit.</a></p>
+      </div>
+      
+      <div class="four columns">
+        <div class="hr_beside">
+          <div class="heading_title">What our clients think</div>
+        </div>
+      </div>
+    </div>  
       
     <?php if (theme_get_setting('enable_recent_posts') == '1') : ?>         
     <div class="row">
