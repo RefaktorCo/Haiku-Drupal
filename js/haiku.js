@@ -1,5 +1,13 @@
   jQuery(document).ready(function ($) {
   
+      $('#basicuse').jflickrfeed({
+		limit: 8,
+		qstrings: {
+			id: '37304598@N02'
+		},
+		itemTemplate: '<li><a href="{{image_b}}"><img src="{{image_s}}" alt="{{title}}" /></a></li>'
+	});
+  
     $('.menu_1 a').append('<p class="menu_tagline">the beginning</p>');
     
     $('.menu_2 a').append('<p class="menu_tagline">what we offer</p>');
