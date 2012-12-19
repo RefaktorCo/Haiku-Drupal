@@ -1503,7 +1503,7 @@ span.faq-head-image {
   background: #ca1a1a;
 	color: white;
 	max-width: 940px;
-	padding: 10px 0px;
+	padding: 5px 0px;
 	margin-top:-40px;
 	margin-bottom: 20px; 
 }
@@ -1518,7 +1518,11 @@ span.faq-head-image {
 }
 
 #footer_tweet {
-	margin-top: 15px;
+	margin-top: 30px;
+}
+
+.bird {
+	padding: 15px 5px 0px 15px;
 }
 
 #footer .tweet_list li {

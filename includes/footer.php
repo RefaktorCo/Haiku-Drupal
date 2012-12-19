@@ -7,7 +7,7 @@ function haiku_footer($page){
       <div class="container">
         
         <div id="footer_twitter" class="row">
-          <div class="one columns">
+          <div class="one columns bird">
             <i class="social foundicon-twitter"></i> 
           </div>
           <div class="eleven columns">
