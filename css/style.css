@@ -29,6 +29,7 @@ h1, h2, h3, h4, h5, h6 {
 	max-width: 100%;
 	margin: 0 auto;
 	background-image: url('../images/backgrounds/subtle_dots.png');
+	padding-bottom: 35px;
 }
 
 .clearfix {
@@ -1436,7 +1437,9 @@ span.faq-head-image {
 #footer {
   background-color: #F0F0F0; 
   color: #666; font-size: 12px; 
-  padding: 30px 0px;
+  padding: 0px 0px 30px 0px;
+  position: absolute;
+  width: 100%;
 }
 
 #footer ul li {
@@ -1494,6 +1497,19 @@ span.faq-head-image {
   margin-bottom: -10px;
   color: #666;
   font-size: 16px;
+}
+
+#footer_twitter {
+  background: #ca1a1a;
+	color: white;
+	max-width: 940px;
+	padding: 10px 0px;
+	margin-top:-40px;
+	margin-bottom: 20px; 
+}
+
+#footer_twitter a {
+	color: #333;
 }
 
 #footer_twitter i {
