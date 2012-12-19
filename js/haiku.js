@@ -1,9 +1,9 @@
   jQuery(document).ready(function ($) {
   
-      $('#basicuse').jflickrfeed({
-		limit: 8,
+      $('#flickr_widget').jflickrfeed({
+		limit: 6,
 		qstrings: {
-			id: '37304598@N02'
+			id: '8070463@N03'
 		},
 		itemTemplate: '<li><a href="{{image_b}}"><img src="{{image_s}}" alt="{{title}}" /></a></li>'
 	});

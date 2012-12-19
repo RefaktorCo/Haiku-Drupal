@@ -7,8 +7,26 @@ function haiku_footer($page){
       <div class="container">
         
         <div id="footer_twitter" class="row">
-          <div class="twelve columns">
-            <i class="social foundicon-twitter"></i>
+          <div class="one columns">
+            <i class="social foundicon-twitter"></i> 
+          </div>
+          <div class="eleven columns">
+            <div id="footer_tweet" class='tweet query'></div>
+							<script type="text/javascript">
+							                        
+							    jQuery(document).ready(function ($) {
+							      
+							      $(".tweet").tweet({
+							        username: "envato",
+							        avatar_size: 0,
+							        count: 1,
+							        loading_text: "loading tweets..."
+							      });
+							    
+							    });
+							    
+							  </script>
+
           </div>
         </div>  
         
@@ -42,7 +60,7 @@ function haiku_footer($page){
           <div class="four columns">
             <?php if(!$page['footer_4']) {?>
             <h2>Flickr Feed</h2>
-            <ul id="basicuse" class="thumbs"></ul>
+            <ul id="flickr_widget" class="thumbs"></ul>
             <?php } else { print render($page['footer_4']); }?>      
           </div>
           

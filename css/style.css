@@ -1444,10 +1444,6 @@ span.faq-head-image {
 	margin-left: 0;
 }
 
-#footer .tweet_list li {
-	font-size: 14px;
-}
-
 #footer p {
 	font-size: 16px;
 }
@@ -1502,6 +1498,26 @@ span.faq-head-image {
 
 #footer_twitter i {
 	font-size: 60px;
+	float: left;
+}
+
+#footer_tweet {
+	margin-top: 15px;
+}
+
+#footer .tweet_list li {
+	font-size: 18px;
+}
+
+#flickr_widget {
+	margin: 0;
+}
+
+#flickr_widget li {
+	list-style: none;
+	float: left;
+	margin-right: 30px;
+	margin-bottom: 20px;
 }
 
 /*Responsive Styles*/
