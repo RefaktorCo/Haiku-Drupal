@@ -6,10 +6,16 @@ function haiku_footer($page){
     <div id="footer"> 
       <div class="container">
         
+        <div id="footer_twitter" class="row">
+          <div class="twelve columns">
+            <i class="social foundicon-twitter"></i>
+          </div>
+        </div>  
+        
         <?php if (theme_get_setting('enable_primary_footer') == '1') { ?>
         <div class="row">
         
-          <div class="three columns">
+          <div class="four columns">
             <?php if(!$page['footer_1']) {?>
             <h2>About Us</h2>
             <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt.</p>
@@ -26,19 +32,14 @@ function haiku_footer($page){
             <?php } else { print render($page['footer_1']); }?>   
           </div> 
       
-          <div class="three columns">
-            <?php if(!$page['footer_2']) {?>
-            <h2>Footer 2</h2>
-            <?php } else { print render($page['footer_2']); }?>  
-          </div>
-          
-          <div class="three columns">
+          <div class="four columns">
             <?php if(!$page['footer_3']) {?>
-            <h2>Footer 3</h2>
+            <h2>Footer 2</h2>
             <?php } else { print render($page['footer_3']); }?>  
           </div>
           
-          <div class="three columns">
+                    
+          <div class="four columns">
             <?php if(!$page['footer_4']) {?>
             <h2>Latest Tweets</h2>
             <div class='tweet query'></div>
