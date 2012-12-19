@@ -316,11 +316,16 @@ hr {
 /* What we think and client testimonials */
 .client_img {
 	float: left;
-	margin: 0px 10px 0px 0px;
+	margin: 0px 10px 2px 0px;
 }
 
 #think h4 {
 	margin-bottom: 0px;
+}
+
+/* Our clients */
+#our_clients {
+	margin-bottom: 30px;
 }
 
 /* Front page blocks */

@@ -115,6 +115,27 @@
         </div>
       </div>
     </div> 
+    
+    <div id="our_clients" class="row">
+      <div class="two columns">
+        <img src="<?php echo $root; ?>/images/forest.png">
+      </div>
+      <div class="two columns">
+        <img src="<?php echo $root; ?>/images/den.png">
+      </div>
+      <div class="two columns">
+        <img src="<?php echo $root; ?>/images/forest.png">
+      </div>
+      <div class="two columns">
+        <img src="<?php echo $root; ?>/images/canyon.png">
+      </div>
+      <div class="two columns">
+        <img src="<?php echo $root; ?>/images/forest.png">
+      </div>
+      <div class="two columns">
+        <img src="<?php echo $root; ?>/images/jungle.png">
+      </div>
+    </div>
 
   </div>
   <!-- end main wrapper -->    
