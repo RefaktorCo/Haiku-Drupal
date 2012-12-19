@@ -1415,6 +1415,7 @@ span.faq-head-image {
 /* Services */
 #services {
 	padding: 25px 0px;
+	margin-bottom: 2px;
 }
 
 #services i {

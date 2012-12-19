@@ -107,6 +107,14 @@
       </div>
     </div>
     <?php endif ?>  
+    
+    <div class="row">
+      <div class="twelve columns">
+        <div class="hr_beside">
+          <div class="heading_title">Our clients</div>
+        </div>
+      </div>
+    </div> 
 
   </div>
   <!-- end main wrapper -->    
