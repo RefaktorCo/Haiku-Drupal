@@ -287,7 +287,10 @@ hr {
    -webkit-transition: none;
    -o-transition: none;
    transition: none;	
+}
 
+.top-bar ul > li:not(.name):hover a, .top-bar ul > li:not(.name).active a { 
+  color: #666; 
 }
 
 .top-bar ul > li a.active {
