@@ -69,70 +69,7 @@
         <h4>Frank Castillo</h4>-<a href="#">Lorem, Inc</a>
       </div>
     </div>  
-    
-    <div class="row">
-    
-      <div id="front_blog" class="four columns">
-        <div class="hr_beside">
-          <div class="heading_title">Latest posts</div>
-        </div>
-        
-       <img src="<?php echo $root; ?>/images/blog_thumb.jpg" class="blog_thumb">
-       <h4><a href="#">Vivamus quis metus</a></h4>
-       <ul class="recent_posts_meta">
-        <li><i class="icon-calendar"></i> Dec 13, 2012</li>
-        <li><i class="icon-comment"></i> <a href="/#comments">4 comments</a></li>
-       </ul>
-       
-           <img src="<?php echo $root; ?>/images/blog_thumb.jpg" class="blog_thumb">
-       <h4><a href="#">Vivamus quis metus</a></h4>
-       <ul class="recent_posts_meta">
-        <li><i class="icon-calendar"></i> Dec 13, 2012</li>
-        <li><i class="icon-comment"></i> <a href="/#comments">4 comments</a></li>
-       </ul>
-       
-           <img src="<?php echo $root; ?>/images/blog_thumb.jpg" class="blog_thumb">
-       <h4><a href="#">Vivamus quis metus</a></h4>
-       <ul class="recent_posts_meta">
-        <li><i class="icon-calendar"></i> Dec 13, 2012</li>
-        <li><i class="icon-comment"></i> <a href="/#comments">4 comments</a></li>
-       </ul>
-      
-      </div>
-      
-      <div class="eight columns">
-        <div class="hr_beside">
-          <div class="heading_title">What we offer</div>
-        </div>
-         <ul class="tabs-content">
-            <li class="active" id="accExTab">
-              <ul class="accordion">
-                <li class="active">
-                  <div class="title">
-                    <h5>Accordion Panel 1</h5>
-                  </div>
-                  <div class="content">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-                  </div>
-                </li>
-                <li>
-                  <div class="title">
-                    <h5>Accordion Panel 2</h5>
-                  </div>
-                  <div class="content">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-                  </div>
-                </li>
-                <li>
-                  <div class="title">
-                    <h5>Accordion Panel 3</h5>
-                  </div>
-                  <div class="content">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-                  </div>
-                </li>
-              </ul>    </div>  
-      
+          
     <?php if (theme_get_setting('enable_recent_posts') == '1') : ?>         
     <div class="row">
       <div class="twelve columns">

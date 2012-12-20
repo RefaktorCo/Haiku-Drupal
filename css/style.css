@@ -300,6 +300,81 @@ hr {
 	display: none;
 }
 
+/* Front page recent posts */
+.recent_posts_wrap {
+	height: 189px;
+	width: 100%;
+	overflow: hidden;
+	position: relative;
+	margin-bottom: 20px;
+}
+
+.recent_post_photo {
+  
+  float: left;
+  height: 100%;
+  width: 100%;
+}
+
+.recent_post_photo img {
+height: 189px;
+}
+
+.recent_post_info {
+	background-color: #333;
+	height: 100%;
+	width: 50%;
+	position: relative;
+	z-index: 1;
+	color: white;
+	top: 0;
+	padding-top: 8%;
+}
+
+.recent_post_info h1 {
+	color: white;
+	font-size: 28px;
+}
+
+.recent_post_info_text {
+	position: absolute;
+	color: white;
+	width: 100%;
+	text-align: center;
+	font-size: 18px;
+}
+
+.recent_post_info_text i {
+	color: white;
+}
+
+.recent_post_links p {
+	padding-top: 28% !important;
+}
+
+.recent_post_links {
+	height: 100%;
+	width: 50%;
+	float: left;
+	position: absolute;
+	left: 0;
+	top: 0;
+	color: white;
+	text-align: center;
+}
+
+.recent_post_links a {
+	color: white;
+	font-size: 24px;
+	margin-left: 10px;
+}
+
+.modal_post_title {
+	font-size: 30px;
+	margin-bottom: 10px;
+}
+
+
 /* What we think and client testimonials */
 .client_img {
 	float: left;
