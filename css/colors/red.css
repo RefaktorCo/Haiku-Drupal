@@ -65,3 +65,7 @@ thead {
 .carousel_navigation i:hover {
 	color: #ca1a1a;
 }
+
+ul.accordion > li.active {
+  border-top: 3px solid #ca1a1a;
+}

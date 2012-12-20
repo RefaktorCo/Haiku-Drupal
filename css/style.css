@@ -313,12 +313,12 @@ hr {
 /* Our clients */
 #our_clients {
   padding-top: 10px;
-	margin-bottom: 30px;
+	margin-bottom: 60px;
 }
 
 /* Front page blocks */
 .services {
-	margin-bottom: 20px;
+	margin-bottom: 60px;
 	color: white;
 	overflow: hidden;
 }
@@ -590,6 +590,11 @@ height: 189px;
 
 .caroufredsel_wrapper {
   min-height: 238px;
+}
+
+/* Accordion */
+.accordion .content {
+	margin-bottom: 0;
 }
 
 /* SLIMBOX */
