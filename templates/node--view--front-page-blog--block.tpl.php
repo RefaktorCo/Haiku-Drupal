@@ -10,70 +10,15 @@ $share_url = $base_url.'/node/'.$node->nid;
 	    </div>  
 	    <div class="recent_post_info">  
 	      <div class="recent_post_info_text">
-	          <h1><?php print $title; ?></h1>
+	          <h4><?php print $title; ?></h4>
 	          <i class="general foundicon-calendar"></i><?php print format_date($node->created, 'custom', 'M d, Y'); ?>
 	          <i class="general foundicon-mic"></i><a href="<?php print $node_url;?>/#comments"><?php print $comment_count; ?></a>
+	          <br><a href="<?php print $node_url;?>">read more</a>
 	      </div>
+	     
 	      <div class="clearfix"></div>
 	    </div>
 	  </div>  
 	</div>
 
-  <div id="myModal_<?php print $node->nid; ?>" class="reveal-modal large blog_front three columns">
-    <article id="node-<?php print $node->nid; ?>" class="<?php print $classes; ?> clearfix"<?php print $attributes; ?>>
-
-	  <?php if ($user_picture || $display_submitted || !$page): ?>
-	    <?php print render($title_prefix); ?>
-	    
-	       <div class="modal_post_title"><?php print $title; ?></div>
-	       <ul class="meta">
-	        <li><i class="icon-user"></i> by <?php print $name; ?></li>
-	        <li><i class="icon-calendar"></i> <?php print format_date($node->created, 'custom', 'M d, Y'); ?></li>
-	        <li><i class="icon-comment"></i> <a href="<?php print $node_url;?>/#comments"><?php print $comment_count; ?> comments</a></li>        
-		     </ul>
-		   <?php if ($field_tags):?>
-		     <div class="tags"><i class="icon-tags"></i><?php print render($content['field_tags']); ?></div>
-       <?php endif; ?>
-	     <?php print render($title_suffix); ?>
-	    
-	      <div class="featured">
-				  <?php print render($content['field_image']); ?>
-				  <?php print render($content['field_second_image']); ?>
-		    </div>
-		    
-	    <?php endif; ?>
-  
-	  <div class="blog_front_content"<?php print $content_attributes; ?>>
-	    <?php
-	      // Hide comments, tags, and links now so that we can render them later.
-	      hide($content['taxonomy_forums']);
-	      hide($content['comments']);
-	      hide($content['links']);
-	      hide($content['field_tags']);
-	      hide($content['field_image']);
-	      
-	      print render($content);
-	    ?>
-	  </div>
-	  
-	  <div class="post_share_wrap">
-    <ul class="post_share">
-      <li><a href="http://twitter.com/home?status=<?php print $share_url; ?>"><i class="social foundicon-twitter"></i></a></li>
-      <li><a href="http://www.facebook.com/sharer.php?u=<?php print $share_url; ?>"><i class="social foundicon-facebook"></i></a></li>
-      <li><a href="http://www.stumbleupon.com/submit?url=<?php print $share_url; ?>&amp;title=<?php print $title; ?>"><i class="social foundicon-stumble-upon"></i></a></li>
-      <li><a href="http://www.linkedin.com/shareArticle?mini=true&amp;url=<?php print $share_url; ?>&amp;title=<?php print $title; ?>&amp;summary={articleSummary}&amp;source=<?php print $base_url; ?>"><i class="social foundicon-linkedin"></i></a></li>
-      <li><a href="http://reddit.com/submit?url=<?php print $share_url; ?>"><i class="social foundicon-reddit"></i></a></li>
-      <li><a href="mailto:user@domain.com?subject=Check%20out%20this%20great%20post&amp;body=<?php print $share_url; ?>"><i class="general foundicon-mail"></i></a></li>
-    </ul>  
-  </div>
-
-  <div class="read_more"> 
-  	<?php if($teaser): ?>
-  	<a class="small button" href="<?php print $node_url;?>">read more</a>
-    <?php endif;?>
-  </div>
-	  <div class="clearfix"></div>
-	  </article> <!-- end article -->
-
-  <a class="close-reveal-modal">&#215;</a>
-  </div>
+ 

@@ -29,7 +29,7 @@ h1, h2, h3, h4, h5, h6 {
 	max-width: 100%;
 	margin: 0 auto;
 	background-image: url('../images/backgrounds/subtle_dots.png');
-	padding-bottom: 35px;
+	padding-bottom: 1px;
 }
 
 .clearfix {
@@ -302,27 +302,22 @@ hr {
 
 /* Front page recent posts */
 
-.region-front-blog .columns {
-	padding: 0 5px;
-}
-
 .recent_posts_wrap {
 	height: 189px;
 	width: 100%;
 	overflow: hidden;
 	position: relative;
-	margin-bottom: 10px;
+	margin-bottom: 20px;
 }
 
 .recent_post_photo {
-  
   float: left;
   height: 100%;
   width: 100%;
 }
 
 .recent_post_photo img {
-height: 189px;
+  height: 189px;
 }
 
 .recent_post_info {
@@ -336,9 +331,8 @@ height: 189px;
 	padding-top: 8%;
 }
 
-.recent_post_info h1 {
+.recent_post_info h4 {
 	color: white;
-	font-size: 28px;
 }
 
 .recent_post_info_text {
@@ -351,6 +345,7 @@ height: 189px;
 
 .recent_post_info_text i {
 	color: white;
+	margin-right: 5px;
 }
 
 .recent_post_links p {
@@ -1434,7 +1429,7 @@ span.faq-head-image {
 }
 
 #footer_tweet {
-	margin-top: 30px;
+	margin-top: 20px;
 }
 
 .bird {
