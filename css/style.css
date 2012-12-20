@@ -289,6 +289,14 @@ hr {
   height: 80px;
 }
 
+.top-bar ul > li.has-dropdown a {
+  padding-right: 33.75px;
+}
+
+.top-bar ul > li.has-dropdown a::after {
+  border-color: #200505 transparent transparent transparent;
+}
+
 .menu_tagline {
 	margin-top: -32px;
 	color: #666;
