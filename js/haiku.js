@@ -19,6 +19,8 @@
     $('.menu_5 a').append('<p class="menu_tagline">get in touch</p>');
      
 	  $(".featured").orbit({timer: false});
+	  
+	  $("#front_slide").orbit();
 	    
 	  $(".services_content").hover(
       function(){

@@ -44,7 +44,7 @@ header {
   margin: 0 auto;
   border-top: 8px solid #ca1a1a;
   background: #f0f0f0;
-  height: 130px;
+  min-height: 130px;
 }
 
 .branding {
@@ -194,7 +194,7 @@ hr {
   margin-top: 20px;
   margin-bottom: 22px;
   margin-left: 0px;
-   }
+}
 
 #main_title:hover {
   background: #333;
@@ -247,6 +247,10 @@ hr {
   margin-top: 20px	
 }
 
+.orbit {
+	margin-bottom: 0;
+}
+
 /* Menu */
 .top-bar {
   background: transparent;
@@ -257,7 +261,6 @@ hr {
 .top-bar .active {
   background: #EEEEEE;
   border-bottom: 3px solid #ca1a1a;
-  z-index: 0;
   box-shadow: inset 0 3px 8px rgba(0, 0, 0, 0.125);
 }
 
@@ -265,6 +268,10 @@ hr {
   background: #EEEEEE;
   border-bottom: 3px solid #ca1a1a;
   box-shadow: inset 0 3px 8px rgba(0, 0, 0, 0.125);
+}
+
+.top-bar ul > li.has-dropdown .dropdown li:hover {
+  border-bottom: none;
 }
 
 .top-bar ul > li.active-trail:hover {
@@ -279,7 +286,7 @@ hr {
 .top-bar ul > li a:not(.button) {
   color: #444;
   height: 77px;
-  line-height: 75px;
+  line-height: 70px;
   padding: 0px 25px;
   text-transform: uppercase;
   font-size: 16px;
@@ -306,7 +313,7 @@ hr {
 }
 
 .menu_tagline {
-	margin-top: -32px;
+	margin-top: -28px;
 	color: #666;
 	font-size: 12px;
 	text-transform: lowercase;

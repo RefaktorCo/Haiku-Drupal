@@ -8,7 +8,10 @@
     	<div id="heading_wrapper_after">
 	    	<div class="row">
 		    	<div class="twelve columns">
+		    	  <div id="front_slide">
 			    	<img src="<?php echo $root; ?>/images/vase.jpg">
+			    	<img src="<?php echo $root; ?>/images/art.jpg">
+		    	  </div>
 		    	</div>
 				</div>  
 			</div> 
