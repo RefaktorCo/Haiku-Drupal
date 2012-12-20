@@ -61,3 +61,7 @@ thead {
 #highlight {
   background: #ca1a1a; 
 }
+
+.carousel_navigation i:hover {
+	color: #ca1a1a;
+}

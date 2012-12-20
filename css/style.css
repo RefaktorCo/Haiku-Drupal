@@ -312,6 +312,7 @@ hr {
 
 /* Our clients */
 #our_clients {
+  padding-top: 10px;
 	margin-bottom: 30px;
 }
 
@@ -563,6 +564,7 @@ height: 189px;
 	background: white;
 	padding: 10px 0px 0px 10px;
 	background-image: url('../images/backgrounds/subtle_dots.png');
+	margin-right: -2px;
 }
 
 .carousel_navigation i {
@@ -571,10 +573,6 @@ height: 189px;
    -webkit-transition: all 0.3s ease-in-out;
    -o-transition: all 0.3s ease-in-out;
    transition: all 0.3s ease-in-out;
-}
-
-.carousel_navigation i:hover {
-	color: #64ADB5;
 }
 
 #recent_projects {
