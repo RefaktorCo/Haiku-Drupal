@@ -16,9 +16,6 @@ $share_url = $base_url.'/node/'.$node->nid;
 	      </div>
 	      <div class="clearfix"></div>
 	    </div>
-	    <div class="recent_post_links">
-	    <p><a href="#" data-reveal-id="myModal_<?php print $node->nid; ?>"><i class="general foundicon-search"></i></a><a href="<?php print $node_url; ?>"><i class="general foundicon-paper-clip"></i></a></p>
-	    </div>
 	  </div>  
 	</div>
 

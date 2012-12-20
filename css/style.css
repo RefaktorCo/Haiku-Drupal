@@ -301,12 +301,17 @@ hr {
 }
 
 /* Front page recent posts */
+
+.region-front-blog .columns {
+	padding: 0 5px;
+}
+
 .recent_posts_wrap {
 	height: 189px;
 	width: 100%;
 	overflow: hidden;
 	position: relative;
-	margin-bottom: 20px;
+	margin-bottom: 10px;
 }
 
 .recent_post_photo {

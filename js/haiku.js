@@ -19,15 +19,6 @@
     $('.menu_5 a').append('<p class="menu_tagline">get in touch</p>');
      
 	  $(".featured").orbit({timer: false});
-	 
-	  $(".recent_posts_wrap").live({
-			mouseenter : function(){
-				$(this).children("div.recent_post_info").stop().animate({left: "50%"}, 300 );
-			},
-			mouseleave : function(){
-				$(this).children("div.recent_post_info").stop().animate({left: "0%"}, 300 );
-			}
-		});
 	    
 	  $(".services_content").hover(
       function(){
