@@ -3,7 +3,7 @@
       $('#flickr_widget').jflickrfeed({
 		limit: 6,
 		qstrings: {
-			id: '8070463@N03'
+			id: '39415781@N06'
 		},
 		itemTemplate: '<li><a href="{{image_b}}"><img src="{{image_s}}" alt="{{title}}" /></a></li>'
 	});
