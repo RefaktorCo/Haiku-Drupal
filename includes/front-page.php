@@ -55,9 +55,9 @@
           <div class="heading_title">What we believe</div>
         </div>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit.</p>
-        <p><i class="icon-ok"></i>Sed ut perspiciatis unde omnis iste <a href="#">natus error sit.</a></p>
-        <p><i class="icon-ok"></i>Sed ut perspiciatis unde omnis iste <a href="#">natus error sit.</a></p>
-        <p><i class="icon-ok"></i>Sed ut perspiciatis unde omnis iste <a href="#">natus error sit.</a></p>
+        <p><i class="icon-ok"></i>Sed ut perspiciatis unde omnis iste natus error sit voluptatem <a href="#">accusantium doloremque.</a></p>
+        <p><i class="icon-ok"></i>Sed ut perspiciatis unde omnis iste natus error sit voluptatem <a href="#">accusantium doloremque.</a></p>
+        <p><i class="icon-ok"></i>Sed ut perspiciatis unde omnis iste natus error sit voluptatem <a href="#">accusantium doloremque.</a></p>
       </div>
       
       <div class="four columns">
@@ -76,10 +76,28 @@
         <div class="hr_beside">
           <div class="heading_title">Latest posts</div>
         </div>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit.</p>
-        <p><i class="icon-ok"></i>Sed ut perspiciatis unde omnis iste <a href="#">natus error sit.</a></p>
-        <p><i class="icon-ok"></i>Sed ut perspiciatis unde omnis iste <a href="#">natus error sit.</a></p>
-        <p><i class="icon-ok"></i>Sed ut perspiciatis unde omnis iste <a href="#">natus error sit.</a></p>
+        
+       <img src="<?php echo $root; ?>/images/blog_thumb.jpg" class="blog_thumb">
+       <h4><a href="#">Vivamus quis metus</a></h4>
+       <ul class="recent_posts_meta">
+        <li><i class="icon-calendar"></i> Dec 13, 2012</li>
+        <li><i class="icon-comment"></i> <a href="/#comments">4 comments</a></li>
+       </ul>
+       
+           <img src="<?php echo $root; ?>/images/blog_thumb.jpg" class="blog_thumb">
+       <h4><a href="#">Vivamus quis metus</a></h4>
+       <ul class="recent_posts_meta">
+        <li><i class="icon-calendar"></i> Dec 13, 2012</li>
+        <li><i class="icon-comment"></i> <a href="/#comments">4 comments</a></li>
+       </ul>
+       
+           <img src="<?php echo $root; ?>/images/blog_thumb.jpg" class="blog_thumb">
+       <h4><a href="#">Vivamus quis metus</a></h4>
+       <ul class="recent_posts_meta">
+        <li><i class="icon-calendar"></i> Dec 13, 2012</li>
+        <li><i class="icon-comment"></i> <a href="/#comments">4 comments</a></li>
+       </ul>
+      
       </div>
       
       <div class="eight columns">
