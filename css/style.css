@@ -1258,6 +1258,12 @@ input.search-query {
   margin-bottom: 20px;
 }
 
+.clients_wrap {
+	padding: 15px;
+	background: white;
+	border: 1px solid #ececec;
+}
+
 .tweet_list {
   margin: 0px;
 }

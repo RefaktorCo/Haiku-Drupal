@@ -127,23 +127,25 @@
     </div> 
     
     <div id="our_clients" class="row">
-      <div class="two columns">
-        <img src="<?php echo $root; ?>/images/forest.png">
+      <div class="three columns">
+        <div class="clients_wrap">
+          <img src="<?php echo $root; ?>/images/forest.png">
+        </div>
       </div>
-      <div class="two columns">
-        <img src="<?php echo $root; ?>/images/den.png">
+      <div class="three columns">
+        <div class="clients_wrap">
+          <img src="<?php echo $root; ?>/images/den.png">
+        </div>
       </div>
-      <div class="two columns">
-        <img src="<?php echo $root; ?>/images/forest.png">
+      <div class="three columns">
+        <div class="clients_wrap">
+          <img src="<?php echo $root; ?>/images/canyon.png">
+        </div>
       </div>
-      <div class="two columns">
-        <img src="<?php echo $root; ?>/images/canyon.png">
-      </div>
-      <div class="two columns">
-        <img src="<?php echo $root; ?>/images/forest.png">
-      </div>
-      <div class="two columns">
-        <img src="<?php echo $root; ?>/images/jungle.png">
+      <div class="three columns">
+        <div class="clients_wrap">
+          <img src="<?php echo $root; ?>/images/jungle.png">
+        </div>
       </div>
     </div>
 
