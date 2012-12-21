@@ -55,10 +55,18 @@ header {
 	display: none;
 }
 
+.slider_wrap {
+	margin-top: -42px;
+}
+
 #heading_wrapper {	
-	width: 1020px;
+	padding: 15px 0px; 
+	max-width: 1020px;
 	margin: auto;
 	margin-top: -42px;
+	margin-bottom: 20px;
+	color: white;
+	background: #333;
 }
 
 #heading_wrapper_after {
@@ -344,7 +352,6 @@ hr {
 }
 
 .recent_post_info {
-	background-color: #333;
 	height: 100%;
 	width: 50%;
 	position: relative;
@@ -352,6 +359,10 @@ hr {
 	color: white;
 	top: 0;
 	padding-top: 8%;
+}
+
+.recent_post_info a {
+	color: #333;
 }
 
 .recent_post_info h4 {
@@ -505,7 +516,7 @@ hr {
 }
 
 .carousel_navigation i {
-	color: #333;
+	 color: #333;
 	 -moz-transition: all 0.3s ease-in-out;
    -webkit-transition: all 0.3s ease-in-out;
    -o-transition: all 0.3s ease-in-out;
@@ -1324,7 +1335,7 @@ span.faq-head-image {
 
 #highlight {
 	padding: 15px 0px; 
-	width: 940px;
+	max-width: 940px;
 	margin: auto;
 	margin-top: -3px;
 	margin-bottom: 20px;

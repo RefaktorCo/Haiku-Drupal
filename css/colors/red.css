@@ -69,3 +69,7 @@ thead {
 ul.accordion > li.active {
   border-top: 3px solid #ca1a1a;
 }
+
+.recent_post_info {
+	background-color: #ca1a1a;
+}
