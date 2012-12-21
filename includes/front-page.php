@@ -121,32 +121,50 @@
     <div class="row">
       <div class="twelve columns">
         <div class="hr_beside">
-          <div class="heading_title">Our clients</div>
+          <div class="heading_title">Our clients</div> 
+          <div class="clients_carousel_navigation">
+		        <a id="clients_prev" class="clients_prev" href="#"><i class="general foundicon-left-arrow"></i></a>
+					  <a id="clients_next" class="clients_next" href="#"><i class="general foundicon-right-arrow"></i></a>
+          </div>
         </div>
       </div>
     </div> 
     
     <div id="our_clients" class="row">
-      <div class="three columns">
-        <div class="clients_wrap">
-          <img src="<?php echo $root; ?>/images/forest.png">
-        </div>
-      </div>
-      <div class="three columns">
-        <div class="clients_wrap">
-          <img src="<?php echo $root; ?>/images/den.png">
-        </div>
-      </div>
-      <div class="three columns">
-        <div class="clients_wrap">
-          <img src="<?php echo $root; ?>/images/canyon.png">
-        </div>
-      </div>
-      <div class="three columns">
-        <div class="clients_wrap">
-          <img src="<?php echo $root; ?>/images/jungle.png">
-        </div>
-      </div>
+      <div class="twelve columns">
+      <ul id="clients_carousel">  
+      
+        <li>
+	        <div class="clients_wrap">
+	          <img src="<?php echo $root; ?>/images/forest.png">
+	        </div>
+        </li>  
+      
+        <li>
+	        <div class="clients_wrap">
+	          <img src="<?php echo $root; ?>/images/den.png">
+	        </div>
+        </li>
+        
+        <li>     
+	        <div class="clients_wrap">
+	          <img src="<?php echo $root; ?>/images/canyon.png">
+	        </div>
+        </li>
+        
+        <li>
+	        <div class="clients_wrap">
+	          <img src="<?php echo $root; ?>/images/jungle.png">
+	        </div>
+        </li>
+        
+        <li>
+	        <div class="clients_wrap">
+	          <img src="<?php echo $root; ?>/images/forest.png">
+	        </div>
+        </li> 
+        
+      </ul>  
     </div>
 
   </div>

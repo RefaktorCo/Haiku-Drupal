@@ -554,6 +554,23 @@ hr {
   min-height: 238px;
 }
 
+#clients_carousel {
+  margin: 0px 0px 20px 0px;
+}
+
+#clients_carousel li {
+	width: 230px;
+	float: left;
+	margin-left: 20px;
+	list-style: none;
+	cursor: pointer !important;
+	
+}
+
+#our_clients .caroufredsel_wrapper {
+  min-height: 80px;
+}
+
 /* Accordion */
 .accordion .content {
 	margin-bottom: 0;

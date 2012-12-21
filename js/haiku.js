@@ -112,6 +112,34 @@
 	      }
 	    }
 	  });
+	  
+	  $('#clients_carousel').carouFredSel({
+	    width: '100%',
+	    responsive: true,
+	    circular : false,
+	    infinite : false,
+	    auto: false,
+	    next : {
+	      button : "#clients_next",
+	      key	: "right"
+	    },
+	    prev : {
+	      button : "#clients_prev",
+	      key	: "left"
+	    },
+	    swipe: {
+	      onMouse: true,
+	      onTouch: false
+	    },
+	    items: {
+	      
+	      visible: {
+	        min: 1,
+	        max: 4
+	      }
+	    }
+	  });
+
   
     $('#banner').oneByOne({
 			className: 'oneByOne1',	             
