@@ -58,6 +58,10 @@ thead {
 }
 
 /*Highlight*/
+#heading_wrapper {
+  background: #ca1a1a; 
+}
+
 #highlight {
   background: #ca1a1a; 
 }

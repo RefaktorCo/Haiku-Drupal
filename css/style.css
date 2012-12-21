@@ -60,17 +60,20 @@ header {
 }
 
 #heading_wrapper {	
-	padding: 15px 0px; 
-	max-width: 1020px;
+	padding: 10px 0px; 
+	max-width: 1000px;
 	margin: auto;
-	margin-top: -42px;
+	margin-top: -50px;
 	margin-bottom: 20px;
 	color: white;
-	background: #333;
 }
 
 #heading_wrapper_after {
   padding: 0px;
+}
+
+.page_heading_text {
+	color: white;
 }
 
 .header_icons {
@@ -187,11 +190,18 @@ hr {
 #breadcrumbs {
   margin: -2px 0px;	
   font-size: 24px;
-  color: #555;
+  color: white;
+  text-align: right;
+}
+
+#breadcrumbs h3 {
+	color: white;
+	margin-top: 20px;
 }
 
 #breadcrumbs a {
 	margin-right: 5px;
+	color: #e7e7e7;
 }
 
 .breadcrumbs li {
