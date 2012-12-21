@@ -65,9 +65,18 @@
         <div class="hr_beside">
           <div class="heading_title">What our clients think</div>
         </div>
-        <p>"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.”</p>
-        <div class="client_img"><img src="<?php echo $root;?>/images/client-1.jpeg"></div>
-        <h4>Frank Castillo</h4>-<a href="#">Lorem, Inc</a>
+        <ul id="quotes">
+          <li>
+		        <p>"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.”</p>
+		        <div class="client_img"><img src="<?php echo $root;?>/images/client-1.jpeg"></div>
+		        <h4>Frank Castillo</h4>-<a href="#">Lorem, Inc</a>
+          </li>
+           <li>
+		        <p>"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.”</p>
+		        <div class="client_img"><img src="<?php echo $root;?>/images/client-1.jpeg"></div>
+		        <h4>Bill Castillo</h4>-<a href="#">Lorem, Inc</a>
+          </li>
+        </ul>  
       </div>
     </div>  
           

@@ -1,12 +1,14 @@
   jQuery(document).ready(function ($) {
   
-      $('#flickr_widget').jflickrfeed({
-		limit: 6,
-		qstrings: {
-			id: '39415781@N06'
-		},
-		itemTemplate: '<li><a href="{{image_b}}"><img src="{{image_s}}" alt="{{title}}" /></a></li>'
-	});
+    $('#flickr_widget').jflickrfeed({
+			limit: 6,
+			qstrings: {
+				id: '39415781@N06'
+			},
+			itemTemplate: '<li><a href="{{image_b}}"><img src="{{image_s}}" alt="{{title}}" /></a></li>'
+	  });
+	
+	  $('ul#quotes').quote_rotator();
   
     $('.menu_1 a').append('<p class="menu_tagline">the beginning</p>');
     
