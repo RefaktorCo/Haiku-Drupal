@@ -970,6 +970,7 @@ article hr {
 
 .tags {
 	float: left;
+	margin-top: 3px;
 }
 
 .icon-tags {
@@ -979,6 +980,7 @@ article hr {
 .tags .icon-tags {
   margin-right: 4px;
   float: left;
+  margin-top: 1px;
 }
 
 .content {
@@ -987,7 +989,7 @@ article hr {
 
 .content p {
   line-height: 1.7; 
-  font-size: 18px;
+  font-size: 14px;
   clear: both;
 }
 
@@ -1197,6 +1199,7 @@ margin-left: 80px !important;
 /* Sidebar */
 #sidebar_wrap {
   padding: 5px 0px 0px 18px;
+  margin-bottom: 40px;
 }
 
 #sidebar_wrap .content p {

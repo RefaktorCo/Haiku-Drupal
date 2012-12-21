@@ -11,12 +11,12 @@ function haiku_footer($page){
             <i class="social foundicon-twitter"></i> 
           </div>
           <div class="eleven columns">
-            <div id="footer_tweet" class='tweet query'></div>
+            <div id="footer_tweet" class='foot_tweet query'></div>
 							<script type="text/javascript">
 							                        
 							    jQuery(document).ready(function ($) {
 							      
-							      $(".tweet").tweet({
+							      $(".foot_tweet").tweet({
 							        username: "envato",
 							        avatar_size: 0,
 							        count: 1,
