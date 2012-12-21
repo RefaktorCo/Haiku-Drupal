@@ -24,6 +24,7 @@ scripts[] = js/mobile-map.js
 scripts[] = js/jquery.ui.totop.js
 scripts[] = js/easing.js
 scripts[] = js/jflickrfeed.min.js
+scripts[] = js/jquery.quote_rotator.js
 scripts[] = js/haiku.js
 
 scripts[] = js/style_switch.js

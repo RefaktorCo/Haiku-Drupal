@@ -10,9 +10,9 @@
         <div class="six columns">  
           <div id="breadcrumbs"><h3><?php if (theme_get_setting('breadcrumbs') == '1') {print $breadcrumb . $title; } ?></h3></div>
         </div>  
-        </div>
       </div>
-    </div> 
+    </div>
+  </div> 
 
           
           <div class="row">
