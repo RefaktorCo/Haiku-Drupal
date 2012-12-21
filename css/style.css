@@ -567,8 +567,24 @@ hr {
 	
 }
 
+.clients_carousel_navigation {
+	margin-left: 20px;
+	margin-top: -38px;
+	font-size: 25px;
+	float: right;
+	background: white;
+	padding: 10px 0px 0px 10px;
+	background-image: url('../images/backgrounds/subtle_dots.png');
+	margin-right: -2px;
+}
+
 #our_clients .caroufredsel_wrapper {
   min-height: 80px;
+}
+
+.clients_wrap img {
+	height: 38px; 
+	width: 198px;
 }
 
 /* Accordion */
