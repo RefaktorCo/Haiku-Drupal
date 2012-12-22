@@ -143,9 +143,8 @@ hr {
   clear:both;
 }
 
-.hr_beside {
-	 background: url('../images/hr.png') repeat-x 0 50%; 
-	 margin: 10px 0px;
+.seperator {
+	margin-bottom: 10px;
 }
 
 .heading_title {

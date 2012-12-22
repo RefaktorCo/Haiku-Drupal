@@ -46,9 +46,14 @@
             <div class="services_text">Total control of your site</div>
           </div>
         </div>
-        <hr>
       </div>
     </div>
+    
+    <div class="row seperator">
+      <div class="twelve columns">
+        <hr>
+      </div>
+    </div>    
     
     <div class="row">
     
@@ -79,6 +84,12 @@
         </ul>  
       </div>
     </div>  
+    
+     <div class="row seperator">
+      <div class="twelve columns">
+        <hr>
+      </div>
+    </div> 
           
     <?php if (theme_get_setting('enable_recent_posts') == '1') : ?>         
     <div class="row">
@@ -93,6 +104,12 @@
       <?php print render($page['front_blog']); ?>     
     </div>
     <?php endif; ?> 
+    
+     <div class="row seperator">
+      <div class="twelve columns">
+        <hr>
+      </div>
+    </div> 
      
     <?php if (theme_get_setting('enable_recent_projects') == '1') : ?>             
     <div class="row">
@@ -117,6 +134,12 @@
       </div>
     </div>
     <?php endif ?>  
+    
+     <div class="row seperator">
+      <div class="twelve columns">
+        <hr>
+      </div>
+    </div> 
     
     <div class="row">
       <div class="twelve columns">
