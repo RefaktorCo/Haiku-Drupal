@@ -155,7 +155,8 @@
     
     <div id="our_clients" class="row">
       <div class="twelve columns">
-      <ul id="clients_carousel">  
+        <div class="clients_carousel_wrap">
+        <ul id="clients_carousel">  
       
         <li>
 	        <div class="clients_wrap">
@@ -188,6 +189,7 @@
         </li> 
         
       </ul>  
+        </div>
     </div>
 
   </div>

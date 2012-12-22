@@ -553,12 +553,8 @@ hr {
   min-height: 238px;
 }
 
-#clients_carousel {
-  margin: 0px 0px 20px 0px;
-}
-
 #clients_carousel li {
-	width: 230px;
+	width: 235px !important;
 	float: left;
 	margin-left: 20px;
 	list-style: none;
@@ -579,6 +575,14 @@ hr {
 
 #our_clients .caroufredsel_wrapper {
   min-height: 80px;
+}
+
+#our_clients .caroufredsel_wrapper {
+  margin: 0px 0px 20px 0px !important;
+}
+
+.clients_carousel_wrap {
+	margin-left: -20px;
 }
 
 .clients_wrap img {
