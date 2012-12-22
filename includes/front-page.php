@@ -46,15 +46,15 @@
             <div class="services_text">Total control of your site</div>
           </div>
         </div>
+        <hr>
       </div>
     </div>
     
     <div class="row">
     
       <div id="think" class="eight columns">
-        <div class="hr_beside">
-          <div class="heading_title">What we believe</div>
-        </div>
+        
+        <div class="heading_title">What we believe</div>       
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit.</p>
         <p><i class="icon-ok"></i>Sed ut perspiciatis unde omnis iste natus error sit voluptatem <a href="#">accusantium doloremque.</a></p>
         <p><i class="icon-ok"></i>Sed ut perspiciatis unde omnis iste natus error sit voluptatem <a href="#">accusantium doloremque.</a></p>
@@ -62,9 +62,9 @@
       </div>
       
       <div class="four columns">
-        <div class="hr_beside">
+        
           <div class="heading_title">What our clients think</div>
-        </div>
+       
         <ul id="quotes">
           <li>
 		        <p>"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.”</p>
@@ -83,9 +83,9 @@
     <?php if (theme_get_setting('enable_recent_posts') == '1') : ?>         
     <div class="row">
       <div class="twelve columns">
-        <div class="hr_beside">
+     
           <div class="heading_title"><?php echo theme_get_setting('recent_posts_title');?></div>
-        </div>
+       
       </div>
     </div> 
      
@@ -97,13 +97,13 @@
     <?php if (theme_get_setting('enable_recent_projects') == '1') : ?>             
     <div class="row">
       <div class="twelve columns">
-        <div class="hr_beside">
+       
           <div class="heading_title"><?php echo theme_get_setting('recent_projects_title');?></div>
           <div class="carousel_navigation">
 		        <a id="prev" class="prev" href="#"><i class="general foundicon-left-arrow"></i></a>
 					  <a id="next" class="next" href="#"><i class="general foundicon-right-arrow"></i></a>
           </div>
-        </div>
+      
       </div>
     </div> 
      
@@ -120,13 +120,13 @@
     
     <div class="row">
       <div class="twelve columns">
-        <div class="hr_beside">
+
           <div class="heading_title">Our clients</div> 
           <div class="clients_carousel_navigation">
 		        <a id="clients_prev" class="clients_prev" href="#"><i class="general foundicon-left-arrow"></i></a>
 					  <a id="clients_next" class="clients_next" href="#"><i class="general foundicon-right-arrow"></i></a>
           </div>
-        </div>
+    
       </div>
     </div> 
     
