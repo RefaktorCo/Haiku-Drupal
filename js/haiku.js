@@ -22,7 +22,7 @@
      
 	  $(".featured").orbit({timer: false});
 	  
-	  $("#front_slide").orbit();
+	  $("#front_slide").orbit({captions: true});
 	    
 	  $(".services_content").hover(
       function(){

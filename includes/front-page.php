@@ -8,12 +8,19 @@
 	    <div class="row">
 	    	<div class="twelve columns">
 	    	  <div id="front_slide">
-		    	<img src="<?php echo $root; ?>/images/vase.jpg">
-		    	<img src="<?php echo $root; ?>/images/art.jpg">
+	    	    <div data-caption="#caption1">
+		    	    <img src="<?php echo $root; ?>/images/vase.jpg">
+	    	    </div>
+	    	    <div data-caption="#caption2">
+		    	    <img src="<?php echo $root; ?>/images/art.jpg">
+	    	    </div>  
 	    	  </div>
 	    	</div>
 			</div>  
 		</div>
+		
+		<span class="orbit-caption" id="caption1">This is an example of a slide with a caption. You can use HTML, this is a <a href="#">link</a>.</span>
+		<span class="orbit-caption" id="caption2">Here is another caption...</span>
 		<?php endif; ?>
 		
 		<?php if (theme_get_setting('enable_highlight') == '1') : ?>       
