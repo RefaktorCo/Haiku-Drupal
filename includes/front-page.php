@@ -117,8 +117,8 @@
        
           <div class="heading_title"><?php echo theme_get_setting('recent_projects_title');?></div>
           <div class="carousel_navigation">
-		        <a id="prev" class="prev" href="#"><i class="general foundicon-left-arrow"></i></a>
-					  <a id="next" class="next" href="#"><i class="general foundicon-right-arrow"></i></a>
+		        <a id="prev" class="prev" href="#"><i class="icon-chevron-left"></i></a>
+					  <a id="next" class="next" href="#"><i class="icon-chevron-right"></i></a>
           </div>
       
       </div>
@@ -146,8 +146,8 @@
 
           <div class="heading_title">Our clients</div> 
           <div class="clients_carousel_navigation">
-		        <a id="clients_prev" class="clients_prev" href="#"><i class="general foundicon-left-arrow"></i></a>
-					  <a id="clients_next" class="clients_next" href="#"><i class="general foundicon-right-arrow"></i></a>
+		        <a id="clients_prev" class="clients_prev" href="#"><i class="icon-chevron-left"></i></a>
+					  <a id="clients_next" class="clients_next" href="#"><i class="icon-chevron-right"></i></a>
           </div>
     
       </div>
