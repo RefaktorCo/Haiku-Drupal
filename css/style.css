@@ -539,18 +539,15 @@ hr {
 
 .carousel_navigation {
 	margin-left: 20px;
-	margin-top: -38px;
+	margin-top: -50px;
 	font-size: 25px;
 	float: right;
-	background: white;
 	padding: 10px 0px 0px 10px;
-	background-image: url('../images/backgrounds/subtle_dots.png');
 	margin-right: -2px;
 }
 
 .carousel_navigation i {
-	 color: #333;
-	 -moz-transition: all 0.3s ease-in-out;
+		 -moz-transition: all 0.3s ease-in-out;
    -webkit-transition: all 0.3s ease-in-out;
    -o-transition: all 0.3s ease-in-out;
    transition: all 0.3s ease-in-out;
@@ -1435,16 +1432,30 @@ span.faq-head-image {
 #services i {
 	font-size: 45px;
 	float: left;
-	margin: 0px 10px 0px 0px;
+	margin: 8px 10px 0px 0px;
+	color: #222;
 	-moz-transition: all 0.3s ease-in-out;
   -webkit-transition: all 0.3s ease-in-out;
   -o-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
 }
 
+#services i a {
+	color: #222;
+}
+
+.services_text {
+	text-align: center;
+}
+
 #services h3 {
 	font-size: 20px;
 	margin: 8px 0px 10px 0px;
+	-moz-transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+
 }
 
 #services p {

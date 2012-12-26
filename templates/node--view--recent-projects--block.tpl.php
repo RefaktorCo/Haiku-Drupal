@@ -17,6 +17,6 @@
 	    </div> 
     </div>  
    <div class="carousel_item_description">
-    <h3><a href="<?php print $node_url;?>"><?php print $title; ?></a></h3>
+    <h4><a href="<?php print $node_url;?>"><?php print $title; ?></a></h4>
    </div>  
  </li>

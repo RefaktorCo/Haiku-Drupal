@@ -74,6 +74,10 @@ thead {
 	color: #ca1a1a;
 }
 
+#services .services_wrap:hover h3 {
+	color: #ca1a1a;
+}
+
 ul.accordion > li.active {
   border-top: 3px solid #ca1a1a;
 }
