@@ -1,63 +1,87 @@
 /* Body and Content */
 a {
-  color: #2f88f0;
+  color: #ca1a1a;
 }
 
 a:hover {
-  color: #00abff;
+  color: #ff7045;
   text-decoration: none;
 }
 
 thead {
-  background-color: #2f88f0 !important; 
+  background-color: #ca1a1a !important; 
 }
 
 .header_icons li i:hover {
-	color: #00abff;
+	color: #ff7045;
 }
 
 #main_title_text {
-  color: #2f88f0; 
+  color: #ca1a1a; 
 }  
 
 #main_title_text:hover {
-  color: #00abff; 
+  color: #ff7045; 
 }
 
 .footer_icons li i:hover {
-	color: #00abff;
+	color: #ff7045;
 }
 
 .post_share li i:hover {
-	color: #00abff;
+	color: #ff7045;
 }
 
 .carousel_item_hover i:hover {
-	color: #00abff;
+	color: #ff7045;
 }
 
 .team_image_hover i:hover {
-  color: #00abff !important;
+  color: #ff7045 !important;
 }
 
 .button {
-	background: #2f88f0 !important;
+	background: #ca1a1a !important;
 }
 
 .button:hover{
-	background: #00abff !important;
+	background: #ff7045 !important;
 }
 
 /* Widgets */
 .ad_block a:hover, .tabs a.active {
-  background: #00abff;
+  background: #ff7045;
 }
 
 .view-popular-tags a:hover {
-  background-color: #00abff; 
+  background-color: #ff7045; 
 }
 
 /*Highlight*/
+#heading_wrapper {
+  background: #ca1a1a; 
+}
+
 #highlight {
-  background: #2f88f0; 
+  background: #ca1a1a; 
+}
+
+.carousel_navigation i:hover {
+	color: #ca1a1a;
+}
+
+#services .services_wrap:hover i {
+	color: #ca1a1a;
+}
+
+#services .services_wrap:hover h3 {
+	color: #ca1a1a;
+}
+
+ul.accordion > li.active {
+  border-top: 3px solid #ca1a1a;
+}
+
+.recent_post_info {
+	background-color: #ca1a1a;
 }
