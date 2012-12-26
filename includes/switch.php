@@ -18,13 +18,13 @@
 			      </div>
 			      
 			      <h6 class="switch_heading">Main Pattern</h6>  
-			        <ul id="heading-bg-nav">
+			        <ul id="wrapper-bg-nav">
 			          <li class="subtle-dots-bg"><div class="switch_tile subtle-dots"></div></li>
 			          <li class="cream-dust-bg"><div class="switch_tile cream-dust"></div></li>
 			          <li class="debut-light-bg"><div class="switch_tile debut-light"></div></li>  
 			          <li class="dust-bg"><div class="switch_tile dust"></div></li>  
 			          <li class="gray-jean-bg"><div class="switch_tile gray-jean"></div></li>  
-			          <li class="retina-dust-bg"><div class="switch_tile cartographer"></div></li>  
+			          <li class="retina-dust-bg"><div class="switch_tile retina-dust"></div></li>  
 			          <li class="linen-bg"><div class="switch_tile linen"></div></li>  
 			          <li class="striped-lens-bg"><div class="switch_tile striped-lens"></div></li>  
 			        </ul>

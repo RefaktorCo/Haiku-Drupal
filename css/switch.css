@@ -71,11 +71,11 @@
 }
 
 .dust {
-	background-image: url('../images/backgrounds/dust.png');
+	background-image: url('../images/wrapper-backgrounds/dust.png');
 }
 
-.gray_jean {
-	background-image: url('../images/wrapper-backgrounds/grey_jean.png');
+.gray-jean {
+	background-image: url('../images/wrapper-backgrounds/gray_jean.png');
 }
 
 .linen {
