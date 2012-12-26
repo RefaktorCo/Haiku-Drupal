@@ -6,7 +6,7 @@
 		      <h6 class="switch_heading">Colors</h6>
 		        <div class="color_switch_wrap">
 					    <ul id="color-nav">
-					      <li class="<?php echo $root;?>/css/colors/default.css"><div class="switch_tile blue"></div></li>
+					      <li class="<?php echo $root;?>/css/colors/default.css"><div class="switch_tile red"></div></li>
 					      <li class="<?php echo $root;?>/css/colors/black.css"><div class="switch_tile black"></div></li>
 					      <li class="<?php echo $root;?>/css/colors/green.css"><div class="switch_tile green"></div></li>
 					      <li class="<?php echo $root;?>/css/colors/orange.css"><div class="switch_tile orange"></div></li>
