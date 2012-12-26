@@ -561,7 +561,8 @@ hr {
 	font-size: 25px;
 	float: right;
 	padding: 10px 0px 0px 10px;
-	margin-right: -2px;
+	margin-right: -10px;
+	font-size: 18px;
 }
 
 .carousel_navigation i {
@@ -569,6 +570,17 @@ hr {
    -webkit-transition: all 0.3s ease-in-out;
    -o-transition: all 0.3s ease-in-out;
    transition: all 0.3s ease-in-out;
+}
+
+#prev, #next {
+	display: inline;
+  padding: 6px 10px 3px 10px;
+  background: #F0F0F0;
+  font-size: 18px;
+}
+
+#next i {
+	margin-right: 10px;
 }
 
 #recent_projects {
@@ -1568,7 +1580,7 @@ span.faq-head-image {
 }
 
 #footer_twitter a {
-	color: #333;
+  color: #C9C9C9;
 }
 
 #footer_twitter i {
