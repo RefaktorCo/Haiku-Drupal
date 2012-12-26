@@ -1,63 +1,94 @@
 /* Body and Content */
 a {
-  color: #5f419b;
+  color: #8622b1;
 }
 
 a:hover {
-  color: #8757e6;
+  color: #c949ff;
   text-decoration: none;
 }
 
 thead {
-  background-color: #5f419b !important; 
+  background-color: #8622b1 !important; 
 }
 
-.header_icons li i:hover {
-	color: #8757e6;
+.top-bar .active {
+  border-top: 4px solid #8622b1;
+}
+
+.top-bar ul > li:not(.name):hover {
+  border-top: 4px solid #8622b1;
 }
 
 #main_title_text {
-  color: #5f419b; 
+  color: #8622b1; 
 }  
 
 #main_title_text:hover {
-  color: #8757e6; 
+  color: #c949ff; 
 }
 
-.footer_icons li i:hover {
-	color: #8757e6;
+#heading_wrapper {
+  background: #8622b1; 
+}
+
+.heading_title {
+  border-left: 1px dotted #8622b1;
+}
+
+.recent_post_info {
+	background-color: #8622b1;
 }
 
 .post_share li i:hover {
-	color: #8757e6;
+	color: #c949ff;
 }
 
-.carousel_item_hover i:hover {
-	color: #8757e6;
+#footer_twitter {
+  background: #8622b1;
 }
 
-.team_image_hover i:hover {
-  color: #8757e6 !important;
-}
-
-.button {
-	background: #5f419b !important;
-}
-
-.button:hover{
-	background: #8757e6 !important;
+.footer_icons li i:hover {
+	color: #c949ff;
 }
 
 /* Widgets */
 .ad_block a:hover, .tabs a.active {
-  background: #8757e6;
+  background: #c949ff;
 }
 
 .view-popular-tags a:hover {
-  background-color: #8757e6; 
+  background-color: #c949ff; 
 }
 
 /*Highlight*/
 #highlight {
-  background: #5f419b; 
+  background: #8622b1; 
+}
+
+/*Carousel*/
+.carousel_navigation i:hover {
+	color: #8622b1;
+}
+
+/*Services*/
+#services .services_wrap:hover i {
+	color: #8622b1;
+}
+
+#services .services_wrap:hover h3 {
+	color: #8622b1;
+}
+
+/*Elements*/
+ul.accordion > li.active {
+  border-top: 3px solid #8622b1;
+}
+
+.button {
+	background: #8622b1 !important;
+}
+
+.button:hover{
+	background: #c949ff !important;
 }

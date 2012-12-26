@@ -15,7 +15,7 @@
 <?php haiku_user_css(); ?>
 
 <link rel="stylesheet" type="text/css" href="<?php global $root; echo $root;?>/css/switch.css">
-<link rel="stylesheet" class="switch" type="text/css" href="<?php global $root; echo $root;?>/css/colors/orange.css">
+<link rel="stylesheet" class="switch" type="text/css" href="<?php global $root; echo $root;?>/css/colors/purple.css">
 
 </head>
 
