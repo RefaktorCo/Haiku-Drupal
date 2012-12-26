@@ -13,7 +13,7 @@ $share_url = $base_url.'/node/'.$node->nid;
 	          <h4><?php print $title; ?></h4>
 	          <i class="general foundicon-calendar"></i><?php print format_date($node->created, 'custom', 'M d, Y'); ?>
 	          <i class="general foundicon-mic"></i><a href="<?php print $node_url;?>/#comments"><?php print $comment_count; ?></a>
-	          <br><br><a href="<?php print $node_url;?>">read more</a>
+	          <h4><a href="<?php print $node_url;?>">read more</a></h4>
 	      </div>
 	     
 	      <div class="clearfix"></div>

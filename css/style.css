@@ -398,6 +398,10 @@ hr {
 	color: #c9c9c9;
 }
 
+.recent_post_info a:hover {
+	color: #222;
+}
+
 .recent_post_info h4 {
 	color: white;
 }
@@ -599,7 +603,7 @@ hr {
 	font-size: 25px;
 	float: right;
 	padding: 10px 0px 0px 10px;
-	margin-right: -2px;
+	margin-right: -10px;
 }
 
 #our_clients .caroufredsel_wrapper {
@@ -608,6 +612,17 @@ hr {
 
 #our_clients .caroufredsel_wrapper {
   margin: 0px 0px 20px 0px !important;
+}
+
+#clients_prev, #clients_next {
+	display: inline;
+  padding: 6px 10px 3px 10px;
+  background: #F0F0F0;
+  font-size: 18px;
+}
+
+#clients_next i {
+	margin-right: 10px;
 }
 
 .clients_carousel_wrap {
