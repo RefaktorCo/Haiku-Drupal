@@ -1,63 +1,94 @@
 /* Body and Content */
 a {
-  color: #2f88f0;
+  color: #1b78ca;
 }
 
 a:hover {
-  color: #00abff;
+  color: #35a1ff;
   text-decoration: none;
 }
 
 thead {
-  background-color: #2f88f0 !important; 
+  background-color: #1b78ca !important; 
 }
 
-.header_icons li i:hover {
-	color: #00abff;
+.top-bar .active {
+  border-top: 4px solid #1b78ca;
+}
+
+.top-bar ul > li:not(.name):hover {
+  border-top: 4px solid #1b78ca;
 }
 
 #main_title_text {
-  color: #2f88f0; 
+  color: #1b78ca; 
 }  
 
 #main_title_text:hover {
-  color: #00abff; 
+  color: #35a1ff; 
 }
 
-.footer_icons li i:hover {
-	color: #00abff;
+#heading_wrapper {
+  background: #1b78ca; 
+}
+
+.heading_title {
+  border-left: 1px dotted #1b78ca;
+}
+
+.recent_post_info {
+	background-color: #1b78ca;
 }
 
 .post_share li i:hover {
-	color: #00abff;
+	color: #35a1ff;
 }
 
-.carousel_item_hover i:hover {
-	color: #00abff;
+#footer_twitter {
+  background: #1b78ca;
 }
 
-.team_image_hover i:hover {
-  color: #00abff !important;
-}
-
-.button {
-	background: #2f88f0 !important;
-}
-
-.button:hover{
-	background: #00abff !important;
+.footer_icons li i:hover {
+	color: #35a1ff;
 }
 
 /* Widgets */
 .ad_block a:hover, .tabs a.active {
-  background: #00abff;
+  background: #35a1ff;
 }
 
 .view-popular-tags a:hover {
-  background-color: #00abff; 
+  background-color: #35a1ff; 
 }
 
 /*Highlight*/
 #highlight {
-  background: #2f88f0; 
+  background: #1b78ca; 
+}
+
+/*Carousel*/
+.carousel_navigation i:hover {
+	color: #1b78ca;
+}
+
+/*Services*/
+#services .services_wrap:hover i {
+	color: #1b78ca;
+}
+
+#services .services_wrap:hover h3 {
+	color: #1b78ca;
+}
+
+/*Elements*/
+ul.accordion > li.active {
+  border-top: 3px solid #1b78ca;
+}
+
+.button {
+	background: #1b78ca !important;
+}
+
+.button:hover{
+	background: #35a1ff !important;
 }
