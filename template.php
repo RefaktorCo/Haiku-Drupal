@@ -263,7 +263,7 @@ function haiku_preprocess_html(&$vars){
   
   $box_layout = array(
     '#type' => 'markup',
-    '#markup' => "<style type='text/css'>#main_wrapper { max-width: 1120px; margin: 0 auto; } header {left: 0; right: 0; max-width: 1120px; margin: 0 auto;} #heading_wrapper { box-shadow: none; }</style> ",
+    '#markup' => "<style type='text/css'>#main_wrapper { max-width: 1080px; margin: 0 auto; } header {left: 0; right: 0; max-width: 1080px; margin: 0 auto;} #heading_wrapper { box-shadow: none; } #footer { max-width: 1080px; margin: 0 auto; position: relative; }</style> ",
     '#weight' => 13,
   );
 

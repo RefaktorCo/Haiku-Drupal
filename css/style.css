@@ -200,7 +200,7 @@ hr {
 
 #breadcrumbs a {
 	margin-right: 5px;
-	color: #e7e7e7;
+	color: #c9c9c9;
 }
 
 .breadcrumbs li {
@@ -395,7 +395,7 @@ hr {
 }
 
 .recent_post_info a {
-	color: #333;
+	color: #c9c9c9;
 }
 
 .recent_post_info h4 {
@@ -500,6 +500,15 @@ hr {
 	clear: both;
 }
 
+.carousel_item_description h4 {
+	margin-bottom: 0px;
+}
+
+.carousel_item_description p {
+  font-style: italic;
+  font-size: 12px;
+}
+
 .carousel_item_content {
 	opacity: 1;
 }
@@ -539,6 +548,7 @@ hr {
 .carousel_item_hover p {
 	font-size: 20px;
 	margin-bottom: 5px;
+	padding-top: 13%;
 }
 
 .carousel_navigation {
