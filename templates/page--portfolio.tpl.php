@@ -38,5 +38,5 @@
       </div>
   	</div>
   </div>
-   
+  <div class="bottom_spacer"></div>  
 <?php haiku_footer($page);?>

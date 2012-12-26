@@ -21,15 +21,9 @@
 		  </div>
 		</div> 
        
+    
     <div class="row">
-      <div class="twelve columns">
-        <div class="hr_beside">
-          <div class="heading_title">Get In Touch</div>
-        </div>
-      </div>
-    </div> 
-    <div class="row">
-      <div class="four columns">
+      <div class="two columns">
         <blockquote>
           <strong>Lorem Ipsum, Inc.</strong><br>
 					900 Bagby St<br>
@@ -38,7 +32,7 @@
         </blockquote>
       </div>
       
-      <div class="eight columns">
+      <div class="ten columns">
         <?php print render($page['contact_template']); ?>
       </div> 
       

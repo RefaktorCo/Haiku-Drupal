@@ -3,7 +3,7 @@ global $root, $base_url;
 $share_url = $base_url.'/node/'.$node->nid;
 ?>
 
-  <div class="row">
+  <div id="single_portfolio" class="row">
   <div class="eight columns">
     <div class="portfolio_image"><?php print render($content['field_portfolio_image']); ?></div>
   </div>
@@ -38,3 +38,4 @@ $share_url = $base_url.'/node/'.$node->nid;
 
   </div>
   </div>
+  <div class="bottom_spacer"></div>   

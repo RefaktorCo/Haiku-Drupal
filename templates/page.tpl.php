@@ -54,7 +54,7 @@
       </div>
       <?php endif; ?>
     </div>
-      
+   <div class="bottom_spacer"></div>    
 <?php print $messages; ?>
   
 <?php haiku_footer($page);?>
