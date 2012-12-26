@@ -17,16 +17,16 @@
 					    </ul>
 			      </div>
 			      
-			      <h6 class="switch_heading">Heading Patterns</h6>  
+			      <h6 class="switch_heading">Main Pattern</h6>  
 			        <ul id="heading-bg-nav">
-			          <li class="shattered-bg"><div class="switch_tile shattered"></div></li>
-			          <li class="tile-bg"><div class="switch_tile tile_bg"></div></li>
-			          <li class="checkered-bg"><div class="switch_tile checkered"></div></li>  
-			          <li class="bullseyes-bg"><div class="switch_tile bullseyes-bg"></div></li>  
-			          <li class="gplay-head"><div class="switch_tile gplay-head"></div></li>  
-			          <li class="cartographer-head"><div class="switch_tile cartographer-head"></div></li>  
-			          <li class="linen-bg"><div class="switch_tile linen-bg"></div></li>  
-			          <li class="dark-wood-bg"><div class="switch_tile dark-wood-bg"></div></li>  
+			          <li class="subtle-dots-bg"><div class="switch_tile subtle-dots"></div></li>
+			          <li class="cream-dust-bg"><div class="switch_tile cream-dust"></div></li>
+			          <li class="debut-light-bg"><div class="switch_tile debut-light"></div></li>  
+			          <li class="dust-bg"><div class="switch_tile dust"></div></li>  
+			          <li class="gray-jean-bg"><div class="switch_tile gray-jean"></div></li>  
+			          <li class="retina-dust-bg"><div class="switch_tile cartographer"></div></li>  
+			          <li class="linen-bg"><div class="switch_tile linen"></div></li>  
+			          <li class="striped-lens-bg"><div class="switch_tile striped-lens"></div></li>  
 			        </ul>
 			      
 			    <h6 class="switch_heading">Layout</h6>  
