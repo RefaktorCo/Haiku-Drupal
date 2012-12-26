@@ -65,27 +65,9 @@ settings[youtube_url] = 'http://youtube.com'
 settings[enable_highlight] = '1'
 settings[highlight_text] = 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.'
 
-settings[enable_slider] = '1'
-
-settings[slide1_img1] = 'http://localhost:8888/development/blocks_demo/sites/all/themes/blocks-drupal/images/slider/drupal.png'
-settings[slide1_img2] = 'http://localhost:8888/development/blocks_demo/sites/all/themes/blocks-drupal/images/slider/html5.png'
-settings[slide1_img3] = 'http://localhost:8888/development/blocks_demo/sites/all/themes/blocks-drupal/images/slider/css3.png'
-settings[slide1_txt1] = 'Built on Drupal 7'
-settings[slide1_txt2] = 'Powered by ZURB Foundation 3'
-
-settings[slide2_txt1] = 'Responsive Design'
-settings[slide2_txt2] = 'Touch-Ready Elements'
-settings[slide2_img1] = 'http://localhost:8888/development/blocks_demo/sites/all/themes/blocks-drupal/images/slider/blocks-imac.png'
-settings[slide2_img2] = 'http://localhost:8888/development/blocks_demo/sites/all/themes/blocks-drupal/images/slider/blocks-iphone.png'
-settings[slide2_img3] = 'http://localhost:8888/development/blocks_demo/sites/all/themes/blocks-drupal/images/slider/blocks-ipad.png'
-
-settings[slide3_img1] = 'http://localhost:8888/development/blocks_demo/sites/all/themes/blocks-drupal/images/slider/skyline.jpg'
-settings[slide3_txt1] = 'Hover to pause'
-settings[slide3_txt2] = 'This slider supports full images'
-settings[slide3_txt3] = 'Set up your slider with theme settings. <a href="#">Learn more</a>'
+settings[enable_slider] = '0'
 
 settings[enable_services] = '1'
-settings[services_title] = 'Who We Are'
 
 settings[enable_highlight] = '1'
 settings[highlight_text] = 'Haiku is modern.  A clean layout for your site. Fast and responsive.'
@@ -96,7 +78,7 @@ settings[recent_posts_title] = 'Recent Posts'
 settings[enable_recent_projects] = '0'
 settings[recent_projects_title] = 'Recent Projects'
 
-settings[color_scheme] = 'blue'
+settings[color_scheme] = 'red'
 
 settings[body_background] ='#ECECEC'
 settings[enable_background_pattern] = '0'

@@ -10,8 +10,8 @@
 					      <li class="<?php echo $root;?>/css/colors/black.css"><div class="switch_tile black"></div></li>
 					      <li class="<?php echo $root;?>/css/colors/green.css"><div class="switch_tile green"></div></li>
 					      <li class="<?php echo $root;?>/css/colors/orange.css"><div class="switch_tile orange"></div></li>
-					      <li class="<?php echo $root;?>/css/colors/red.css"><div class="switch_tile red"></div></li>
-					      <li class="<?php echo $root;?>/css/colors/teal.css"><div class="switch_tile teal"></div></li>
+					      <li class="<?php echo $root;?>/css/colors/blue.css"><div class="switch_tile blue"></div></li>
+					      <li class="<?php echo $root;?>/css/colors/light-blue.css"><div class="switch_tile light-blue"></div></li>
 					      <li class="<?php echo $root;?>/css/colors/purple.css"><div class="switch_tile purple"></div></li>
 					 		  <li class="<?php echo $root;?>/css/colors/yellow.css"><div class="switch_tile yellow"></div></li>
 					    </ul>
@@ -57,7 +57,7 @@
 				      <li class="green-bg"><div class="switch_tile green"></div></li>
 				      <li class="orange-bg"><div class="switch_tile orange"></div></li>
 				      <li class="red-bg"><div class="switch_tile red"></div></li>
-				      <li class="teal-bg"><div class="switch_tile teal"></div></li>
+				      <li class="light-blue-bg"><div class="switch_tile light-blue"></div></li>
 				      <li class="purple-bg"><div class="switch_tile purple"></div></li>
 				      <li class="yellow-bg"><div class="switch_tile yellow"></div></li>
 				    </ul>

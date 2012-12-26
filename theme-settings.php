@@ -599,7 +599,7 @@ function haiku_form_system_theme_settings_alter(&$form, &$form_state) {
         '#options' => array(
           'black' => 'Black',
           'blue' => 'Blue (default)',
-          'teal' => 'Teal',
+          'light-blue' => 'light-blue',
           'green' => 'Green',
           'yellow' => 'Yellow',
           'purple' => 'Purple',
