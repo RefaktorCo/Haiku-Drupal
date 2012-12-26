@@ -56,7 +56,7 @@ function haiku_header($page){
         </div>
         <!-- end main span2 -->  
        
-       <?php //haiku_style_switch(); ?>
+       <?php haiku_style_switch(); ?>
           
   </header> 
   

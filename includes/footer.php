@@ -80,5 +80,6 @@ function haiku_footer($page){
       </div> 
     </div>
     <!-- end footer --> 
+   
 <?php }
 ?>

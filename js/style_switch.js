@@ -119,9 +119,10 @@
     });
 
     $(".switch_boxed").click(function() {
-      $('#main_wrapper').css({ 'max-width': '1120px', 'margin': '0 auto'});
+      $('#main_wrapper').css({ 'max-width': '1080px', 'margin': '0 auto'});
       $('#heading_wrapper').css({'box-shadow': 'none'});
-      $('header').css({ 'max-width': '1120px'});
+      $('header').css({ 'max-width': '1080px'});
+      $('#footer').css({ 'max-width': '1080px', 'margin': '0 auto', 'position': 'relative'});
       $('.bg_patterns_wrap').css({ 'display': 'block'});
 
     });
