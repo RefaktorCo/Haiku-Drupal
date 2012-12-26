@@ -51,6 +51,10 @@ header {
 	padding-top: 20px;
 }
 
+.bottom_spacer {
+	padding-bottom: 25px;
+}
+
 .name {
 	display: none;
 }
@@ -64,7 +68,7 @@ header {
 	max-width: 1000px;
 	margin: auto;
 	margin-top: -50px;
-	margin-bottom: 10px;
+	margin-bottom: 15px;
 	color: white;
 }
 
@@ -463,7 +467,7 @@ hr {
 /* Our clients */
 #our_clients {
   padding-top: 10px;
-	margin-bottom: 50px;
+	margin-bottom: 20px;
 }
 
 /* Front page recent posts */
@@ -802,16 +806,8 @@ thead th {
 
 /* Carousel, team member and recent post overlay colors  */
 .carousel_item_hover {
-	background: #999;
+	background: #c7c7c7;
 }	
-
-.team_image_hover {
-  background: #999;
-}
-
-.recent_post_links {
-	background-color: #999;
-}
 
 /* Team Member */
 

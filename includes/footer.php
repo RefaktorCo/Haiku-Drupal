@@ -2,7 +2,8 @@
 function haiku_footer($page){
   global $root; 
 ?>
-<!-- begin footer -->        
+<!-- begin footer -->   
+      
     <div id="footer"> 
       <div class="container">
         

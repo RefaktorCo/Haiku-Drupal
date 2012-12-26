@@ -204,6 +204,7 @@
         </div>
     </div>
     </div>
+    <div class="bottom_spacer"></div>   
   </div>
   <!-- end main wrapper -->    
   
