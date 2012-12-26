@@ -91,11 +91,11 @@ jQuery(document).ready(function ($) {
 	$('#edit-background .plus').toggleClass('minus');
   });
   
-  $("#edit-page-heading .fieldset-wrapper").hide();
-  $("#edit-page-heading .fieldset-legend").click(function(){
-	$("#edit-page-heading .fieldset-wrapper").slideToggle("slow");
+  $("#edit-main-wrapper .fieldset-wrapper").hide();
+  $("#edit-main-wrapper .fieldset-legend").click(function(){
+	$("#edit-main-wrapper .fieldset-wrapper").slideToggle("slow");
 	$(this).toggleClass("active");
-	$('#edit-page-heading .plus').toggleClass('minus');
+	$('#edit-main-wrapper .plus').toggleClass('minus');
   });
   
   $("#edit-css .fieldset-wrapper").hide();

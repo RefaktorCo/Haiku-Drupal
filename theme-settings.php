@@ -598,13 +598,13 @@ function haiku_form_system_theme_settings_alter(&$form, &$form_state) {
         '#default_value' => theme_get_setting('color_scheme'),
         '#options' => array(
           'black' => 'Black',
-          'blue' => 'Blue (default)',
+          'blue' => 'Blue',
           'light-blue' => 'light-blue',
           'green' => 'Green',
           'yellow' => 'Yellow',
           'purple' => 'Purple',
           'orange' => 'Orange',
-          'red' => 'Red',
+          'red' => 'Red (default)',
         ),
       );
       
@@ -653,43 +653,43 @@ function haiku_form_system_theme_settings_alter(&$form, &$form_state) {
     );  
     
     // Background
-    $form['options']['design']['page_heading'] = array(
+    $form['options']['design']['main_wrapper'] = array(
       '#type' => 'fieldset',
-      '#title' => '<div class="plus"></div><h3 class="options_heading">Page Heading</h3>',
+      '#title' => '<div class="plus"></div><h3 class="options_heading">Main Wrapper</h3>',
     );
     
       // Background Color
-      $form['options']['design']['page_heading']['heading_background'] =array(
+      $form['options']['design']['main_wrapper']['main_wrapper_background'] =array(
         '#type' => 'textfield',
-        '#title' => 'Page/slider heading background color',
-        '#default_value' => theme_get_setting('heading_background'),
+        '#title' => 'Main wrapper background color',
+        '#default_value' => theme_get_setting('main_wrapper_background'),
       );    
       
      // Enable background pattern
-      $form['options']['design']['page_heading']['enable_heading_pattern'] = array(
+      $form['options']['design']['main_wrapper']['enable_main_wrapper_pattern'] = array(
         '#type' => 'checkbox',
-        '#title' => 'Enable heading pattern',
-        '#default_value' => theme_get_setting('enable_heading_pattern'),
+        '#title' => 'Enable main wrapper pattern',
+        '#default_value' => theme_get_setting('enable_main_wrapper_pattern'),
       );
     
       // Background
-    $form['options']['design']['page_heading']['heading_background_select'] = array(
+    $form['options']['design']['main_wrapper']['main_wrapper_pattern_select'] = array(
       '#type' => 'radios',
-      '#title' => 'Select a heading background pattern:',
-      '#default_value' => theme_get_setting('heading_background_select'),
+      '#title' => 'Select a main wrapper pattern:',
+      '#default_value' => theme_get_setting('main_wrapper_pattern_select'),
       '#options' => array(
-        'shattered' => 'item',
-        'tile' => 'item',
-        'checkered' => 'item',
-        'bullseyes' => 'item',
-        'gplaypattern' => 'item',
-        'cartographer' => 'item',
+        'subtle' => 'item',
+        'debut' => 'item',
+        'cream' => 'item',
+        'gray' => 'item',
+        'dust' => 'item',
         'linen' => 'item',
-        'dark_wood' => 'item',
+        'retina' => 'item',
+        'striped' => 'item',
       ),
         '#states' => array (
           'invisible' => array(
-            'input[name="enable_heading_pattern"]' => array('checked' => FALSE)
+            'input[name="enable_main_wrapper_pattern"]' => array('checked' => FALSE)
           )
         )
 

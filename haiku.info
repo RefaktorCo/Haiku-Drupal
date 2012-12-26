@@ -84,9 +84,9 @@ settings[body_background] ='#ECECEC'
 settings[enable_background_pattern] = '0'
 settings[background_select] = 'gplaypattern'
 
-settings[heading_background] ='#ECECEC'
-settings[enable_heading_pattern] = '1'
-settings[background_select] = 'shattered'
+settings[main_wrapper_background] ='#FFF'
+settings[enable_main_wrapper_pattern] = '1'
+settings[main_wrapper_pattern_select] = 'subtle'
 
 settings[enable_boxed_layout] = '0'
 

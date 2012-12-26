@@ -9,7 +9,7 @@
 	font-size: 30px;
 }
 
-#edit-heading-background-select {
+#edit-main-wrapper-pattern-select {
 	color: transparent;
 	font-size: 30px;
 }
@@ -46,36 +46,36 @@ label[for=edit-background-select-nistri] {
 	background-image: url('../images/backgrounds/nistri.png');
 }
 
-label[for=edit-heading-background-select-shattered] {
-	background-image: url('../images/heading-backgrounds/shattered.png');
+label[for=edit-main-wrapper-pattern-select-subtle] {
+	background-image: url('../images/wrapper-backgrounds/subtle_dots.png');
 }
 
-label[for=edit-heading-background-select-tile] {
-	background-image: url('../images/heading-backgrounds/tile.png');
+label[for=edit-main-wrapper-pattern-select-debut] {
+	background-image: url('../images/wrapper-backgrounds/debut_light.png');
 }
 
-label[for=edit-heading-background-select-checkered] {
-	background-image: url('../images/heading-backgrounds/checkered.png');
+label[for=edit-main-wrapper-pattern-select-cream] {
+	background-image: url('../images/wrapper-backgrounds/cream_dust.png');
 }
 
-label[for=edit-heading-background-select-bullseyes] {
-	background-image: url('../images/heading-backgrounds/bullseyes.png');
+label[for=edit-main-wrapper-pattern-select-gray] {
+	background-image: url('../images/wrapper-backgrounds/gray_jean.png');
 }
 
-label[for=edit-heading-background-select-gplaypattern] {
-	background-image: url('../images/heading-backgrounds/gplaypattern.png');
+label[for=edit-main-wrapper-pattern-select-retina] {
+	background-image: url('../images/wrapper-backgrounds/retina_dust.png');
 }
 
-label[for=edit-heading-background-select-cartographer] {
-	background-image: url('../images/heading-backgrounds/cartographer.png');
+label[for=edit-main-wrapper-pattern-select-striped] {
+	background-image: url('../images/wrapper-backgrounds/striped_lens.png');
 }
 
-label[for=edit-heading-background-select-linen] {
-	background-image: url('../images/heading-backgrounds/linen.png');
+label[for=edit-main-wrapper-pattern-select-linen] {
+	background-image: url('../images/wrapper-backgrounds/linen.png');
 }
 
-label[for=edit-heading-background-select-dark-wood] {
-	background-image: url('../images/heading-backgrounds/dark_wood.png');
+label[for=edit-main-wrapper-pattern-select-dust] {
+	background-image: url('../images/wrapper-backgrounds/dust.png');
 }
 
 .form-wrapper {min-height: 20px;}
