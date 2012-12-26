@@ -12,8 +12,12 @@ thead {
   background-color: #ca1a1a !important; 
 }
 
-.header_icons li i:hover {
-	color: #ff7045;
+.top-bar .active {
+  border-top: 4px solid #ca1a1a;
+}
+
+.top-bar ul > li:not(.name):hover {
+  border-top: 4px solid #ca1a1a;
 }
 
 #main_title_text {
@@ -24,28 +28,28 @@ thead {
   color: #ff7045; 
 }
 
-.footer_icons li i:hover {
-	color: #ff7045;
+#heading_wrapper {
+  background: #ca1a1a; 
+}
+
+.heading_title {
+  border-left: 1px dotted #CA1A1A;
+}
+
+.recent_post_info {
+	background-color: #ca1a1a;
 }
 
 .post_share li i:hover {
 	color: #ff7045;
 }
 
-.carousel_item_hover i:hover {
+#footer_twitter {
+  background: #ca1a1a;
+}
+
+.footer_icons li i:hover {
 	color: #ff7045;
-}
-
-.team_image_hover i:hover {
-  color: #ff7045 !important;
-}
-
-.button {
-	background: #ca1a1a !important;
-}
-
-.button:hover{
-	background: #ff7045 !important;
 }
 
 /* Widgets */
@@ -58,18 +62,16 @@ thead {
 }
 
 /*Highlight*/
-#heading_wrapper {
-  background: #ca1a1a; 
-}
-
 #highlight {
   background: #ca1a1a; 
 }
 
+/*Carousel*/
 .carousel_navigation i:hover {
 	color: #ca1a1a;
 }
 
+/*Services*/
 #services .services_wrap:hover i {
 	color: #ca1a1a;
 }
@@ -78,10 +80,15 @@ thead {
 	color: #ca1a1a;
 }
 
+/*Elements*/
 ul.accordion > li.active {
   border-top: 3px solid #ca1a1a;
 }
 
-.recent_post_info {
-	background-color: #ca1a1a;
+.button {
+	background: #ca1a1a !important;
+}
+
+.button:hover{
+	background: #ff7045 !important;
 }
