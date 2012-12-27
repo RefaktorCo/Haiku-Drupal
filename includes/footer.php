@@ -3,33 +3,35 @@ function haiku_footer($page){
   global $root; 
 ?>
 <!-- begin footer -->   
-  <footer>    
+  
     <div id="footer"> 
-      <div class="container">
+    
+      <div id="footer_twitter">
+        <div class="row">
         
-        <div id="footer_twitter" class="row">
           <div class="one columns bird">
             <i class="social foundicon-twitter"></i> 
           </div>
+          
           <div class="eleven columns">
             <div id="footer_tweet" class='foot_tweet query'></div>
-							<script type="text/javascript">
-							                        
-							    jQuery(document).ready(function ($) {
-							      
-							      $(".foot_tweet").tweet({
-							        username: "envato",
-							        avatar_size: 0,
-							        count: 1,
-							        loading_text: "loading tweets..."
-							      });
-							    
-							    });
-							    
-							  </script>
-
+						<script type="text/javascript">
+						                        
+						    jQuery(document).ready(function ($) {
+						      
+						      $(".foot_tweet").tweet({
+						        username: "envato",
+						        avatar_size: 0,
+						        count: 1,
+						        loading_text: "loading tweets..."
+						      });
+						    
+						    });
+						    
+						  </script>
           </div>
         </div>  
+      </div>  
         
         <?php if (theme_get_setting('enable_primary_footer') == '1') { ?>
         <div class="row">
@@ -81,6 +83,6 @@ function haiku_footer($page){
       </div> 
     </div>
     <!-- end footer --> 
-  </footer>
+
 <?php }
 ?>
