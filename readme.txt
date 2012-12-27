@@ -1,9 +1,9 @@
-===Blocks=== 
+===Haiku=== 
 
 Theme by Refaktor - http://refaktor.co 
-Demo - http://refaktor.co/blocks-demo
+Demo - http://refaktor.co/haiku-demo
 
-A Metro-inspired, responsive Drupal 7 theme powered by Zurb Foundation 3. 
+A minimalistic, responsive Drupal 7 theme powered by Zurb Foundation 3. 
 
 ==Libraries and Resources==
 
@@ -13,14 +13,16 @@ jQuery EasIng(http://gsgd.co.uk/sandbox/jquery.easIng.php) by George Smith and r
 UItoTop jQuery Plugin(https://github.com/sksmatt/UItoTop-jQuery-Plugin/) by Matt Varone and released under the GNU(3).
 Fit Maps(https://c9.io/hermanvandermaas/fitmaps) by Herman Vandermaas. 
 Twitter Plugin(https://github.com/seaofclouds/tweet) by Sea Of Clouds (licenses/Tweet.txt).
-jQuery OneByOne Slider Plugin(http://codecanyon.net/item/jquery-onebyone-slider-plugin/684613) released under Envato extended license (4).
-Isotope(http://isotope.metafizzy.co) by David DeSandro released under proprietary commercial license(5).
+Isotope(http://isotope.metafizzy.co) by David DeSandro released under proprietary commercial license(4).
 carouFredSel(http://caroufredsel.dev7studios.com) by dev7studios released upder the Apache license(1) and MIT(2) license.
 touchSwipe(https://github.com/mattbryson/TouchSwipe-Jquery-Plugin) by Matt Bryson released under the Apache license(1) and MIT(2) license.
-touchwipe(http://www.netcu.de) by Andreas Waltl. 
 slimbox2(http://www.digitalia.be) by Christophe Beyls released under MIT(2) license.
 
 ==Image Files==
+
+http://www.flickr.com/photos/vivaiquique/5285341125/
+http://www.flickr.com/photos/roldiexp/4478523721/
+http://www.flickr.com/photos/gob1953/3283090692/
 http://www.flickr.com/photos/rayphua/190100151/
 http://www.flickr.com/photos/br1dotcom/5612164272/
 http://www.flickr.com/photos/burningredstudio/5080751535/
@@ -43,7 +45,6 @@ http://www.flickr.com/photos/andreasoverland/7041947627/
 http://www.flickr.com/photos/ammgramm/7031236847/
 http://www.flickr.com/photos/stevenfernandez/3060519360/
 
-
 Patterns by http://subtlepatterns.com
 
 The above images are released under a commercial-friendly Creative Commons license. All other files by Refaktor(http://refaktor.co) and released under the GNU(3) license.
@@ -53,7 +54,6 @@ The above images are released under a commercial-friendly Creative Commons licen
 (1)Apache License Version 2  - http://www.apache.org/licenses/LICENSE-2.0
 (2)MIT - http://opensource.org/licenses/mit-license.php
 (3)GNU General Public License - http://www.gnu.org/licenses/gpl.html
-(4)See /licenses/jquery-onebyone-slider-plugin-licence.txt
-(5)See /licenses/isotope-commercial-license.txt 
+(4)See /licenses/isotope-commercial-license.txt 
 
 A copy of each of these licenses can also be found in the /licenses folder in the root directory of the theme. All other necessary licenses can be found in the same folder.
