@@ -263,7 +263,7 @@ function haiku_preprocess_html(&$vars){
   
   $box_layout = array(
     '#type' => 'markup',
-    '#markup' => "<style type='text/css'>#main_wrapper { max-width: 1080px; margin: 0 auto; } header {left: 0; right: 0; max-width: 1080px; margin: 0 auto;} #heading_wrapper { box-shadow: none; } #footer { max-width: 1080px; margin: 0 auto; position: relative; }</style> ",
+    '#markup' => "<style type='text/css'>#main_wrapper { max-width: 1080px; margin: 0 auto; } header {left: 0; right: 0; max-width: 1080px; margin: 0 auto;} #footer { max-width: 1080px; margin: 0 auto; position: absolute; left: 0; right: 0; }</style> ",
     '#weight' => 13,
   );
 
@@ -311,7 +311,7 @@ function haiku_preprocess_html(&$vars){
   drupal_add_html_head( $foundation, 'foundation_style' );
   drupal_add_html_head( $foundation_app, 'foundation_app_style' );
   drupal_add_html_head( $style, 'main_style' );
-  //drupal_add_html_head( $color, 'color_style' );
+  drupal_add_html_head( $color, 'color_style' );
   drupal_add_html_head( $viewport, 'meta_viewport' );
   drupal_add_html_head( $font_family, 'font_family');
   drupal_add_html_head( $headings, 'headings');
