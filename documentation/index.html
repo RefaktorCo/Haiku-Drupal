@@ -48,7 +48,8 @@ Option 2:
 <p>Haiku uses the Main Menu. Press "List Links" to access the menu overview. From there you can add/remove links, and set the order.</p>
 <b>NOTE:</b> <p>If you would like to use Haiku's built in drop down menu capability, make sure that the parent menu item (the one that indicates the drop down) has the "show as expanded" checkbox enabled.</p>
 <img src="images/menu-2.png">
-<p>To customize the styling of the menu you can edit the /css/style.css file and the /js/Haiku.js file. The colors for the menu are controlled by the .menu_1 to .menu_6 classes, and more can be added by simply creating additional .menu_x classes. The <a href="http://www.zurb.com/playground/foundation-icons" target="_blank">icons</a> are controlled by Javascript starting at line 129 of the Haiku.js file. </p>
+<p>To customize the styling of the menu you can edit the /css/style.css file and the /js/haiku.js file. The short caption below each menu item is generated with Javascript using the following markup (simply change .menu_1 to whichever menu item you need to add a caption for:</p>
+<pre>$('.menu_1 a').append('&lt;p class=&quot;menu_tagline&quot;&gt;the beginning&lt;/p&gt;');</pre>
 
 
 <h2>Theme Settings</h2>
