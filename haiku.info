@@ -74,11 +74,14 @@ settings[recent_posts_title] = 'Recent Posts'
 settings[enable_recent_projects] = '0'
 settings[recent_projects_title] = 'Recent Projects'
 
+settings[enable_clients] = '1'
+settings[clients_title] = 'Our Clients'
+
 settings[color_scheme] = 'red'
 
 settings[body_background] ='#ECECEC'
 settings[enable_background_pattern] = '0'
-settings[background_select] = 'gplaypattern'
+settings[background_select] = 'retina_wood'
 
 settings[main_wrapper_background] ='#FFF'
 settings[enable_main_wrapper_pattern] = '1'

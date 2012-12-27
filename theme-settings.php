@@ -222,34 +222,8 @@ function haiku_form_system_theme_settings_alter(&$form, &$form_state) {
 
 	    $i++;    
       }
-    
-    // Services
-    $form['options']['front_page']['services'] = array(
-      '#type' => 'fieldset',
-      '#title' => '<div class="plus"></div><h3 class="options_heading">Services</h3>',
       
-    );
-    
-      // Enable Services
-      $form['options']['front_page']['services']['enable_services'] = array(
-        '#type' => 'checkbox',
-        '#title' => 'Enable Services Section',
-        '#default_value' => theme_get_setting('enable_services'),
-      );
-      
-      //Services Title
-      $form['options']['front_page']['services']['services_title'] =array(
-        '#type' => 'textfield',
-        '#title' => 'Services Title',
-        '#default_value' => theme_get_setting('services_title'),
-        '#states' => array (
-          'invisible' => array(
-            'input[name="enable_services"]' => array('checked' => FALSE)
-          )
-        )
-      );  
-      
-    // Highlight
+     // Highlight
     $form['options']['front_page']['highlight'] = array(
       '#type' => 'fieldset', 
       '#title' => '<div class="plus"></div><h3 class="options_heading">Highlight</h3>',
@@ -274,7 +248,21 @@ function haiku_form_system_theme_settings_alter(&$form, &$form_state) {
           )
         )
       );
+        
+    // Services
+    $form['options']['front_page']['services'] = array(
+      '#type' => 'fieldset',
+      '#title' => '<div class="plus"></div><h3 class="options_heading">Services</h3>',
       
+    );
+    
+    // Enable Services
+    $form['options']['front_page']['services']['enable_services'] = array(
+      '#type' => 'checkbox',
+      '#title' => 'Enable Services Section',
+      '#default_value' => theme_get_setting('enable_services'),
+    );
+            
     // Recent Posts
     $form['options']['front_page']['recent_posts'] = array(
       '#type' => 'fieldset',
@@ -325,7 +313,34 @@ function haiku_form_system_theme_settings_alter(&$form, &$form_state) {
             'input[name="enable_recent_projects"]' => array('checked' => FALSE)
           )
         )
-      );      
+      );     
+      
+    // Clients
+    $form['options']['front_page']['clients'] = array(
+      '#type' => 'fieldset',
+      '#title' => '<div class="plus"></div><h3 class="options_heading">Clients</h3>',
+      
+    );
+    
+      // Enable clients
+      $form['options']['front_page']['clients']['enable_clients'] = array(
+        '#type' => 'checkbox',
+        '#title' => 'Enable Clients',
+        '#default_value' => theme_get_setting('enable_clients'),
+      );
+      
+      //Panel Title
+      $form['options']['front_page']['clients']['clients_title'] =array(
+        '#type' => 'textfield',
+        '#title' => 'Clients Title',
+        '#default_value' => theme_get_setting('clients_title'),
+        '#states' => array (
+          'invisible' => array(
+            'input[name="enable_clients"]' => array('checked' => FALSE)
+          )
+        )
+      );  
+   
      
   // Layout
   $form['options']['layout'] = array(
@@ -417,9 +432,9 @@ function haiku_form_system_theme_settings_alter(&$form, &$form_state) {
       '#title' => 'Select a background pattern:',
       '#default_value' => theme_get_setting('background_select'),
       '#options' => array(
+        'retina_wood' => 'item',
         'gplaypattern' => 'item',
         'grey' => 'item',
-        'retina_wood' => 'item',
         'noisy_grid' => 'item',
         'cartographer' => 'item',
         'bedge' => 'item',
