@@ -116,6 +116,7 @@
       $('header').css({ 'max-width': '100%'});
       $('#main_wrapper').css({'box-shadow': '0px 0px 3px 0px black'});
       $('.bg_patterns_wrap').css({ 'display': 'none'});
+      $('#footer').css({ 'max-width': '100%', 'margin': '0 auto', 'position': 'absolute'});
     });
 
     $(".switch_boxed").click(function() {
