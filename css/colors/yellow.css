@@ -41,7 +41,7 @@ thead {
 }
 
 .post_share li i:hover {
-	color: #ede736;
+	color: #d4ce1e;
 }
 
 #footer_twitter {
@@ -49,16 +49,20 @@ thead {
 }
 
 .footer_icons li i:hover {
-	color: #ede736;
+	color: #d4ce1e;
 }
 
 /* Widgets */
 .ad_block a:hover, .tabs a.active {
-  background: #ede736;
+  background: #d4ce1e;
 }
 
 .view-popular-tags a:hover {
-  background-color: #ede736; 
+  background-color: #d4ce1e; 
+}
+
+.tabs dd.active, .tabs li.active {
+  border-top: 3px solid #d4ce1e !important;
 }
 
 /*Highlight*/
