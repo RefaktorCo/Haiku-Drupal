@@ -86,7 +86,7 @@ settings[background_select] = 'gplaypattern'
 
 settings[main_wrapper_background] ='#FFF'
 settings[enable_main_wrapper_pattern] = '1'
-settings[main_wrapper_pattern_select] = 'subtle'
+settings[main_wrapper_pattern_select] = 'subtle_dots'
 
 settings[enable_boxed_layout] = '0'
 

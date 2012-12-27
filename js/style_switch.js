@@ -80,7 +80,7 @@
     });
     
     $(".blue-bg").click(function() {
-      $('body').css({'background-image': 'none', 'background': '#2f88f0'});
+      $('body').css({'background-image': 'none', 'background': '#1b78ca'});
     });
     
     $(".black-bg").click(function() {
@@ -88,7 +88,7 @@
     });
     
     $(".green-bg").click(function() {
-      $('body').css({'background-image': 'none', 'background': '#8fad30'});
+      $('body').css({'background-image': 'none', 'background': '#369616'});
     });
     
     $(".orange-bg").click(function() {
@@ -96,15 +96,15 @@
     });
     
     $(".red-bg").click(function() {
-      $('body').css({'background-image': 'none', 'background': '#c95d3b'});
+      $('body').css({'background-image': 'none', 'background': '#ca1a1a'});
     });
     
-    $(".teal-bg").click(function() {
-      $('body').css({'background-image': 'none', 'background': '#64ADB5'});
+    $(".light-blue-bg").click(function() {
+      $('body').css({'background-image': 'none', 'background': '#1b96ca'});
     });
     
     $(".purple-bg").click(function() {
-      $('body').css({'background-image': 'none', 'background': '#5f419b'});
+      $('body').css({'background-image': 'none', 'background': '#8622b1'});
     });
     
     $(".yellow-bg").click(function() {
