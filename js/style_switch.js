@@ -123,7 +123,7 @@
       $('#main_wrapper').css({ 'max-width': '1080px', 'margin': '0 auto'});
       $('#main_wrapper').css({'box-shadow': 'none'});
       $('header').css({ 'max-width': '1080px'});
-      $('#footer').css({ 'max-width': '1080px', 'margin': '0 auto', 'position': 'relative'});
+      $('#footer').css({ 'max-width': '1080px', 'margin': '0 auto', 'position': 'absolute', 'left': '0', 'right': '0'});
       $('.bg_patterns_wrap').css({ 'display': 'block'});
 
     });

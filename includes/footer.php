@@ -3,7 +3,6 @@ function haiku_footer($page){
   global $root; 
 ?>
 <!-- begin footer -->   
-  
     <div id="footer"> 
     
       <div id="footer_twitter">
@@ -83,6 +82,5 @@ function haiku_footer($page){
       </div> 
     </div>
     <!-- end footer --> 
-
 <?php }
 ?>
