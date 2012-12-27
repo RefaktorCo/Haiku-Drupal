@@ -433,7 +433,7 @@ function haiku_form_system_theme_settings_alter(&$form, &$form_state) {
       '#default_value' => theme_get_setting('background_select'),
       '#options' => array(
         'retina_wood' => 'item',
-        'grey' => 'item',
+        'debut_dark' => 'item',
         'noisy_grid' => 'item',
         'dark_wood' => 'item',
         'cartographer' => 'item',

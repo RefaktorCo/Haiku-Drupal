@@ -15,8 +15,8 @@
       $("link.switch").attr("href",$(this).attr('class'));
     });
     
-    $(".grey-bg").click(function() {
-      $('body').css("background-image", "url(http://refaktor.co/haiku-demo/sites/all/themes/haiku-drupal/images/backgrounds/grey.png)");
+    $(".debut-dark-bg").click(function() {
+      $('body').css("background-image", "url(http://refaktor.co/haiku-demo/sites/all/themes/haiku-drupal/images/backgrounds/debut_dark.png)");
     });
     
     $(".grid-bg").click(function() {

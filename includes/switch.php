@@ -39,7 +39,7 @@
 				    <h6 class="switch_heading">Background Patterns</h6>
 				    <ul class="bg-nav">
 				      <li class="wood-bg"><div class="switch_tile wood-bg"></div></li>
-				      <li class="grey-bg"><div class="switch_tile grey-bg"></div></li>
+				      <li class="debut-dark-bg"><div class="switch_tile debut-dark-bg"></div></li>
 				      <li class="grid-bg"><div class="switch_tile grid-bg"></div></li>
 				      <li class="dark-wood-bg"><div class="switch_tile dark-wood-bg"></div></li>
 				      <li class="cartographer-bg"><div class="switch_tile cartographer-bg"></div></li>
