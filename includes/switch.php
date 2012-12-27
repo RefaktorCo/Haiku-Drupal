@@ -41,7 +41,7 @@
 				      <li class="wood-bg"><div class="switch_tile wood-bg"></div></li>
 				      <li class="grey-bg"><div class="switch_tile grey-bg"></div></li>
 				      <li class="grid-bg"><div class="switch_tile grid-bg"></div></li>
-				      <li class="gplay-bg"><div class="switch_tile gplay-bg"></div></li>
+				      <li class="dark-wood-bg"><div class="switch_tile dark-wood-bg"></div></li>
 				      <li class="cartographer-bg"><div class="switch_tile cartographer-bg"></div></li>
 				      <li class="bedge-bg"><div class="switch_tile bedge-bg"></div></li>
 				      <li class="illusion-bg"><div class="switch_tile illusion-bg"></div></li>

@@ -27,8 +27,8 @@
       $('body').css("background-image", "url(http://refaktor.co/haiku-demo/sites/all/themes/haiku-drupal/images/backgrounds/retina_wood.png)");
     });
     
-    $(".gplay-bg").click(function() {
-      $('body').css("background-image", "urlhttp://refaktor.co/haiku-demo/sites/all/themes/haiku-drupal/images/backgrounds/gplaypattern.png)");
+    $(".dark-wood-bg").click(function() {
+      $('body').css("background-image", "url(http://refaktor.co/haiku-demo/sites/all/themes/haiku-drupal/images/backgrounds/dark_wood.png)");
     });
     
     $(".nistri-bg").click(function() {

@@ -106,6 +106,10 @@
 	background-image: url('../images/backgrounds/retina_wood.png');
 }
 
+.dark-wood-bg {
+	background-image: url('../images/backgrounds/dark_wood.png');
+}
+
 .grid-bg {
 	background-image: url('../images/backgrounds/noisy_grid.png');
 }
