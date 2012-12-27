@@ -207,18 +207,13 @@ function haiku_form_system_theme_settings_alter(&$form, &$form_state) {
             '#disabled' => TRUE,
           );
 	      
-	      $form['options']['front_page']['slider']['slide_'.$i.'']['slide_upload_'.$i.''] = array(
+	        $form['options']['front_page']['slider']['slide_'.$i.'']['slide_upload_'.$i.''] = array(
             '#type' => 'file',
             '#title' => 'Upload image for Slide '.$i.'',
             '#description' => 'Upload a slide image.',
           );
           
-          $form['options']['front_page']['slider']['slide_'.$i.'']['slide_url_'.$i.''] = array(
-            '#type' => 'textfield',
-            '#title' => 'URL for Slide '.$i.'',
-            '#default_value' => theme_get_setting('slide_url_'.$i.''),
-          );
-          
+                    
           $form['options']['front_page']['slider']['slide_'.$i.'']['slide_caption_'.$i.''] = array(
             '#type' => 'textfield',
             '#title' => 'Caption for Slide '.$i.'',
