@@ -281,7 +281,7 @@ function haiku_preprocess_html(&$vars){
   
   $wrapper_background_color = array(
     '#type' => 'markup',
-    '#markup' => "<style type='text/css'>#main_wrapper {background:".theme_get_setting('wrapper_background').";}</style> ",
+    '#markup' => "<style type='text/css'>#main_wrapper {background:".theme_get_setting('main_wrapper_background').";}</style> ",
     '#weight' => 16,
   );
 
@@ -321,7 +321,7 @@ function haiku_preprocess_html(&$vars){
     drupal_add_html_head( $background_image, 'background_image');
   }  
   
-  drupal_add_html_head( $heading_background_color, 'heading_background_color');
+  drupal_add_html_head( $wrapper_background_color, 'wrapper_background_color');
   
   if (theme_get_setting('enable_main_wrapper_pattern') == "1") {
     drupal_add_html_head( $wrapper_background_image, 'wrapper_background_image');
