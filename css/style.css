@@ -1390,6 +1390,10 @@ input.search-query {
   margin-bottom: 20px;
 }
 
+.tabs dd a:hover {
+	color: #222;
+}
+
 /* faq */
 ul.faq { 
   list-style: none; 

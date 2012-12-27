@@ -61,6 +61,10 @@ thead {
   background-color: #ca1a1a; 
 }
 
+.tabs dd.active, .tabs li.active {
+  border-top: 3px solid #ca1a1a !important;
+}
+
 /*Highlight*/
 #highlight {
   background: #ca1a1a; 
