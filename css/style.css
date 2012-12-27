@@ -1763,8 +1763,20 @@ span.faq-head-image {
 		padding-top: 3%;
 	}
 	
+	.recent_post_info h4 {
+	  font-size: 15px;
+	}
+	
+	.recent_post_info_text {
+		font-size: 15px;
+	}
+	
 	.recent_posts_wrap {
     height: 133px;
+  }
+  
+  .clients_wrap img {
+    height: auto;
   }
 
   .top-bar ul > li.name h1 a {
@@ -1852,6 +1864,19 @@ span.faq-head-image {
   #services h3 {
     font-size: 14px;
   } 
+  
+  #footer_twitter {
+    max-width: 700px;
+  }
+  
+  #footer_twitter i {
+    font-size: 45px;
+  }
+  
+  #footer .tweet_list li {
+    font-size: 16px;
+  }
+  
 }
 
 @media screen and (max-width: 480px) { 
