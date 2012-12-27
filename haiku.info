@@ -92,7 +92,7 @@ settings[enable_boxed_layout] = '0'
 settings[page_layout] = 'full_width'
 settings[blog_layout] = 'sidebar_right'
 
-settings['font_family'] = 'Open Sans, serif'
+settings['font_family'] = 'proxima-nova, "Helvetica Neue", Helvetica, Arial, sans-serif'
 
 settings[h1] = '36px'
 settings[h2] = '30px'

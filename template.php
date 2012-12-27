@@ -279,15 +279,15 @@ function haiku_preprocess_html(&$vars){
     '#weight' => 15,
   );
   
-  $heading_background_color = array(
+  $wrapper_background_color = array(
     '#type' => 'markup',
-    '#markup' => "<style type='text/css'>#heading_wrapper {background:".theme_get_setting('heading_background').";}</style> ",
+    '#markup' => "<style type='text/css'>#main_wrapper {background:".theme_get_setting('wrapper_background').";}</style> ",
     '#weight' => 16,
   );
 
    $wrapper_background_image = array(
     '#type' => 'markup',
-    '#markup' => "<style type='text/css'>#main_wrapper {background-image:url(".$root."/images/wrapper-backgrounds/".theme_get_setting('heading_background_select').".png);}</style> ",
+    '#markup' => "<style type='text/css'>#main_wrapper {background-image:url(".$root."/images/wrapper-backgrounds/".theme_get_setting('main_wrapper_pattern_select').".png);}</style> ",
     '#weight' => 17,
   );
 
@@ -313,7 +313,7 @@ function haiku_preprocess_html(&$vars){
   drupal_add_html_head( $style, 'main_style' );
   //drupal_add_html_head( $color, 'color_style' );
   drupal_add_html_head( $viewport, 'meta_viewport' );
-  //drupal_add_html_head( $font_family, 'font_family');
+  drupal_add_html_head( $font_family, 'font_family');
   drupal_add_html_head( $headings, 'headings');
   drupal_add_html_head( $background_color, 'background_color');
   
@@ -321,10 +321,10 @@ function haiku_preprocess_html(&$vars){
     drupal_add_html_head( $background_image, 'background_image');
   }  
   
-  //drupal_add_html_head( $heading_background_color, 'heading_background_color');
+  drupal_add_html_head( $heading_background_color, 'heading_background_color');
   
   if (theme_get_setting('enable_main_wrapper_pattern') == "1") {
-    //drupal_add_html_head( $wrapper_background_image, 'heading_background_image');
+    drupal_add_html_head( $wrapper_background_image, 'wrapper_background_image');
   }  
 }
 

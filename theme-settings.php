@@ -525,7 +525,8 @@ function haiku_form_system_theme_settings_alter(&$form, &$form_state) {
         '#title' => 'Select a font family',
         '#default_value' => theme_get_setting('font_family'),
         '#options' => array(
-          'Open Sans Condensed, serif' => '"Open Sans Condensed", serif (default)',
+          'proxima-nova, "Helvetica Neue", Helvetica, Arial, sans-serif' => 'proxima-nova, "Helvetica Neue", Helvetica, Arial, sans-serif (default)',
+          'Open Sans Condensed, serif' => '"Open Sans Condensed", serif',
           'Arial, Helvetica, sans-serif' => 'Arial, Helvetica, sans-serif',
           'Georgia, serif' => 'Georgia, serif',
           '"Helvetica Neue", Helvetica, Arial, sans-serif' => '"Helvetica Neue", Helvetica, Arial, sans-serif',
