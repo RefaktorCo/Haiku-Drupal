@@ -58,7 +58,11 @@ thead {
 }
 
 .view-popular-tags a:hover {
-  background-color: #616161; 
+  background-color: #616161;  
+}
+
+.tabs dd.active, .tabs li.active {
+  border-top: 3px solid #000 !important;
 }
 
 /*Highlight*/
