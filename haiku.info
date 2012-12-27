@@ -54,18 +54,14 @@ settings[breadcrumbs] = '1'
 
 settings[branding_type] = 'text'
 
-settings[twitter_url] = 'http://twitter.com'
-settings[facebook_url] = 'http://facebook.com'
-settings[google_plus_url] = 'http://plus.google.com'
-settings[pinterest_url] = 'http://pinterest.com'
-settings[linkedin_url] = 'http://linkedin.com'
-settings[flickr_url] = 'http://flickr.com'
-settings[youtube_url] = 'http://youtube.com'
-
 settings[enable_highlight] = '1'
 settings[highlight_text] = 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.'
 
 settings[enable_slider] = '0'
+settings[slides_number] = '3'
+settings[slide_caption_1] = 'This is slide caption 1'
+settings[slide_caption_2] = 'This is slide caption 2'
+settings[slide_caption_3] = 'This is slide caption 3'
 
 settings[enable_services] = '1'
 
