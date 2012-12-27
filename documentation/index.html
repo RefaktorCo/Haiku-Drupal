@@ -53,7 +53,7 @@ Option 2:
 
 
 <h2>Theme Settings</h2>
-<p>Haiku includes a powerful set of theme settings that allow you to configure many aspects of your site. They are organized in a series of tabbed menu items each with their own set of options. Simply click on the option heading to expand the full set of options. The Haiku theme options can be accessed by visiting yourdomain.com/admin/appearance/settings/Haiku. All options have default values set, but you should go through each one and adjust them to your liking.</p>
+<p>Haiku includes a powerful set of theme settings that allow you to configure many aspects of your site. They are organized in a series of tabbed menu items each with their own set of options. Simply click on the option heading to expand the full set of options. The Haiku theme options can be accessed by visiting yourdomain.com/admin/appearance/settings/haiku. All options have default values set, but you should go through each one and adjust them to your liking.</p>
 
 <h2>Front Page</h2>
 <p>By default Haiku uses a custom front page template that features several custom sections including the image slider. All of these sections are fully customizable and can also be disabled. You can use the theme settings to enable/disable any of these sections and set any necessary options. For full control of the front page template you can manually edit /includes/front-page.php</p>
@@ -61,15 +61,16 @@ Option 2:
 <h3>Image Slider</h3>
 
 <p>
-Haiku uses the <a href="http://codecanyon.net/item/jquery-onebyone-slider-plugin/684613">jQuery OneByOne Slider Plugin</a> for the main image slider. We have provided some simple theme settings to control the slider, or you can manually edit /includes/front-page.php to fully customize the slider. The CSS for the slider is found in the /css/sliders folder.
+Haiku uses the Orbit slider built into foundation for the main image slider. We have provided some simple theme settings to control the slider, or you can manually edit /includes/front-page.php to fully customize the slider. You can set up as many slides as you like which support captions with HTML. 
 </p>
-
-<h3>Services</h3>
-This is a full-width portion on the front page designed to showcase site services and team members. If you would like to use the default content, simply edit /includes/front-page.php accordingly. You can also add a block using the Front Page Services block region.
 
 <h3>Highlight</h3>
 
 <p>The Highlight section allows you to advertise a specific page or aspect of your site. The settings for the Highlight section are in the Front Page tab of the theme settings. You can enter your own text and even include HTML.</p>
+
+
+<h3>Services</h3>
+This is a full-width portion on the front page designed to showcase site services and link to various pages on your site. If you would like to use the default content, simply edit /includes/front-page.php accordingly. You can also add a block using the Front Page Services block region.
 
 <h3>Recent Posts</h3>
 <p>The recent posts section is a block region designed to showcase your site's most recent blog/article posts. Haiku uses a custom view template called node--view--front-page-blog--block.tpl to achieve the look and feel of this section seen on the demo. To properly use this section, either create a new view called Front Page Blog (machine name must be front_page_blog) with the desired number of blog/article teasers, or use the view export code found in /includes/view_exports/front-page-blog.txt</p>
