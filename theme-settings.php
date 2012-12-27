@@ -678,14 +678,14 @@ function haiku_form_system_theme_settings_alter(&$form, &$form_state) {
       '#title' => 'Select a main wrapper pattern:',
       '#default_value' => theme_get_setting('main_wrapper_pattern_select'),
       '#options' => array(
-        'subtle' => 'item',
-        'debut' => 'item',
-        'cream' => 'item',
-        'gray' => 'item',
+        'subtle_dots' => 'item',
+        'debut_light' => 'item',
+        'cream_dust' => 'item',
+        'gray_jean' => 'item',
         'dust' => 'item',
         'linen' => 'item',
-        'retina' => 'item',
-        'striped' => 'item',
+        'retina_dust' => 'item',
+        'striped_lens' => 'item',
       ),
         '#states' => array (
           'invisible' => array(

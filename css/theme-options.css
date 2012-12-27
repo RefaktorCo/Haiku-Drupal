@@ -46,27 +46,27 @@ label[for=edit-background-select-nistri] {
 	background-image: url('../images/backgrounds/nistri.png');
 }
 
-label[for=edit-main-wrapper-pattern-select-subtle] {
+label[for=edit-main-wrapper-pattern-select-subtle-dots] {
 	background-image: url('../images/wrapper-backgrounds/subtle_dots.png');
 }
 
-label[for=edit-main-wrapper-pattern-select-debut] {
+label[for=edit-main-wrapper-pattern-select-debut-light] {
 	background-image: url('../images/wrapper-backgrounds/debut_light.png');
 }
 
-label[for=edit-main-wrapper-pattern-select-cream] {
+label[for=edit-main-wrapper-pattern-select-cream-dust] {
 	background-image: url('../images/wrapper-backgrounds/cream_dust.png');
 }
 
-label[for=edit-main-wrapper-pattern-select-gray] {
+label[for=edit-main-wrapper-pattern-select-gray-jean] {
 	background-image: url('../images/wrapper-backgrounds/gray_jean.png');
 }
 
-label[for=edit-main-wrapper-pattern-select-retina] {
+label[for=edit-main-wrapper-pattern-select-retina-dust] {
 	background-image: url('../images/wrapper-backgrounds/retina_dust.png');
 }
 
-label[for=edit-main-wrapper-pattern-select-striped] {
+label[for=edit-main-wrapper-pattern-select-striped-lens] {
 	background-image: url('../images/wrapper-backgrounds/striped_lens.png');
 }
 
