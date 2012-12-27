@@ -1693,6 +1693,26 @@ span.faq-head-image {
     border-top: none !important;
   }
   
+  .top-bar.expanded {
+    background: #222;
+  }
+  
+  #services h3 {
+    font-size: 15px;
+  }
+  
+  #services i {
+    font-size: 35px;
+  }
+  
+  .highlight_text {
+    font-size: 24px;
+  }
+  
+  #highlight {
+	  max-width: 800px;
+  }
+  
 }
 
 /* iPad portrait layout styles */
@@ -1769,6 +1789,14 @@ span.faq-head-image {
     margin-left: auto;
   }
   
+  #main_title_text {
+    text-align: center;
+  }
+  
+  .top-bar {
+	  margin-bottom: 20px;
+  }
+  
   .page_heading_text {
     font-size: 26px;
   }
@@ -1814,6 +1842,8 @@ span.faq-head-image {
   .team_image {
 	  background: #333;
   }
+  
+  
 }
 
 /* Elements Demo */
