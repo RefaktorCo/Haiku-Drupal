@@ -291,6 +291,13 @@ hr {
   box-shadow: inset 0 3px 8px rgba(0, 0, 0, 0.125);
 }
 
+.top-bar .dropdown .active {
+	background: #333;
+	box-shadow: none;
+	margin-top: 0;
+	border-top: none;
+}
+
 .top-bar ul > li:not(.name):hover {
   background: #EEEEEE;
   margin-top:-4px;
@@ -1942,6 +1949,14 @@ span.faq-head-image {
   
   #flickr_widget li {
     margin-left: 20px !important;
+  }
+  
+  #breadcrumbs {
+    text-align: center;
+  }
+  
+  #heading_wrapper {
+	  text-align: center;
   }
 }
 

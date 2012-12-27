@@ -62,7 +62,7 @@ thead {
 }
 
 .tabs dd.active, .tabs li.active {
-  border-top: 3px solid #ef842c !important;
+  border-top: 3px solid #ef842c;
 }
 
 /*Highlight*/
