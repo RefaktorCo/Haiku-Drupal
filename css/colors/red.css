@@ -54,11 +54,11 @@ thead {
 
 /* Widgets */
 .ad_block a:hover, .tabs a.active {
-  background: #ff7045;
+  background: #ca1a1a;
 }
 
 .view-popular-tags a:hover {
-  background-color: #ff7045; 
+  background-color: #ca1a1a; 
 }
 
 /*Highlight*/

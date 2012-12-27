@@ -1718,6 +1718,10 @@ span.faq-head-image {
 /* iPad portrait layout styles */
 @media screen and (max-width: 768px) { 
 
+  #heading_wrapper {
+    margin-top: 0px;
+  }
+
   #highlight {
     max-width: 700px;
     margin-bottom: 15px;
@@ -1811,12 +1815,7 @@ span.faq-head-image {
   .recent_post_info_text h1 {
     font-size: 24px;
   }
-    
-  #vert_nav {
-	position: relative;  
-	margin-left: 0px;
-  }
-  
+      
   #main_title {
     margin-left: auto;
   }
@@ -1864,6 +1863,10 @@ span.faq-head-image {
   #services h3 {
     font-size: 14px;
   } 
+  
+  #footer h2 {
+    font-size: 22px;
+  }
   
   #footer_twitter {
     max-width: 700px;
