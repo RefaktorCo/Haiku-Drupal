@@ -1667,10 +1667,26 @@ span.faq-head-image {
 	  display: block;
   }
   
+  .top-bar {
+	  height: 45px;
+	  margin-top: 15px;
+  }
+  
+  .top-bar ul > li.toggle-topbar  {
+	  margin-top: 15px !important;
+  }
+  
+  .top-bar ul > li.toggle-topbar:hover  {
+    background: transparent;
+    border-top: none;
+  }
+  
 }
 
 /* iPad portrait layout styles */
 @media screen and (max-width: 768px) { 
+
+  
 
   .tweet_list img {
 		margin-right: 10px;
