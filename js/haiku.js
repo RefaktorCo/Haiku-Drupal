@@ -141,22 +141,7 @@
 	  });
 
   
-    $('#banner').oneByOne({
-			className: 'oneByOne1',	             
-			/* Please provide the width and height in the responsive 
-			version, for the slider will keep the ratio when resize 
-			depends on these size. */
-			width: 1050,
-			height: 420,
-			easeType: 'random',
-			slideShow: false,
-			enableDrag: false, 
-			responsive: true,
-			minWidth: 480,
-			pauseByHover: true, 
-			autoHideButton: true
-		});  
-		
+   		
     $('input[type="submit"]').addClass('small button');
        
    	$('.has-dropdown ul').addClass('dropdown');
