@@ -1,6 +1,7 @@
 <?php
   function haiku_front_page($page){
   global $root; 
+  $slide_number = theme_get_setting('slides_number');
 ?>
 
     <?php if (theme_get_setting('enable_slider') == '1') : ?>
@@ -8,19 +9,22 @@
 	    <div class="row">
 	    	<div class="twelve columns">
 	    	  <div id="front_slide">
-	    	    <div data-caption="#caption1">
-		    	    <img src="<?php echo $root; ?>/images/vase.jpg">
-	    	    </div>
-	    	    <div data-caption="#caption2">
-		    	    <img src="<?php echo $root; ?>/images/art.jpg">
-	    	    </div>  
+	    	    <?php $i = '1'; while ($i <= $slide_number) { ?>
+		    	    <div <?php if (theme_get_setting('slide_caption_'.$i.'') != '') : ?> data-caption="#caption<?php echo $i;?>"<?php endif;?>>
+			    	    <img src="<?php print file_create_url(theme_get_setting('slide_path_'.$i.'')); ?>">
+		    	    </div>
+		    	    
+		    	    <?php if (theme_get_setting('slide_caption_'.$i.'') != '') : ?>
+		    	      <span class="orbit-caption" id="caption<?php echo $i;?>"><?php echo theme_get_setting('slide_caption_'.$i.''); ?></span>
+		    	    <?php endif;?>
+	    	    <?php $i++; } ?>
 	    	  </div>
 	    	</div>
 			</div>  
 		</div>
 		
-		<span class="orbit-caption" id="caption1">This is an example of a slide with a caption. You can use HTML, this is a <a href="#">link</a>.</span>
-		<span class="orbit-caption" id="caption2">Here is another caption...</span>
+		
+		
 		<?php endif; ?>
 		
 		<?php if (theme_get_setting('enable_highlight') == '1') : ?>       
