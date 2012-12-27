@@ -75,7 +75,7 @@
       $('#main_wrapper').css("background-image", "url(http://refaktor.co/haiku-demo/sites/all/themes/haiku-drupal/images/wrapper-backgrounds/linen.png)");
     });
     
-    $(".striped_lens-bg").click(function() {
+    $(".striped-lens-bg").click(function() {
       $('#main_wrapper').css("background-image", "url(http://refaktor.co/haiku-demo/sites/all/themes/haiku-drupal/images/wrapper-backgrounds/striped_lens.png)");
     });
     

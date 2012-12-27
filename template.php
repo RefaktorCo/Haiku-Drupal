@@ -285,9 +285,9 @@ function haiku_preprocess_html(&$vars){
     '#weight' => 16,
   );
 
-   $heading_background_image = array(
+   $wrapper_background_image = array(
     '#type' => 'markup',
-    '#markup' => "<style type='text/css'>#heading_wrapper {background-image:url(".$root."/images/heading-backgrounds/".theme_get_setting('heading_background_select').".png);}</style> ",
+    '#markup' => "<style type='text/css'>#main_wrapper {background-image:url(".$root."/images/wrapper-backgrounds/".theme_get_setting('heading_background_select').".png);}</style> ",
     '#weight' => 17,
   );
 
@@ -323,8 +323,8 @@ function haiku_preprocess_html(&$vars){
   
   //drupal_add_html_head( $heading_background_color, 'heading_background_color');
   
-  if (theme_get_setting('enable_heading_pattern') == "1") {
-    //drupal_add_html_head( $heading_background_image, 'heading_background_image');
+  if (theme_get_setting('enable_main_wrapper_pattern') == "1") {
+    //drupal_add_html_head( $wrapper_background_image, 'heading_background_image');
   }  
 }
 
