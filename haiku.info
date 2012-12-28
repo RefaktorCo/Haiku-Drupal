@@ -28,9 +28,6 @@ regions[content]        = Content
 regions[sidebar_first]  = First Sidebar
 regions[sidebar_second] = Second Sidebar
 
-regions[header_login] 	= Header Login
-regions[header_contact] = Header Contact
-
 regions[services]      = Front Page Services
 
 regions[front_blog]     = Front Page Blog
@@ -38,6 +35,8 @@ regions[front_blog]     = Front Page Blog
 regions[contact_template]  = Contact Template
 
 regions[recent_projects] = Recent Projects
+
+regions[clients]      = Front Page Clients
 
 regions[footer_1]       = Footer Box 1
 regions[footer_2]       = Footer Box 2

@@ -37,9 +37,11 @@
     </div>
     <?php endif; ?>
     
+    <?php if (theme_get_setting('enable_services') == '1') : ?>  
     <div id="services" class="row">
       <div class="twelve columns">
         <div class="row">
+          <?php if(!$page['services']) {?>
           <div class="three columns services_wrap">
             <a href="#"><i class="icon-picture"></i><h3>MINIMAL DESIGN</h3></a>
             <div class="services_text">Clean and light-weight</div>
@@ -56,9 +58,11 @@
             <a href="#"><i class="icon-cogs"></i><h3>THEME OPTIONS</h3></a>
             <div class="services_text">Total control of your site</div>
           </div>
+          <?php } else { print render($page['services']); }?>  
         </div>
       </div>
     </div>
+    <?php endif; ?>
     
     <div class="row seperator">
       <div class="twelve columns">
