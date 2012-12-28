@@ -42,7 +42,7 @@
       }
     );
     
-    
+    $().UItoTop({ easingType: 'easeOutQuart' });
     
     $(".recent_post_photo a").replaceWith(function() {  return $(this).contents(); });
     
