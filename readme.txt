@@ -11,6 +11,7 @@ Foundation(http://foundation.zurb.com) released under the Apache license(1) and 
 jQuery(http://jquery.com) and jQueryUI(http://jqueryui.com) released under the MIT(2) license.
 jQuery EasIng(http://gsgd.co.uk/sandbox/jquery.easIng.php) by George Smith and released under the MIT license(2).
 UItoTop jQuery Plugin(https://github.com/sksmatt/UItoTop-jQuery-Plugin/) by Matt Varone and released under the GNU(3).
+jQuery Flickr Plugin(http://www.newmediacampaigns.com/page/jquery-flickr-plugin) by Joel Sutherland released under the MIT license(2).
 Fit Maps(https://c9.io/hermanvandermaas/fitmaps) by Herman Vandermaas. 
 Twitter Plugin(https://github.com/seaofclouds/tweet) by Sea Of Clouds (licenses/Tweet.txt).
 Isotope(http://isotope.metafizzy.co) by David DeSandro released under proprietary commercial license(4).

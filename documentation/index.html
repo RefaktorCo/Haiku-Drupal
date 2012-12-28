@@ -117,6 +117,19 @@ This is a full-width portion on the front page designed to showcase a series of 
 &lt;/div&gt;</pre>
 <h4>Popular Tags</h4>
 Use the <a href="http://drupal.org/project/views" target="_blank">Views module</a> to create a block view titled "Popular Tags" that is an HTML list of the taxonomy term "Tags". You can set the number limit to whatever you like, just make sure to name it "Popular Tags" and to make it an HTML list.
+<h4>Flickr</h4>
+Here is the JS and HTML markup for the Flickr Feed widget seen on the demo. 
+<pre>
+$('#flickr_widget').jflickrfeed({
+  limit: 6,
+  qstrings: {
+    id: '39415781@N06'
+  },
+  itemTemplate: '&lt;li&gt;&lt;a href=&quot;{{image_b}}&quot;&gt;&lt;img src=&quot;{{image_s}}&quot; alt=&quot;{{title}}&quot; /&gt;&lt;/a&gt;&lt;/li&gt;'
+});
+  
+&lt;ul id=&quot;flickr_widget&quot; class=&quot;thumbs&quot;&gt;&lt;/ul&gt;
+</pre>
 <h2>Portfolio</h2>
 <p>This portion of the docs will explain how to set up the portfolio page seen on the theme demo. The only module you will need is the <a href="http://drupal.org/project/views" target="_blank">Views module</a> which is needed to create the list of portfolio items.</p>
 <h3>Custom content type</h3>
