@@ -40,8 +40,9 @@
     <?php if (theme_get_setting('enable_services') == '1') : ?>  
     <div id="services" class="row">
       <div class="twelve columns">
-        <div class="row">
-          <?php if(!$page['services']) {?>
+         <?php if(!$page['services']) {?>
+         <div class="row">
+         
           <div class="three columns services_wrap">
             <a href="#"><i class="icon-picture"></i><h3>MINIMAL DESIGN</h3></a>
             <div class="services_text">Clean and light-weight</div>
@@ -58,8 +59,9 @@
             <a href="#"><i class="icon-cogs"></i><h3>THEME OPTIONS</h3></a>
             <div class="services_text">Total control of your site</div>
           </div>
-          <?php } else { print render($page['services']); }?>  
+        
         </div>
+        <?php } else { print render($page['services']); }?>  
       </div>
     </div>
     <?php endif; ?>
@@ -114,9 +116,7 @@
     <?php if (theme_get_setting('enable_recent_posts') == '1') : ?>         
     <div class="row">
       <div class="twelve columns">
-     
-          <div class="heading_title"><?php echo theme_get_setting('recent_posts_title');?></div>
-       
+        <div class="heading_title"><?php echo theme_get_setting('recent_posts_title');?></div>
       </div>
     </div> 
      
@@ -155,15 +155,17 @@
     </div>
     <?php endif ?>  
     
-    <?php if (theme_get_setting('enable_recent_projects') == '1') : ?>   
+    <?php if (theme_get_setting('enable_clients') == '1') : ?>   
      <div class="row seperator">
       <div class="twelve columns">
         <hr>
       </div>
     </div> 
     
+    
     <div class="row">
       <div class="twelve columns">
+        <?php if(!$page['clients']) {?>
 
           <div class="heading_title"><?php echo theme_get_setting('clients_title');?></div> 
           <div class="clients_carousel_navigation">
@@ -213,6 +215,7 @@
 	        </ul>  
 	        
         </div>
+        <?php } else { print render($page['clients']); }?>  
       </div>
     </div>
     <?php endif ?>  
