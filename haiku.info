@@ -30,7 +30,9 @@ regions[sidebar_second] = Second Sidebar
 
 regions[services]      = Front Page Services
 
-regions[front_blog]     = Front Page Blog
+regions[information]   = Front Page Information
+
+regions[front_blog]    = Front Page Blog
 
 regions[contact_template]  = Contact Template
 
@@ -58,6 +60,8 @@ settings[slide_caption_2] = 'This is slide caption 2'
 settings[slide_caption_3] = 'This is slide caption 3'
 
 settings[enable_services] = '1'
+
+settings[enable_information] = '1'
 
 settings[enable_highlight] = '1'
 settings[highlight_text] = 'Haiku is modern.  A clean layout for your site. Fast and responsive.'

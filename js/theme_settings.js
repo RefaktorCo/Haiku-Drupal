@@ -77,6 +77,13 @@ jQuery(document).ready(function ($) {
 	$('#edit-highlight .plus').toggleClass('minus');
   });
   
+  $("#edit-information .fieldset-wrapper").hide();
+  $("#edit-information .fieldset-legend").click(function(){
+	$("#edit-information .fieldset-wrapper").slideToggle("slow");
+	$(this).toggleClass("active");
+	$('#edit-information .plus').toggleClass('minus');
+  });
+  
   $("#edit-colors .fieldset-wrapper").hide();
   $("#edit-colors .fieldset-legend").click(function(){
 	$("#edit-colors .fieldset-wrapper").slideToggle("slow");

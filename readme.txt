@@ -3,7 +3,7 @@
 Theme by Refaktor - http://refaktor.co 
 Demo - http://refaktor.co/haiku-demo
 
-A minimalistic, responsive Drupal 7 theme powered by Zurb Foundation 3. 
+A minimalistic, responsive Drupal 7 theme powered by Zurb Foundation 3 and Font Awesome. 
 
 ==Libraries and Resources==
 

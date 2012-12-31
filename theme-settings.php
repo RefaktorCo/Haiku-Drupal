@@ -256,12 +256,26 @@ function haiku_form_system_theme_settings_alter(&$form, &$form_state) {
       
     );
     
-    // Enable Services
-    $form['options']['front_page']['services']['enable_services'] = array(
-      '#type' => 'checkbox',
-      '#title' => 'Enable Services Section',
-      '#default_value' => theme_get_setting('enable_services'),
+	    // Enable Services
+	    $form['options']['front_page']['services']['enable_services'] = array(
+	      '#type' => 'checkbox',
+	      '#title' => 'Enable Services Section',
+	      '#default_value' => theme_get_setting('enable_services'),
+	    );
+	    
+	  // Information
+    $form['options']['front_page']['information'] = array(
+      '#type' => 'fieldset',
+      '#title' => '<div class="plus"></div><h3 class="options_heading">Information</h3>',
+      
     );
+    
+      // Enable Information
+      $form['options']['front_page']['information']['enable_information'] = array(
+        '#type' => 'checkbox',
+        '#title' => 'Enable Information',
+        '#default_value' => theme_get_setting('enable_information'),
+      );
             
     // Recent Posts
     $form['options']['front_page']['recent_posts'] = array(
@@ -270,14 +284,14 @@ function haiku_form_system_theme_settings_alter(&$form, &$form_state) {
       
     );
     
-      // Enable Services
+      // Enable Recent Posts
       $form['options']['front_page']['recent_posts']['enable_recent_posts'] = array(
         '#type' => 'checkbox',
         '#title' => 'Enable Recent Posts Section',
         '#default_value' => theme_get_setting('enable_recent_posts'),
       );
       
-      //Services Title
+      //Recent Posts Title
       $form['options']['front_page']['recent_posts']['recent_posts_title'] =array(
         '#type' => 'textfield',
         '#title' => 'Recent Posts Title',
@@ -329,7 +343,7 @@ function haiku_form_system_theme_settings_alter(&$form, &$form_state) {
         '#default_value' => theme_get_setting('enable_clients'),
       );
       
-      //Panel Title
+      //Clients Title
       $form['options']['front_page']['clients']['clients_title'] =array(
         '#type' => 'textfield',
         '#title' => 'Clients Title',
