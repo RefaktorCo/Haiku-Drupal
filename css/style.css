@@ -571,7 +571,6 @@ hr {
 
 .caroufredsel_wrapper {
   min-height: 238px;
-
 }
 
 #clients_carousel li {
@@ -580,7 +579,6 @@ hr {
 	margin-left: 20px;
 	list-style: none;
 	cursor: pointer !important;
-	
 }
 
 .clients_carousel_navigation {
