@@ -22,6 +22,7 @@ slimbox2(http://www.digitalia.be) by Christophe Beyls released under MIT(2) lice
 
 ==Image Files==
 
+http://www.flickr.com/photos/davefayram/3736299179/
 http://www.flickr.com/photos/vivaiquique/5285341125/
 http://www.flickr.com/photos/roldiexp/4478523721/
 http://www.flickr.com/photos/gob1953/3283090692/
