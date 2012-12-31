@@ -130,6 +130,23 @@ $('#flickr_widget').jflickrfeed({
   
 &lt;ul id=&quot;flickr_widget&quot; class=&quot;thumbs&quot;&gt;&lt;/ul&gt;
 </pre>
+<h4>Rotating Quotes/Testimonials</h4>
+Here is the JS and HTML markup for the rotating customer testimonials seen on the front page of the demo (uses jquery.quote_rotator.js):
+<pre>
+$('ul#quotes').quote_rotator();
+
+&lt;ul id=&quot;quotes&quot;&gt;
+  &lt;li&gt;
+    &lt;p&gt;Quote text goes here&lt;/p&gt;
+    - John Doe
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Here's another quote&lt;/p&gt;
+    - John Doe
+  &lt;/li&gt;
+&lt;/ul&gt;
+</pre>
+
 <h2>Portfolio</h2>
 <p>This portion of the docs will explain how to set up the portfolio page seen on the theme demo. The only module you will need is the <a href="http://drupal.org/project/views" target="_blank">Views module</a> which is needed to create the list of portfolio items.</p>
 <h3>Custom content type</h3>
