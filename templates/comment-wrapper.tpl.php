@@ -13,5 +13,6 @@
       <h4 class="comments_title"><?php print t('Add new comment'); ?></h4>
       <?php print render($content['comment_form']); ?>
     </section> <!-- /#comment-form-wrapper -->
+    <div class="bottom_spacer"></div>    
   <?php endif; ?>
 </section> <!-- /#comments -->
