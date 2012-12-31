@@ -51,7 +51,7 @@ settings[breadcrumbs] = '1'
 settings[branding_type] = 'text'
 
 settings[enable_highlight] = '1'
-settings[highlight_text] = 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.'
+settings[highlight_text] = 'Haiku is modern. A clean layout for your site. Fast and responsive.'
 
 settings[enable_slider] = '0'
 settings[slides_number] = '3'
