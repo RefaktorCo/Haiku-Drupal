@@ -78,43 +78,6 @@ header {
 	color: white;
 }
 
-.header_icons {
-	margin: 5px 0px;
-	text-align: right;
-}
-
-.header_icons .has-tip {
-	cursor: pointer;
-	border-bottom: none;
-}
-
-.header_icons .left {
-	text-align: left;
-}
-
-.header_icons li {
-	list-style: none;
-	display: inline;
-	margin-right: 10px;
-	font-size: 20px;
-	color: white;
-}
-
-.header_icons img {
-	height: 26px;
-}
-
-.header_icons i {
-	-moz-transition: all 0.3s ease-in-out;
-  -webkit-transition: all 0.3s ease-in-out;
-  -o-transition: all 0.3s ease-in-out;
-  transition: all 0.3s ease-in-out;
-}
-
-.header_icons li a {
-	color: #fff;
-}
-
 .slider_wrap {
 	padding:  0px;
 }
