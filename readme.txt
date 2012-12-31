@@ -15,6 +15,7 @@ jQuery Flickr Plugin(http://www.newmediacampaigns.com/page/jquery-flickr-plugin)
 Fit Maps(https://c9.io/hermanvandermaas/fitmaps) by Herman Vandermaas. 
 Twitter Plugin(https://github.com/seaofclouds/tweet) by Sea Of Clouds (licenses/Tweet.txt).
 Isotope(http://isotope.metafizzy.co) by David DeSandro released under proprietary commercial license(4).
+Font Awesome(http://fortawesome.github.com/Font-Awesome/) released under commercial Creative Commons license(5).
 carouFredSel(http://caroufredsel.dev7studios.com) by dev7studios released upder the Apache license(1) and MIT(2) license.
 touchSwipe(https://github.com/mattbryson/TouchSwipe-Jquery-Plugin) by Matt Bryson released under the Apache license(1) and MIT(2) license.
 slimbox2(http://www.digitalia.be) by Christophe Beyls released under MIT(2) license.
@@ -56,5 +57,6 @@ The above images are released under a commercial-friendly Creative Commons licen
 (2)MIT - http://opensource.org/licenses/mit-license.php
 (3)GNU General Public License - http://www.gnu.org/licenses/gpl.html
 (4)See /licenses/isotope-commercial-license.txt 
+(5)Creative Commons(commercial) - http://creativecommons.org/licenses/by/3.0/
 
 A copy of each of these licenses can also be found in the /licenses folder in the root directory of the theme. All other necessary licenses can be found in the same folder.
