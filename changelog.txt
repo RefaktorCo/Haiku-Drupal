@@ -1,4 +1,11 @@
 ===Haiku Changelog===
 
+1.0.1 (01/15/13)
+  *Fix for undefined index error related to $field_tags in node templates.
+  *Moved code from /includes/front-page.php (left for reference only) to /tempates/page--front.tpl.
+  *Added block region to use for front page modal markup.
+  *Improvements to demo content (all content moved to node content, Views and blocks).
+  *Updated documentation.
+
 1.0 (12/31/12)
   *Initial release.
