@@ -1470,6 +1470,15 @@ span.faq-head-image {
 #services p {
 	font-size: 16px;
 	color: #666;
+	margin-bottom: 0px;
+}
+
+#services .content {
+	margin-bottom: 0px;
+}
+
+#services br {
+	display: none;
 }
 
 /* Footer */
