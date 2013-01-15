@@ -37,27 +37,8 @@
     <?php if (theme_get_setting('enable_services') == '1') : ?>  
     <div id="services" class="row">
       <div class="twelve columns">
-         <?php if(!$page['services']) {?>
-         <div class="row">
-         
-          <div class="three columns services_wrap">
-            <a href="#"><i class="icon-picture"></i><h3>MINIMAL DESIGN</h3></a>
-            <div class="services_text">Clean and light-weight</div>
-          </div>
-          <div class="three columns services_wrap">
-             <a href="#"><i class="icon-qrcode"></i><h3>MOBILE READY</h3></a>
-             <div class="services_text">Looks great on any device</div>
-          </div>
-          <div class="three columns services_wrap">
-            <a href="#"><i class="icon-heart"></i><h3>EXPERT SUPPORT</h3></a>
-            <div class="services_text">We're here to help you</div>
-          </div>
-          <div class="three columns services_wrap">
-            <a href="#"><i class="icon-cogs"></i><h3>THEME OPTIONS</h3></a>
-            <div class="services_text">Total control of your site</div>
-          </div>
-        
-        </div>
+        <?php if(!$page['services']) {?>
+          <h2>Add a block to the "Front Page Services" block or edit the page--front.tpl template to remove this placeholder content.</h2>
         <?php } else { print render($page['services']); }?>  
       </div>
     </div>
@@ -72,44 +53,12 @@
     
     <?php if (theme_get_setting('enable_information') == '1') : ?>  
     
-    <div class="row">
+    <div id="information" class="row">
       <div class="twelve columns">
         
         <?php if(!$page['information']) {?>
-		    <div class="row">
-		      <div id="think" class="eight columns">
-		        
-		        <div class="heading_title">What we believe</div>       
-		        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit.</p>
-		        <p><i class="icon-ok"></i>Sed ut perspiciatis unde omnis iste natus error sit voluptatem <a href="#">accusantium doloremque.</a></p>
-		        <p><i class="icon-ok"></i>At vero eos et accusamus et iusto odio dignissimos ducimus qui <a href="#">blanditiis praesentium </a></p>
-		        <p><i class="icon-ok"></i>Sed ut perspiciatis unde omnis iste natus error sit voluptatem <a href="#">accusantium doloremque.</a></p>
-		      </div>
-		      
-		      <div class="four columns">
-		        
-		          <div class="heading_title">What our clients think</div>
-		       
-		        <ul id="quotes">
-		          <li>
-				        <p>"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.”</p>
-				        <div class="client_img"><img src="<?php echo $root;?>/images/client-1.jpg"></div>
-				        <h4>Frank Castillo</h4>-<a href="#">Lorem, Inc</a>
-		          </li>
-		           <li>
-				        <p>"At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident.”</p>
-				        <div class="client_img"><img src="<?php echo $root;?>/images/client-2.jpg"></div>
-				        <h4>Edward Jones</h4>-<a href="#">Ipsum LLC</a>
-		          </li>
-		           <li>
-				        <p>"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.”</p>
-				        <div class="client_img"><img src="<?php echo $root;?>/images/client-3.jpg"></div>
-				        <h4>Jill Hardy</h4>-<a href="#">Vivantus Corp</a>
-		          </li>
-		        </ul>  
-		      </div>
-		    </div>  
-		  <?php } else { print render($page['information']); }?>   
+		      <h2>Add a block to the "Front Page Information" block or edit the page--front.tpl template to remove this placeholder content.</h2>
+			  <?php } else { print render($page['information']); }?>   
       </div>
     </div>    
         

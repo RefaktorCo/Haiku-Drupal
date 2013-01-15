@@ -1481,6 +1481,11 @@ span.faq-head-image {
 	display: none;
 }
 
+/* Information */
+#information .content {
+	margin-bottom: 0px;
+}
+
 /* Footer */
 #footer {
   background-color: #F0F0F0; 
