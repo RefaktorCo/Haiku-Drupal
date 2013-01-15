@@ -602,13 +602,44 @@ function haiku_form_system_theme_settings_alter(&$form, &$form_state) {
     '#type' => 'fieldset',
     '#title' => 'Footer',
   );
+  
+    // Footer Twitter Feed
+    $form['options']['footer']['footer_twitter'] = array(
+      '#type' => 'fieldset',
+      '#title' => '<div class="plus"></div><h3 class="options_heading">Twitter Feed</h3>',
+    ); 
+    
+      // Enable Footer Twitter Feed
+      $form['options']['footer']['footer_twitter']['enable_footer_twitter'] = array(
+        '#type' => 'checkbox',
+        '#title' => 'Enable Twitter Feed',
+        '#default_value' => theme_get_setting('enable_footer_twitter'),
+      );
       
-    // Enable Primary Footer
-    $form['options']['footer']['enable_primary_footer'] = array(
-      '#type' => 'checkbox',
-      '#title' => 'Enable Primary Footer',
-      '#default_value' => theme_get_setting('enable_primary_footer'),
-    );
+      // Footer Twitter Feed Handle
+      $form['options']['footer']['footer_twitter']['footer_twitter_handle'] = array(
+        '#type' => 'textfield',
+        '#title' => 'Twitter Feed Handle',
+        '#default_value' => theme_get_setting('footer_twitter_handle'),
+        '#states' => array (
+          'invisible' => array(
+            'input[name="enable_footer_twitter"]' => array('checked' => FALSE)
+          )
+        )
+      );
+      
+    // Primary Footer
+    $form['options']['footer']['primary_footer'] = array(
+      '#type' => 'fieldset',
+      '#title' => '<div class="plus"></div><h3 class="options_heading">Primary Footer</h3>',
+    );   
+      
+	    // Enable Primary Footer
+	    $form['options']['footer']['primary_footer']['enable_primary_footer'] = array(
+	      '#type' => 'checkbox',
+	      '#title' => 'Enable Primary Footer',
+	      '#default_value' => theme_get_setting('enable_primary_footer'),
+	    );
       
     
     // Secondary Footer

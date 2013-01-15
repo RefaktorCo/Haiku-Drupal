@@ -5,7 +5,8 @@
   *Fix for undefined index error related to $field_tags in node templates.
   *Moved code from /includes/front-page.php (left for reference only) to /tempates/page--front.tpl.
   *Improvements to demo content (all content moved to node content, Views and blocks).
-  *Removed an unused block region.
+  *Fixed bug with footer block regions.
+  *Added theme setting for Twitter feed in footer.
   *Updated documentation.
 
 1.0 (12/31/12)

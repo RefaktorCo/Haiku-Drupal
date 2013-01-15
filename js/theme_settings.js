@@ -126,6 +126,13 @@ jQuery(document).ready(function ($) {
 	$('#edit-headings .plus').toggleClass('minus');
   });
   
+  $("#edit-footer-twitter .fieldset-wrapper").hide();
+  $("#edit-footer-twitter .fieldset-legend").click(function(){
+	$("#edit-footer-twitter .fieldset-wrapper").slideToggle("slow");
+	$(this).toggleClass("active");
+	$('#edit-footer-twitter .plus').toggleClass('minus');
+  });
+  
   $("#edit-primary-footer .fieldset-wrapper").hide();
   $("#edit-primary-footer .fieldset-legend").click(function(){
 	$("#edit-primary-footer .fieldset-wrapper").slideToggle("slow");
