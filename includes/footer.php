@@ -40,32 +40,20 @@ function haiku_footer($page){
     
       <div class="four columns">
         <?php if(!$page['footer_1']) {?>
-        <h2>About Us</h2>
-        <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt.</p>
-        <ul class="footer_icons">
-       
-          <li><a href="#" target="_blank"><i class="social foundicon-twitter"></i></a></li>
-          <li><a href="#" target="_blank"><i class="social foundicon-facebook"></i></a></li>
-          <li><a href="#" target="_blank"><i class="social foundicon-linkedin"></i></a></li>
-          <li><a href="#" target="_blank"><i class="social foundicon-pinterest"></i></a></li>
-          <li><a href="#" target="_blank"><i class="social foundicon-google-plus"></i></a></li>
-          <li><a href="#" target="_blank"><i class="social foundicon-flickr"></i></a></li>
-                 
-        </ul> 
+        <h2>Footer Block 1</h2>
         <?php } else { print render($page['footer_1']); }?>   
       </div> 
   
       <div class="four columns">
         <?php if(!$page['footer_2']) {?>
-        <h2>Footer 2</h2>
+        <h2>Footer Block 2</h2>
         <?php } else { print render($page['footer_2']); }?>  
       </div>
       
                 
       <div class="four columns">
         <?php if(!$page['footer_3']) {?>
-        <h2>Flickr Feed</h2>
-        <ul id="flickr_widget" class="thumbs"></ul>
+        <h2>Footer Block 3</h2>        
         <?php } else { print render($page['footer_3']); }?>      
       </div>
       
