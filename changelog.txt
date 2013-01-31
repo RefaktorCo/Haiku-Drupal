@@ -1,5 +1,9 @@
 ===Haiku Changelog===
 
+1.0.2 (02/01/13)
+  *Added missing conditional to remove post slider wrapper when no post images are used.
+  *Added missing edit tabs to Article node template.
+
 1.0.1 (01/15/13)
   *Fixed share icon bug in node.tpl.
   *Fix for undefined index error related to $field_tags in node templates.
