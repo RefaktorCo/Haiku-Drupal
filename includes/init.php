@@ -7,4 +7,3 @@ require_once(drupal_get_path('theme', 'haiku').'/includes/footer.php');
 require_once(drupal_get_path('theme', 'haiku').'/includes/switch.php');
 	
 ?>
-

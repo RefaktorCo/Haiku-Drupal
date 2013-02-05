@@ -20,5 +20,3 @@ $share_url = $base_url.'/node/'.$node->nid;
 	    </div>
 	  </div>  
 	</div>
-
- 

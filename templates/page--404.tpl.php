@@ -35,6 +35,5 @@
 		      </div>
         </div>    
       </div>
- 
   
 <?php haiku_footer($page);?>

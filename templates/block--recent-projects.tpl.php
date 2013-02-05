@@ -53,4 +53,3 @@
 
 
     <?php print $content ?>
-
