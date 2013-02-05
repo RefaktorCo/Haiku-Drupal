@@ -1,11 +1,10 @@
 ===Haiku Changelog===
 
-1.0.2 (02/04/13)
+1.0.2 (02/05/13)
   *Fixed RSS validation bug caused by whitespace in template files.
   *Updated full Drupal install to 7.19.
-  *Added Blocks Custom Content module to download files.
+  *Added Haiku Custom Content module to download files.
   *Added conditional for blog slider dependent on whether or not an image is uploaded.
-  *Added Vimeo social icon to header icons.
   *Fixed missing Drupal edit tabs in two templates.
   *Added some additional code examples and Views exports.
   *CSS tweaks.
