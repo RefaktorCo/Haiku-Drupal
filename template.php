@@ -37,13 +37,10 @@ function haiku_menu_link(array $variables) {
     $element['#attributes']['class'][] = 'active-trail';
   }
   
-  if ($element['#original_link']['menu_name'] == "main-menu" && isset($element['#localized_options']['attributes']['title'])){
-    $element['#title'] .=  $element['#localized_options']['attributes']['title'];
-  }
-  
   $sub_menu = $element['#below'] ? drupal_render($element['#below']) : '';
   $output = l($element['#title'], $element['#href'], $element['#localized_options']);
-  return '<li' . drupal_attributes($element['#attributes']) . '>' . $output . $sub_menu . "</li>\n";
+
+  return '<li' . drupal_attributes($element['#attributes']) . '>' . $output . $sub_menu . '</li>';
 }
 
 /* Allow sub-menu items to be displayed */
