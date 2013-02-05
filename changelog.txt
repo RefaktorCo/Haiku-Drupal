@@ -8,6 +8,7 @@
   *Added Vimeo social icon to header icons.
   *Fixed missing Drupal edit tabs in two templates.
   *Added some additional code examples and Views exports.
+  *CSS tweaks.
   *Updated documentation to clarify several sections.
 
 1.0.1 (01/15/13)

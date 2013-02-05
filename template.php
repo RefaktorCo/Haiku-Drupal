@@ -290,6 +290,13 @@ function haiku_preprocess_html(&$vars){
     '#markup' => "<style type='text/css'>#main_wrapper {background-image:url(".$root."/images/wrapper-backgrounds/".theme_get_setting('main_wrapper_pattern_select').".png);}</style> ",
     '#weight' => 17,
   );
+  
+  $header_height = array(
+    '#type' => 'markup',
+    '#markup' => "<style type='text/css'>header {min-height: 1px;}</style> ",
+    '#weight' => 18,
+  );
+
 
     
   if (theme_get_setting('seo_title') != "") {
@@ -325,6 +332,10 @@ function haiku_preprocess_html(&$vars){
   
   if (theme_get_setting('enable_main_wrapper_pattern') == "1") {
     drupal_add_html_head( $wrapper_background_image, 'wrapper_background_image');
+  }  
+  
+  if (theme_get_setting('enable_slider') != "1") {
+    drupal_add_html_head( $header_height, 'header_height');
   }  
 }
 
