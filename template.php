@@ -291,9 +291,9 @@ function haiku_preprocess_html(&$vars){
     '#weight' => 17,
   );
   
-  $header_height = array(
+  $highlight_margin = array(
     '#type' => 'markup',
-    '#markup' => "<style type='text/css'>header {min-height: 1px;}</style> ",
+    '#markup' => "<style type='text/css'>#highlight {margin-top: -50px;}</style> ",
     '#weight' => 18,
   );
 
@@ -335,7 +335,7 @@ function haiku_preprocess_html(&$vars){
   }  
   
   if (theme_get_setting('enable_slider') != "1") {
-    drupal_add_html_head( $header_height, 'header_height');
+    drupal_add_html_head( $highlight_margin, 'header_height');
   }  
 }
 

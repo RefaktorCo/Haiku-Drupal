@@ -1,5 +1,8 @@
 ===Haiku Changelog===
 
+1.0.3 (02/14/13)
+  *Fixed bug related to disabling image slider on pages other than front page.
+
 1.0.2 (02/05/13)
   *Fixed RSS validation bug caused by whitespace in template files.
   *Updated full Drupal install to 7.19.
