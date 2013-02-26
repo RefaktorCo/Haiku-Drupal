@@ -7,7 +7,9 @@
 }
 
 .ie8 .menu_wrap a {
-	font-size: 22px;
+	font-size: 18px;
 	color: #444;
-	padding: 0px 25px;
+	padding: 27px 35px;
+	text-align: center;
+	text-transform: uppercase;
 }
