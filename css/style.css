@@ -506,6 +506,7 @@ hr {
 	display: block;
 	color: #fff;
 	opacity: 0;
+  filter: alpha(opacity=0);
 	height: 100%;
 	width: 100%;
 	top: 0%;
