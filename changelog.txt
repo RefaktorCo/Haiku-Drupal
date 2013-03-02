@@ -1,8 +1,11 @@
 ===Haiku Changelog===
 
-1.0.3 (02/25/13)
+1.0.4 (02/28/13)
+  *Added conditional around share icons in node.tpl.
+
+1.0.3 (02/26/13)
   *Updated Drupal Core in full install to 7.20.
-  *Added example sub-theme (Bricks) and sub-theme documentation.
+  *Added example sub-theme (Poetry) and sub-theme documentation.
   *Added rel=author attribute to submitted by $username meta tag for better SEO.
   *Updated Ad Block widget and documentation.
   *Several IE8 fixes.

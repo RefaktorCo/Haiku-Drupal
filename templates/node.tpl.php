@@ -52,6 +52,7 @@ $share_url = $base_url.'/node/'.$node->nid;
     ?>
   </div>
   
+  <?php if (!$page): ?>
   <div class="post_share_wrap">
     <ul class="post_share">
       <li><a href="http://twitter.com/home?status=<?php print $share_url; ?>"><i class="social foundicon-twitter"></i></a></li>
@@ -69,7 +70,8 @@ $share_url = $base_url.'/node/'.$node->nid;
     <?php endif;?>
   </div>
   <hr>
-
+  <?php endif; ?>
+  
   <?php print render($content['comments']); ?>
 
 <?php if (!$page): ?>
