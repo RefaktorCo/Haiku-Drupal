@@ -1,3 +1,7 @@
+  $(window).load(function() {
+    $('.menu_wrap ul ul').css('display','block');
+  });
+  
   jQuery(document).ready(function ($) {
   	
 	  $('ul#quotes').quote_rotator();
@@ -142,7 +146,7 @@
 
     $('#recent_projects').after('<div style="clear:both;"></div>');
    
-   	$('.dropdown').prepend('<li class="title back js-generated"><h5><a href="#">Main Menu</a></h5></li>');
+   	$('.menu_wrap .dropdown').prepend('<li class="title back js-generated"><h5><a href="#">Main Menu</a></h5></li>');
    	   	
 	  $("#google_map").fitMaps( {w: '100%', h:'370px'} ); 
 	 
