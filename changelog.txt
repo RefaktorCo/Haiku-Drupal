@@ -1,6 +1,6 @@
 ===Haiku Changelog===
 
-1.0.4 (03/05/13)
+1.0.4 (03/25/13)
   *Added conditional around share icons in node.tpl.
   *Fixed some bugs related to the main navigation.
 
