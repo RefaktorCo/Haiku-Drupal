@@ -430,6 +430,13 @@ ul.dropdown.right {
 	margin-bottom: 10px;
 }
 
+.tabs ul.primary li a{
+   margin-right: 0;
+}
+
+.tabs li   {
+   margin-right: 0.5em;   
+}
 
 /* What we think and client testimonials */
 .client_img {
