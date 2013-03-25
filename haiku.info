@@ -47,9 +47,6 @@ settings[breadcrumbs] = '1'
 
 settings[branding_type] = 'text'
 
-settings[enable_highlight] = '1'
-settings[highlight_text] = 'Haiku is modern. A clean layout for your site. Fast and responsive.'
-
 settings[enable_slider] = '0'
 settings[slides_number] = '3'
 settings[slide_caption_1] = 'This is slide caption 1'
@@ -61,7 +58,7 @@ settings[enable_services] = '1'
 settings[enable_information] = '1'
 
 settings[enable_highlight] = '1'
-settings[highlight_text] = 'Haiku is modern.  A clean layout for your site. Fast and responsive.'
+settings[highlight_text] = 'Highlight Text.'
 
 settings[enable_recent_posts] = '0'
 settings[recent_posts_title] = 'Recent Posts'
@@ -102,4 +99,4 @@ settings[footer_twitter_handle] = 'envato'
 settings[enable_primary_footer] = '1'
 
 settings[enable_secondary_footer] = '1'
-settings[secondary_footer_text] = 'Design by <a href="http://refaktor.co" target="_blank">Refaktor</a>'
+settings[secondary_footer_text] = 'Design by <a href="http://refaktorthemes.com" target="_blank">Refaktor</a>'
