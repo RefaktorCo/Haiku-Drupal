@@ -3,7 +3,7 @@
  * Define $root global variable.
  */
 global $root;
-$root = base_path() . path_to_theme();
+$root = base_path() . drupal_get_path('theme', 'haiku');
 
 include_once(drupal_get_path('theme', 'haiku').'/includes/init.php');
 
