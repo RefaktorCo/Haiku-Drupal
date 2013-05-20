@@ -342,28 +342,6 @@ function haiku_form_system_theme_settings_alter(&$form, &$form_state) {
         '#default_value' => theme_get_setting('enable_boxed_layout'),
       );
           
-    // Page Layout
-    $form['options']['layout']['page_layout'] = array(
-      '#type' => 'radios',
-      '#title' => 'Select a page layout:',
-      '#default_value' => theme_get_setting('page_layout'),
-      '#options' => array(
-        'sidebar_right' => 'Sidebar Right',
-        'full_width' => 'Full Width',
-      ),
-    );
-    
-    // Blog Layout
-    $form['options']['layout']['blog_layout'] = array(
-      '#type' => 'radios',
-      '#title' => 'Select a blog layout:',
-      '#default_value' => theme_get_setting('blog_layout'),
-      '#options' => array(
-        'sidebar_right' => 'Sidebar Right',
-        'full_width' => 'Full Width',
-      ),
-    );
-   
   // Design
   $form['options']['design'] = array(
     '#type' => 'fieldset',
@@ -479,7 +457,6 @@ function haiku_form_system_theme_settings_alter(&$form, &$form_state) {
         )
 
     );  
-
       
     // CSS
     $form['options']['design']['css'] = array(
