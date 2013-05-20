@@ -174,65 +174,30 @@ function haiku_breadcrumb($variables) {
  */
 function haiku_preprocess_html(&$vars){
   global $root;
-  $meta_title = array(
-    '#type' => 'html_tag',
-    '#tag' => 'meta',
-    '#weight' => 1,
-    '#attributes' => array(
-      'name' => 'title',
-      'content' => theme_get_setting('seo_title')
-    )
-  );
-  $meta_description = array(
-    '#type' => 'html_tag',
-    '#tag' => 'meta',
-    '#weight' => 2,
-    '#attributes' => array(
-      'name' => 'description',
-      'content' => theme_get_setting('seo_description')
-    )
-  );
-  $meta_keywords = array(
-    '#type' => 'html_tag',
-    '#tag' => 'meta',
-    '#weight' => 3,
-    '#attributes' => array(
-      'name' => 'keywords',
-      'content' => theme_get_setting('seo_keywords')
-    )
-  );
-  /* Commenting out for now
-  $meta_ie_render_engine = array(
-    '#type' => 'html_tag',
-    '#tag' => 'meta',
-    '#weight' => 0,
-    '#attributes' => array(
-      'content' =>  'IE=edge,chrome=1',
-      'http-equiv' => 'X-UA-Compatible',
-    )
-  );
-  */
+ 
   $font = array(
     '#tag' => 'link', 
-    '#weight' => 4,
+    '#weight' => 1,
     '#attributes' => array( 
       'href' => 'http://fonts.googleapis.com/css?family=Open+Sans', 
       'rel' => 'stylesheet',
       'type' => 'text/css',
     ),
   );
+  
   $condensed= array(
     '#tag' => 'link', 
-    '#weight' => 5,
+    '#weight' => 2,
     '#attributes' => array( 
       'href' => 'http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300', 
       'rel' => 'stylesheet',
       'type' => 'text/css',
     ),
   );
+  
   $foundation = array(
     '#tag' => 'link', 
-    '#weight' => 6,
+    '#weight' => 3,
     '#attributes' => array( 
       'href' => ''.$root.'/foundation/stylesheets/foundation.css', 
       'rel' => 'stylesheet',
@@ -240,9 +205,10 @@ function haiku_preprocess_html(&$vars){
       'media' => 'screen',
     ),
   );
+  
   $foundation_app = array(
     '#tag' => 'link', 
-    '#weight' => 7,
+    '#weight' => 4,
     '#attributes' => array( 
       'href' => ''.$root.'/foundation/stylesheets/app.css', 
       'rel' => 'stylesheet',
@@ -250,9 +216,10 @@ function haiku_preprocess_html(&$vars){
       'media' => 'screen',
     ),
   );
+  
   $style = array(
     '#tag' => 'link', 
-    '#weight' => 8,
+    '#weight' => 5,
     '#attributes' => array( 
       'href' => ''.$root.'/css/style.css', 
       'rel' => 'stylesheet',
@@ -260,9 +227,10 @@ function haiku_preprocess_html(&$vars){
       'media' => 'screen',
     ),
   );
+  
   $color = array(
     '#tag' => 'link', 
-    '#weight' => 9,
+    '#weight' => 6,
     '#attributes' => array( 
       'href' => ''.$root.'/css/colors/'.theme_get_setting('color_scheme').'.css', 
       'rel' => 'stylesheet',
@@ -270,73 +238,64 @@ function haiku_preprocess_html(&$vars){
       'media' => 'screen',
     ),
   );
+  
   $viewport = array(
     '#type' => 'html_tag',
     '#tag' => 'meta',
-    '#weight' => 10,
+    '#weight' => 7,
     '#attributes' => array(
       'name' => 'viewport',
       'content' =>  'width=device-width, initial-scale=1, maximum-scale=1',
     )
   );
+  
   $font_family = array(
     '#type' => 'markup',
     '#markup' => "<style type='text/css'>body {font-family:".theme_get_setting('font_family')." !important;}</style> ",
-    '#weight' => 11,
+    '#weight' => 7,
   );
+  
   $headings = array(
     '#type' => 'markup',
     '#markup' => "<style type='text/css'>h1 {font-size:".theme_get_setting('h1').";} h2 {font-size:".theme_get_setting('h2').";} h3 {font-size:".theme_get_setting('h3').";} h4 {font-size:".theme_get_setting('h4').";} h5 {font-size:".theme_get_setting('h5').";} h6 {font-size:".theme_get_setting('h6').";}</style> ",
-    '#weight' => 12,
+    '#weight' => 8,
   );
   
   $box_layout = array(
     '#type' => 'markup',
     '#markup' => "<style type='text/css'>#main_wrapper { max-width: 1080px; margin: 0 auto; } header {left: 0; right: 0; max-width: 1080px; margin: 0 auto;} #footer { max-width: 1080px; margin: 0 auto; position: absolute; left: 0; right: 0; }</style> ",
-    '#weight' => 13,
+    '#weight' => 8,
   );
 
   $background_color = array(
     '#type' => 'markup',
     '#markup' => "<style type='text/css'>body {background:".theme_get_setting('body_background').";}</style> ",
-    '#weight' => 14,
+    '#weight' => 9,
   );
 
   $background_image = array(
     '#type' => 'markup',
     '#markup' => "<style type='text/css'>body {background-image:url(".$root."/images/backgrounds/".theme_get_setting('background_select').".png);}</style> ",
-    '#weight' => 15,
+    '#weight' => 10,
   );
   
   $wrapper_background_color = array(
     '#type' => 'markup',
     '#markup' => "<style type='text/css'>#main_wrapper {background:".theme_get_setting('main_wrapper_background').";}</style> ",
-    '#weight' => 16,
+    '#weight' => 11,
   );
 
    $wrapper_background_image = array(
     '#type' => 'markup',
     '#markup' => "<style type='text/css'>#main_wrapper {background-image:url(".$root."/images/wrapper-backgrounds/".theme_get_setting('main_wrapper_pattern_select').".png);}</style> ",
-    '#weight' => 17,
+    '#weight' => 12,
   );
   
   $highlight_margin = array(
     '#type' => 'markup',
     '#markup' => "<style type='text/css'>#highlight {margin-top: -50px;}</style> ",
-    '#weight' => 18,
+    '#weight' => 13,
   );
-
-
-    
-  if (theme_get_setting('seo_title') != "") {
-    drupal_add_html_head( $meta_title, 'meta_title' );
-  }
-   if (theme_get_setting('seo_description') != "") {
-    drupal_add_html_head( $meta_description, 'meta_description' );
-  }
-  if (theme_get_setting('seo_keywords') != "") {
-    drupal_add_html_head( $meta_keywords, 'meta_keywords' );
-  }
   
   if (theme_get_setting('enable_boxed_layout') == "1") {
     drupal_add_html_head( $box_layout, 'box_layout' );

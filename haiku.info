@@ -58,7 +58,7 @@ settings[enable_services] = '1'
 settings[enable_information] = '1'
 
 settings[enable_highlight] = '1'
-settings[highlight_text] = 'Highlight Text.'
+settings[highlight_text] = 'Highlight Text'
 
 settings[enable_recent_posts] = '0'
 settings[recent_posts_title] = 'Recent Posts'
@@ -81,9 +81,6 @@ settings[main_wrapper_pattern_select] = 'subtle_dots'
 
 settings[enable_boxed_layout] = '0'
 
-settings[page_layout] = 'full_width'
-settings[blog_layout] = 'sidebar_right'
-
 settings['font_family'] = 'proxima-nova, "Helvetica Neue", Helvetica, Arial, sans-serif'
 
 settings[h1] = '36px'
@@ -95,8 +92,3 @@ settings[h6] = '12px'
 
 settings[enable_footer_twitter] = '1'
 settings[footer_twitter_handle] = 'envato'
-
-settings[enable_primary_footer] = '1'
-
-settings[enable_secondary_footer] = '1'
-settings[secondary_footer_text] = 'Design by <a href="http://refaktorthemes.com" target="_blank">Refaktor</a>'

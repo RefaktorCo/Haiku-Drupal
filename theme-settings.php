@@ -51,34 +51,7 @@ function haiku_form_system_theme_settings_alter(&$form, &$form_state) {
       '#title' => 'Breadcrumbs',
       '#default_value' => theme_get_setting('breadcrumbs'),
     );
-        
-    // SEO
-    $form['options']['general']['seo'] = array(
-      '#type' => 'fieldset',
-      '#title' => '<div class="plus"></div><h3 class="options_heading">SEO</h3>',
-    );
-    
-      // SEO Title
-      $form['options']['general']['seo']['seo_title'] = array(
-        '#type' => 'textfield',
-        '#title' => 'Title',
-        '#default_value' => theme_get_setting('seo_title'),
-      );
-      
-       // SEO Description
-      $form['options']['general']['seo']['seo_description'] = array(
-        '#type' => 'textarea',
-        '#title' => 'Description',
-        '#default_value' => theme_get_setting('seo_description'),
-      );
-      
-       // SEO Keywords
-      $form['options']['general']['seo']['seo_keywords'] = array(
-        '#type' => 'textarea',
-        '#title' => 'Keywords',
-        '#default_value' => theme_get_setting('seo_keywords'),
-      );
-        
+               
   // Header Options
   $form['options']['header'] = array(
     '#type' => 'fieldset',
@@ -627,46 +600,7 @@ function haiku_form_system_theme_settings_alter(&$form, &$form_state) {
           )
         )
       );
-      
-    // Primary Footer
-    $form['options']['footer']['primary_footer'] = array(
-      '#type' => 'fieldset',
-      '#title' => '<div class="plus"></div><h3 class="options_heading">Primary Footer</h3>',
-    );   
-      
-	    // Enable Primary Footer
-	    $form['options']['footer']['primary_footer']['enable_primary_footer'] = array(
-	      '#type' => 'checkbox',
-	      '#title' => 'Enable Primary Footer',
-	      '#default_value' => theme_get_setting('enable_primary_footer'),
-	    );
-      
-    
-    // Secondary Footer
-    $form['options']['footer']['secondary_footer'] = array(
-      '#type' => 'fieldset',
-      '#title' => '<div class="plus"></div><h3 class="options_heading">Secondary Footer</h3>',
-    ); 
-    
-      // Enable Secondary Footer
-      $form['options']['footer']['secondary_footer']['enable_secondary_footer'] = array(
-        '#type' => 'checkbox',
-        '#title' => 'Enable Secondary Footer',
-        '#default_value' => theme_get_setting('enable_secondary_footer'),
-      );
-      
-      // Secondary Footer Left
-      $form['options']['footer']['secondary_footer']['secondary_footer_text'] = array(
-        '#type' => 'textfield',
-        '#title' => 'Secondary Footer Text',
-        '#default_value' => theme_get_setting('secondary_footer_text'),
-        '#states' => array (
-          'invisible' => array(
-            'input[name="enable_secondary_footer"]' => array('checked' => FALSE)
-          )
-        )
-      );
-        
+            
   // Submit Button
   $form['#submit'][] = 'haiku_settings_submit';
   $form['#submit'][] = 'haiku_background_settings_submit';
