@@ -16,7 +16,7 @@
 <div id="wrapper">
 <h2>Overview</h2>
 <p>A minimalistic Drupal 7 theme powered by <a href="http://foundation.zurb.com/" target="_blank">Zurb Foundation 3</a> and <a href="http://fortawesome.github.com/Font-Awesome/" target="_blank">Font Awesome</a>. Haiku features a fully responsive design, easy to use theme settings and follows Drupal coding standards. For theme support that cannot be found in this documentation, please visit our <a href="http://refaktor.co/support"> support forum</a>. Once you have registered please contact us via the <a href="http://themeforest.net/user/refaktor" target="_blank">ThemeForest author page</a> with your forum username so you can be granted posting rights.</p>
-<p>Updated: 02/05/13<br>Author: <a href="http://refaktor.co" target="_blank">Refaktor</a><br>Email: <a href="mailto:refaktor.co@gmail.com">refaktor.co@gmail.com</a><br>Docs powered by: <a href="https://github.com/jgallen23/toc" target="_blank">TOC</a></p>
+<p>Updated: 05/20/13<br>Author: <a href="http://refaktor.co" target="_blank">Refaktor</a><br>Docs powered by: <a href="https://github.com/jgallen23/toc" target="_blank">TOC</a></p>
 <h2>Installation</h2>
 <p>There are several ways Haiku can be installed. For existing sites that already have content, the first method will only involve the installation and activation of the theme. The second option includes a full Drupal 7 install with the same SQL database file used to create the theme demo. Please choose which installation method works best for you and follow the instructions.
 <h3>Theme Only</h3>
@@ -58,18 +58,19 @@ Option 2:
 <pre>$('.menu_1 a').append('&lt;p class=&quot;menu_tagline&quot;&gt;the beginning&lt;/p&gt;');</pre>
 
 <h2>Modules</h2>
+<p>You can find all of the modules in the full Drupal install that comes with the download files (drupal_7/sites/all/modules).</p>
+
+<h3>Required Modules</h3>
+<li><a href="http://drupal.org/project/jquery_update">jQuery update (dev version)</a></li>
+<li><a href="http://drupal.org/project/ctools">ctools</a></li>
+<li><a href="http://drupal.org/project/views">Views</a></li>
 
 <h3>Recommended Modules</h3>
-<p>You can find all of the recommended modules in the full Drupal install that comes with the download files (drupal_7/sites/all/modules) but below is the full list and their URLS:</p>
-<ul>
+
 <li><a href="http://drupal.org/project/contact_form_blocks">Contact Form Blocks</a></li>
-<li><a href="http://drupal.org/project/ctools">ctools</a></li>
-<li><a href="http://drupal.org/project/devel">Devel</a></li>
-<li><a href="http://drupal.org/project/features">Features</a></li>
-<li><a href="http://drupal.org/project/views">Views</a></li>
 <li><a href="http://drupal.org/project/navigation404">404 Navigation</a>
 <li><a href="http://drupal.org/project/multiblock">Multiblock</a></li>
-</ul>
+
 
 <h3>Haiku Content Data</h3>
 <p>If you used option 1 to install the theme on an existing install that already has content we recommend you use our Haiku Content Data module to create the additional content types, fields and Views needed to fully utilize the theme. You will find it in the root of the directory that contains the download files. This module is a custom <a href="http://drupal.org/project/features" target="_blank">Features</a> module and will not run without it. We recommend copying all of the modules from the /drupal_7/sites/all/modules folder into your install if you do not already have them. After you have all the modules simply upload and activate the Haiku Content Data module and the content types, fields and Views will automatically be created.</p>
@@ -106,21 +107,20 @@ This is a full-width portion on the front page designed to showcase a series of 
 <h2>Widgets</h2>
 <p>Haiku includes styling and code for several widgets such as the faq, Twitter feed and quote rotator. See below for the necessary markup to use each kind of widget in a block or page</p>
 <h4>Twitter</h4>
-<pre>&lt;div class='tweet query'&gt;&lt;/div&gt;
-&lt;script type=&quot;text/javascript&quot;&gt;
-                        
+<pre>
+&lt;div class='tweet query'&gt;&lt;/div&gt;
+&lt;script type=&quot;text/javascript&quot;&gt;               
     jQuery(document).ready(function ($) {
-      
       $(&quot;.tweet&quot;).tweet({
+        modpath: '&lt;?php global $root; echo $root;?&gt;/includes/twitter/',
         username: &quot;envato&quot;,
         avatar_size: 34,
         count: 3,
         loading_text: &quot;loading tweets...&quot;
       });
-    
     });
-    
-  &lt;/script&gt;</pre>
+  &lt;/script&gt;	
+</pre>
 <h4>FAQ</h4>
 <pre>&lt;ul class=&quot;faq&quot;&gt;
   &lt;li class=&quot;divider&quot;&gt;&lt;h2 class=&quot;faq-head title-color gdl-title&quot;&gt;&lt;span class=&quot;faq-head-image active&quot;&gt;&lt;/span&gt;Title&lt;/h2&gt;
@@ -192,15 +192,16 @@ $('ul#quotes').quote_rotator();
 <img src="images/portfolio-view.png">
 <p>The final step to completing your portfolio page is to open /templates/page--portfolio.tpl and edit the Isotope filters. Isotope is the jQuery library which easily allows you to group and switch between those groups of portfolio items as seen on the demo. The filters are a simple unordered list of HTML links with a data-option-value for each portfolio tag. You can see from the default values in the template that this will filter the portfolio items by all, photography, design and marketing. Just add a filter item for each of the tags you use for your portfolio items for optimum use. <strong>Note</strong> a future update to the theme will dynamically generate the portfolio item filters. For more information about what you can do with Isotope visit the official page <a href="http://isotope.metafizzy.co/">here</a>.</p>
 <h2>Blog</h2>
-<p>If you plan to have a blog on your site, be sure to read through this portion of the documentation which outlines a couple things to keep in mind. The theme uses a custom Views template called page--blog.tpl which is designed to be used with a Views page titled Blog (the machine name of the View has to be blog for the template to work properly). Either import /includes/views_export/blog.txt or use the Haiku Custom Content module described earlier in the documentation to create this page. There is a theme setting which allows you to have a sidebar on the right-hand side of the blog page, or to have it be full width with no sidebar. </p>
+<p>The Haiku demo site uses a simple Views page for the blog. Either import /includes/views_export/blog.txt or use the Haiku Custom Content module described earlier in the documentation to create this page. There is a theme setting which allows you to have a sidebar on the right-hand side of the blog page, or to have it be full width with no sidebar. </p>
 <p>
-Blocks also comes equipped with the functionality to use a simple image slider within the post (as seen on our demo). To make use of this feature, simply visit admin/structure/types/manage/article/fields/field_image (if you're using the blog content type simply change article to blog in that path) and scroll down to the Image Field Settings. Change the "number of values" setting to unlimited to allow you to upload as many images as you want. The theme will automatically place multiple images into a slider.
-</p><h2>Footer</h2>
-<p>Haiku's footer is split up into two parts so we will discuss each one separately. The main footer is split up into 4 block regions which can be used to display any information you want. There is also an optional social icons section in the area where the first block region is placed. If you would like to display the social icons, use the icons heading in the Footer options to select the ones you want to display and enter the necessary URLS. Or you can place a block into the Footer 1 block region to remove the icons and use your own content. </p>
-<p>The secondary footer has a full width block region that can be used, or you can use the text option in the theme settings. By default it displays a credit link but you can change this to whatever you like by either using the option or by using the Footer Full Width block region.</p>
-<p>You can also hide either of the footer regions by using the theme settings.</p>
-<h2>Block Regions</h2>
+Haiku also comes equipped with the functionality to use a simple image slider within the post (as seen on our demo). To make use of this feature, simply visit admin/structure/types/manage/article/fields/field_image (if you're using the blog content type simply change article to blog in that path) and scroll down to the Image Field Settings. Change the "number of values" setting to unlimited to allow you to upload as many images as you want. The theme will automatically place multiple images into a slider.
+<h2>Footer</h2>
+<p>Haiku's footer is split up into two parts. The main footer is split up into 3 block regions which can be used to display any information you want. The secondary footer has a full width block region that can be used.</p><h2>Block Regions</h2>
 <p>Haiku features 14 block regions where you can add your own custom content. Visit yourdomain.com/admin/structure/block to add your own content to the defined block regions. Press "Add Block" to create a new custom blog, or select an existing block from the Disabled list below the defined block regions.</p>
+<h3>Twitter Settings</h3>
+<p>
+<strong>Update:</strong> As of June 13th the old 1.0 version of the Twitter API was discontinued. Because of this some changes had to be made to this section and some additional settings are needed for it to function correctly. Visit <a href="https://dev.twitter.com/apps">https://dev.twitter.com/apps</a> and login with your Twitter account. You will have to make an App in order to receive the necessary OAuth keys required for the Twitter feed. Once you have them you can enter them into the theme settings under the Footer tab.
+</p>
 <h2>Thank You</h2>
 <p>Thank you very much for purchasing the Haiku responsive Drupal 7 theme. Once again if you have any issues or feedback please connect via the <a href="http://themeforest.net/user/refaktor" target="_blank">ThemeForest author page</a>. Enjoy using Haiku!</p>
 </p>&copy 2012 Refaktor.

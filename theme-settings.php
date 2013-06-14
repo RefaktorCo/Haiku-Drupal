@@ -566,6 +566,54 @@ function haiku_form_system_theme_settings_alter(&$form, &$form_state) {
         '#default_value' => theme_get_setting('enable_footer_twitter'),
       );
       
+      // Twitter App Consumer Key
+      $form['options']['footer']['footer_twitter']['twitter_app_consumer_key'] =array(
+        '#type' => 'textfield',
+        '#title' => 'Twitter App Consumer Key',
+        '#default_value' => theme_get_setting('twitter_app_consumer_key'),
+        '#states' => array (
+          'invisible' => array(
+            'input[name="enable_twitter_feed"]' => array('checked' => FALSE)
+          )
+        )
+      );
+      
+      // Twitter App Consumer Secret
+      $form['options']['footer']['footer_twitter']['twitter_app_consumer_secret'] =array(
+        '#type' => 'textfield',
+        '#title' => 'Twitter App Consumer Secret',
+        '#default_value' => theme_get_setting('twitter_app_consumer_secret'),
+        '#states' => array (
+          'invisible' => array(
+            'input[name="enable_twitter_feed"]' => array('checked' => FALSE)
+          )
+        )
+      );
+      
+      // Twitter App Access Token
+      $form['options']['footer']['footer_twitter']['twitter_app_access_token'] =array(
+        '#type' => 'textfield',
+        '#title' => 'Twitter App Access Token',
+        '#default_value' => theme_get_setting('twitter_app_access_token'),
+        '#states' => array (
+          'invisible' => array(
+            'input[name="enable_twitter_feed"]' => array('checked' => FALSE)
+          )
+        )
+      );
+      
+      // Twitter App Access Token Secret
+      $form['options']['footer']['footer_twitter']['twitter_app_access_secret'] =array(
+        '#type' => 'textfield',
+        '#title' => 'Twitter App Access Token Secret',
+        '#default_value' => theme_get_setting('twitter_app_access_secret'),
+        '#states' => array (
+          'invisible' => array(
+            'input[name="enable_twitter_feed"]' => array('checked' => FALSE)
+          )
+        )
+      );
+      
       // Footer Twitter Feed Handle
       $form['options']['footer']['footer_twitter']['footer_twitter_handle'] = array(
         '#type' => 'textfield',
