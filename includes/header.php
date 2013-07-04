@@ -34,6 +34,7 @@ function haiku_header($page){
               </ul>
               <section class="menu_wrap">
 				          <?php print theme('links__system_main_menu', array(
+				            'links' => menu_navigation_links('test-menu'),
 				            'attributes' => array(
 				              'id' => 'main-menu-links',
 				              'class' => array('links', 'clearfix'),
@@ -45,6 +46,9 @@ function haiku_header($page){
 				            ),
 				          )); 
 				          ?>
+				          
+				          <?php print theme('links', array('links' => menu_navigation_links('menu-site-menu'), 'attributes' => array('class'=> array('links', 'site-menu')) ));?>
+				          
               </section>
              </nav>
 				      </div> 

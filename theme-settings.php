@@ -8,18 +8,13 @@ drupal_add_js(drupal_get_path('theme', 'haiku') .'/js/theme_settings.js');
 function haiku_form_system_theme_settings_alter(&$form, &$form_state) {
   global $slide_number;
 
- // Default path for image
+ // Default path for logo
   $bg_path = theme_get_setting('bg_path');
   if (file_uri_scheme($bg_path) == 'public') {
     $bg_path = file_uri_target($bg_path);
   }
   
-  // Default path for back-ground image
-  $background_path = theme_get_setting('background_path');
-  if (file_uri_scheme($background_path) == 'public') {
-    $background_path = file_uri_target($background_path);
-  }  
-  
+  // Default path for slides
   $count = 1;
   while ($count <= $slide_number){
     ${'slide_path_' . $count} = theme_get_setting('slide_path_'.$count.'');
@@ -91,28 +86,6 @@ function haiku_form_system_theme_settings_alter(&$form, &$form_state) {
         '#description' => 'Upload a new logo image.',
         '#states' => array(
           'visible' => array('#edit-branding-type' => array('value' => 'logo')),
-        ), 
-      );
-	  
-	  //for back-ground image
-	  $form['options']['header']['branding']['background_path'] = array(
-        '#type' => 'textfield',
-        '#title' => 'Path to Background image',
-        '#default_value' => $background_path,
-        '#disabled' => TRUE,
-        '#states' => array(
-          'visible' => array('#edit-branding-type' => array('value' => 'background')),
-        ), 
-      );
-	  
-	  
-	 $form['options']['header']['branding']['background_upload'] = array(
-        '#type' => 'file',
-        '#title' => 'Upload Back-ground image',
-        '#description' => 'Upload a Back-ground image.',
-	
-        '#states' => array(
-          'visible' => array('#edit-branding-type' => array('value' => 'background')),
         ), 
       );
      
@@ -628,7 +601,6 @@ function haiku_form_system_theme_settings_alter(&$form, &$form_state) {
             
   // Submit Button
   $form['#submit'][] = 'haiku_settings_submit';
-  $form['#submit'][] = 'haiku_background_settings_submit';
   $form['#submit'][] = 'haiku_slide_settings_submit';
   
 }
@@ -652,31 +624,6 @@ function haiku_settings_submit($form, &$form_state) {
   } else {
     // Avoid error when the form is submitted without specifying a new image
     $_POST['bg_path'] = $form_state['values']['bg_path'] = $previous;
-  }
-  
-}
-
-// for background image//ntf
-function haiku_background_settings_submit($form, &$form_state) {
-
-  // Get the previous value
-  $previous = 'public://' . $form['options']['header']['branding']['background_path']['#default_value'] ;
-  
-  $file = file_save_upload('background_upload');
-  if ($file) {
-    $parts = pathinfo($file->filename);
-    $destination = 'public://' . $parts['basename'];
-    $file->status = FILE_STATUS_PERMANENT;
-    
-    if(file_copy($file, $destination, FILE_EXISTS_REPLACE)) {
-      $_POST['background_path'] = $form_state['values']['background_path'] = $destination;
-      if ($destination != $previous) {
-        return;
-      }
-    }
-  } else {
-    // Avoid error when the form is submitted without specifying a new image
-    $_POST['background_path'] = $form_state['values']['background_path'] = $previous;
   }
   
 }
@@ -710,6 +657,5 @@ function haiku_slide_settings_submit($form, &$form_state) {
   $counter++;
   }
 }
-
 
 ?>
