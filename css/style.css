@@ -7,6 +7,8 @@ body {
   padding: 0px;
 }
 
+div.orbit-wrapper {overflow: hidden !important; }
+
 .row {
 	width: 1020px;
 }

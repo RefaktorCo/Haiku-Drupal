@@ -2,7 +2,9 @@
 function haiku_footer($page){
   global $root; 
 ?>
-
+<?php if ( (theme_get_setting('enable_footer_twitter') == '1') AND ( !drupal_is_front_page() )  ) : ?>
+<div style="margin-top: 50px;"></div>
+<?php endif; ?>
 <!-- begin footer -->   
 <div id="footer"> 
   

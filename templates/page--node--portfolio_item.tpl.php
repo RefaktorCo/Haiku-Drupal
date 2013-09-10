@@ -16,6 +16,7 @@
   <div class="row">
     <div id ="main_content_wrap" class="<?php if (theme_get_setting('page_layout') == 'sidebar_right') { echo "twelve columns"; } else { echo "twelve columns"; } ?>">
       <div id="main_content">
+        <?php print $messages; ?>
         <?php print render($title_prefix); ?>
         <?php print render($title_suffix); ?>
         <?php if ($tabs = render($tabs)): ?>

@@ -1,9 +1,13 @@
 ===Haiku Changelog===
 
-1.1.2 (07/04/13)
-  *Includes files now called from active theme folder instead of parent folder and /includes added to sub-theme folder.
+1.1.3 (07/08/13)
+  *Fixed issue with Drupal messages not rendering properly.
+
+1.1.2 (07/05/13)
+  *Includes header/footer files now called from active theme folder instead of parent folder and /includes added to sub-theme folder.
   *Fixed missing Drupal tabs in page.tpl.
   *Removed some redundant theme settings.
+  *Fixed a margin issue related to Twitter region in Footer.
   
 1.1.1 (06/14/13)
   *Updated Twitter widget, theme settings and docs for Twitter API 1.1 compatibility.

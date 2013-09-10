@@ -26,17 +26,6 @@ $share_url = $base_url.'/node/'.$node->nid;
       <?php endif; ?>
          
     <?php endif; ?>
-   
-	  <?php if (render($content['field_image'])) : ?> 
-		  <div class="featured">
-			  <?php if (render($content['field_image'])) : ?>
-			    <?php print render($content['field_image']); ?>
-			  <?php endif; ?>
-			  <?php if (render($content['field_second_image'])) : // legacy support ?>
-			    <?php print render($content['field_second_image']); ?>
-			  <?php endif; ?>    
-			</div>
-		<?php endif; ?>
 	
   <?php endif; ?>
   
@@ -45,14 +34,12 @@ $share_url = $base_url.'/node/'.$node->nid;
       // Hide comments, tags, and links now so that we can render them later.
       hide($content['taxonomy_forums']);
       hide($content['comments']);
-      hide($content['links']);
       hide($content['field_tags']);
-      hide($content['field_image']);
       print render($content);
     ?>
   </div>
   
-  <?php if (!$page): ?>
+ 
   <div class="post_share_wrap">
     <ul class="post_share">
       <li><a href="http://twitter.com/home?status=<?php print $share_url; ?>"><i class="social foundicon-twitter"></i></a></li>
@@ -64,6 +51,7 @@ $share_url = $base_url.'/node/'.$node->nid;
     </ul>  
   </div>
 
+   <?php if (!$page): ?>
   <div class="read_more"> 
   	<?php if($teaser): ?>
   	<a class="small button" href="<?php print $node_url;?>">read more</a>

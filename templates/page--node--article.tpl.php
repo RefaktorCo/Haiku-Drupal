@@ -16,9 +16,15 @@
 <div class="row">
   <div id="main_content_wrap" class="<?php if (($page['sidebar_first']) OR ($page['sidebar_second'])) { echo "eight columns";} else { echo "twelve columns"; } ?>">
     <div id="main_content">
+      <?php print $messages; ?>
       <?php print render($title_prefix); ?>
       <?php print render($title_suffix); ?>
       <?php if ($action_links): ?><ul class="action-links"><?php print render($action_links); ?></ul><?php endif; ?>
+       <?php if ($tabs = render($tabs)): ?>
+			  <div id="drupal_tabs" class="tabs ">
+			    <?php print render($tabs); ?>
+			  </div>
+		  <?php endif; ?>
       <?php print render($page['content']); ?>
     </div>
   </div>

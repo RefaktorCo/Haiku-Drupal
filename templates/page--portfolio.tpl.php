@@ -29,6 +29,7 @@
       <div class="row">
         <!-- Begin Isotope content -->
         <div id="isotope_test" >
+          <?php print $messages; ?>
           <?php print render($title_prefix); ?>
           <?php print render($title_suffix); ?>
           <?php if ($action_links): ?><ul class="action-links"><?php print render($action_links); ?></ul><?php endif; ?>
@@ -38,5 +39,4 @@
       </div>
   	</div>
   </div>
-  <div class="bottom_spacer"></div>  
 <?php haiku_footer($page);?>
